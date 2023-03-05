@@ -15,7 +15,7 @@ Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia.
 * Bruna Letícia Silva
 * Ester
 * Giovane Tadeu Amorim Oliveira
-* Karine Kessen Gilberti Fellix
+* Karine Kessen Gilberti Felix
 * Luanna
 * Luna Duarte Reis
 
