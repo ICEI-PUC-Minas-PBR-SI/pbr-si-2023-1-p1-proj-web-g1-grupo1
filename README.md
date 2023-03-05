@@ -11,7 +11,7 @@ Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia.
 
 ## Integrantes
 
-* Brenda
+* Brenda Stefany de Oliveira Rocha
 * Bruna Letícia Silva
 * Ester
 * Giovane Tadeu Amorim Oliveira
