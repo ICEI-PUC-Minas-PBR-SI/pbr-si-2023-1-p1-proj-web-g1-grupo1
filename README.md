@@ -7,7 +7,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia.
 
 ## Integrantes
 
