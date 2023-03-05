@@ -12,9 +12,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Brenda
-* Bruna
+* Bruna Letícia Silva
 * Ester
-* Giovane
+* Giovane Tadeu Amorim Oliveira
 * Karine
 * Luanna
 * Luna Duarte Reis
