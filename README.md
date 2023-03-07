@@ -13,10 +13,10 @@ Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia.
 
 * Brenda Stefany de Oliveira Rocha
 * Bruna Letícia Silva
-* Ester
+* Ester Giovanna Teixeira
 * Giovane Tadeu Amorim Oliveira
 * Karine Kessen Gilberti Felix
-* Luanna
+* Luanna Oliveira Santos
 * Luna Duarte Reis
 
 ## Orientador
