@@ -3,15 +3,15 @@
 Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia.
 
 ## Problema
-Várias pessoas tem dificuldade de usar a tecnologia no seu dia a dia, que são presentes no nosso cotidiano, muitas vezes por falta de tempo ou interesse, principalmente idosos, pessoas com deficiência, e nosso site vai facilitar a vida desse público.
+Com o avanço da tecnologia durante os anos, foram se criando várias ferramentas que são benéficas no nosso dia-a-dia, porém, também criou-se uma dificuldade em adquirir mais conhecimentos em algumas pessoas, seja por falta de tempo ou interesse.
 
 # Objetivos
 
-Passar informações através vídeos e tutoriais ensinando como fazer o que a pessoa precisa.
+Transmitir o conhecimento de determinados assuntos de acordo com o gosto do usuário, seja em links, tutoriais ou vídeos. 
 
 ## Justificativa
 
-Facilitar a vida de quem possui dificuldades na busca de informações, buscando sempre transmitir de forma clara e facilitada as informações, sendo em vídeos ou tutoriais.
+Facilitar a vida de quem possui dificuldades na busca de informações, buscando sempre transmitir de forma clara, intuitiva e facilitada as informações, sendo em vídeos ou tutoriais.
 
 ## Público-Alvo
 
