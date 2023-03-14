@@ -21,7 +21,7 @@ Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia.
 
 ## Orientador
 
-* Fábio
+* Fábio Leandro Rodrigues Cordeiro 
 
 # Planejamento
 
