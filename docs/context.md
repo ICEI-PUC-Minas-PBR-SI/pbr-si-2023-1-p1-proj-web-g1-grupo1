@@ -11,8 +11,8 @@ Transmitir o conhecimento de determinados assuntos de acordo com o gosto do usu�
 
 ## Justificativa
 
-Facilitar a vida de quem possui dificuldades na busca de informações, buscando sempre transmitir de forma clara, intuitiva e facilitada as informações, sendo em vídeos ou tutoriais.
-( varias justificativas )
+Hoje se faz necessário cada vez mais informações sobre a tecnologia, cada ano que passa, tarefas simples, do dia a dia, são feitas por meios digitais. Tal objetivo do avanço tecnológico é facilitar a vida das pessoas. Porém, os idosos em geral possuem dificuldades em se adequar em tal modernidade. Surgindo assim, nossa motivação para integra-los no mundo digital. Uma simples ligação, ou uma chamada de vídeo, uma pesquisa rápida no google, parece fácil para o público em geral, mas para as pessoas da 3° idade são tarefas que necessitam de ajuda.  Diante desse problema, apresentamos Alcance, um site interativo que visa auxiliar os idosos, por meio de vídeos explicativos a como realizar tarefas básicas no celular ou computador.  
+
 ## Público-Alvo
 
 Terceira idade 
