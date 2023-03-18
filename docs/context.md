@@ -6,8 +6,8 @@ Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia. ( fazer
 Com o avanço da tecnologia durante os anos, foram se criando várias ferramentas que são benéficas no nosso dia-a-dia, porém, também criou-se uma dificuldade em adquirir mais conhecimentos em algumas pessoas, seja por falta de tempo ou interesse. ( citar todos os problemas )
 
 # Objetivos
-
-Transmitir o conhecimento de determinados assuntos de acordo com o gosto do usuário, seja em links, tutoriais ou vídeos.  (citar os metodos que vamos utilizar , ex : esquema de pontuaçao , cadastros )
+Nosso objetivo é auxiliar as pessoas idosas que possuem dificuldade com o mundo digital. Transmitindo o conhecimento de determinados assuntos de acordo com as dificuldades mais apresentadas por pessoas "tecno fóbicas". 
+Ensinando através de vídeos aulas curtos e objetivos, de acordo com cada dificuldade, exemplo: dificuldade em fazer uma ligação, mexer na calculadora, tirar foto, gravar um áudio, pesquisar uma receita, dentre outros.
 
 ## Justificativa
 
