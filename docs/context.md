@@ -15,4 +15,4 @@ Hoje se faz necessário cada vez mais informações sobre a tecnologia, cada ano
 
 ## Público-Alvo
 
-Terceira idade 
+Diante de tudo que foi abordado nos outros tópicos, o nosso público-alvo são pessoas idosas, que tem dificuldade ou não possuem conhecimento algum do mundo digital e buscam aprender sobre. Porém, entendemos que com o rápido avanço na tecnologia, estamos sempre diante de novas informações, e por isso, estamos abertos para outras idades que possuírem dúvidas ou queiram buscar mais informações sobre os aplicativos mostrados em nossa aplicação.
