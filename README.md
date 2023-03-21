@@ -6,8 +6,7 @@
 `DISCIPLINA: Projeto - Aplicações Web`
 
 `SEMESTRE: 1º`
-
-Ensinar as pessoas que tem maiores dificuldades a utilizar a tecnologia.
+Auxiliar as pessoas da terceira idade a usar a tecnologia de forma mais clara.
 
 ## Integrantes
 
