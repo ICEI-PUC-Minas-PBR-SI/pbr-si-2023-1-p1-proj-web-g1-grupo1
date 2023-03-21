@@ -6,7 +6,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
  
-Rodrigo Alves tem 67 anos, casado, é um motorista recém-aposentado e atualmente trabalha com um estabelecimento próprio. Pretende expandir seu negocio com a ajuda da tecnologia, pois adora cozinhar e era seu sonho ter seu próprio bar. Está procurando por ajuda para aprender melhor sobre os aplicativos, já que possui dificuldades em aprender a usar a tecnologia ao seu favor, nem sempre pode contar com a ajuda dos filhos e dos netos para fazer alguma atividade que envolva o uso de aplicativos. Seu hobby além de cozinhar e cuidar do estabelecimento, é de tocar violão. 
+Rodrigo Alves tem 67 anos, casado, é um motorista recém-aposentado e atualmente trabalha com um estabelecimento próprio. Pretende expandir seu negocio com a ajuda da tecnologia, pois adora cozinhar e era seu sonho ter seu próprio bar. Está procurando por ajuda para aprender melhor sobre os aplicativos, já que possui dificuldades em aprender a usar a tecnologia ao seu favor, nem sempre pode contar com a ajuda dos filhos e dos netos para fazer alguma atividade que envolva o uso de aplicativos. Seu hobby é tocar violão. 
 
 Maria Silva tem 60 anos, casada, é uma professora aposentada e autônoma. Ajuda as crianças que tem dificuldade em aprender sobre a história do Brasil, pois é uma felicidade em passar o conhecimento. Está buscando uma maneira de aprender mais sobre a tecnologia, para poder criar vídeos sobre os conhecimentos no qual domina e ajudar as pessoas a entendê-los. Seu hobby é passar o tempo cuidando dos seus pets. 
 
