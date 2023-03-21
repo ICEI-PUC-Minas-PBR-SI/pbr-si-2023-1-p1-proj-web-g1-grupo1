@@ -12,7 +12,7 @@ Maria Silva tem 60 anos, casada, é uma professora aposentada e autônoma. Ajuda
 
 Lilia Gomes tem 59 anos, solteira, é uma enfermeira e trabalha em sua área. Pensa em aprimorar seus conhecimentos sobre os aplicativos, pois além de simpatizar com o mundo tecnologico, adora dialogar com seus pacientes, onde muitas das vezes não está por dentro das coisas quando falam sobre tecnologia. Seu hobby é tocar piano e dançar.  
 
-Paulo Mendes 
+Paulo Mendes tem 62 anos, viúvo, é um operador-logístico aposentado. Pretende montar um restaurante com foco em entregas por aplicativos. Está buscando ajuda para entender melhor a tecnologia, pois inicialmente os pedidos vão ser apenas online e por isso precisa-se atualizar rapidamente. Seu hobby é cozinhar. 
 
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
