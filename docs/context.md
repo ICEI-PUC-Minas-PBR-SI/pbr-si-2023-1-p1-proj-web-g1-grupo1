@@ -13,7 +13,7 @@ que a terceira idade se sente excluída e inseguros com aparelhos tecnológicos,
 O objetivo é auxiliar as pessoas idosas que possuem dificuldade com o mundo digital. 
 Transmitindo o conhecimento de determinados assuntos de acordo com as dificuldades mais apresentadas por pessoas tecnofóbicas. 
 Ensinando através de vídeos aulas curtos e objetivos, de acordo com cada dificuldade.
-exemplo: 
+Exemplo: 
 -dificuldade em fazer uma ligação
 -mexer na calculadora 
 -tirar foto 
