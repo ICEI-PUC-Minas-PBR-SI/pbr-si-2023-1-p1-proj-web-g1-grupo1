@@ -15,6 +15,10 @@ Lilia Gomes tem 59 anos, solteira, é uma enfermeira e trabalha em sua área. Pe
 Paulo Mendes tem 62 anos, viúvo, é um operador-logístico aposentado. Pretende montar um restaurante com foco em entregas por aplicativos. Está buscando ajuda para entender melhor a tecnologia, pois inicialmente os pedidos vão ser apenas online e por isso precisa-se atualizar rapidamente. Seu hobby é cozinhar. 
 
 
+
+
+
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
