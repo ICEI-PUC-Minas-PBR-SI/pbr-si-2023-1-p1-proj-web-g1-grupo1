@@ -47,8 +47,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| ----|
 |RF-001| Postar vídeos explicativos para os idosos | ALTA | Karine  |
 |RF-002| Auxiliar nas dúvidas diárias  | ALTA | Karine |
-|RF-003| Oferecer pontos para as pessoas que postarem vídeos | MÉDIA | Karine |
-|RF-004| Fazer cadastro para posta conteudo | MÉDIA | Karine |
+|RF-003| Fazer cadastro para posta conteudo | MÉDIA | Karine |
 
 ### Requisitos não Funcionais
 
