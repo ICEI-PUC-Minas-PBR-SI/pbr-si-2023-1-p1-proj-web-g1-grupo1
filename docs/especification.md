@@ -52,9 +52,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|RF-001| Postar vídeos explicativos para os idosos | ALTA | Karine  |
+|RF-002| Auxiliar nas dúvidas diárias  | ALTA | Karine |
+|RF-003| Oferecer pontos para as pessoas que postarem vídeos | MÉDIA | Karine |
+|RF-003| Fazer cadastro para posta conteudo | MÉDIA | Karine |
 
 ### Requisitos não Funcionais
 
