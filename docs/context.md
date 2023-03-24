@@ -30,4 +30,4 @@ O uso da internet pode trazer diversos benefícios para os idosos segundo uma pe
 Referencia: editorarealize.com.br/editora/anais/cieh/2019/TRABALHO_EV125_MD1_SA9_ID1712_27052019125015.pdf 
 ## Público-Alvo
 
-Diante de tudo que foi abordado nos outros tópicos, o público-alvo são pessoas idosas, que tem dificuldade ou não possuem conhecimento algum do mundo digital e buscam aprender sobre. Porém, entende se que com o rápido avanço na tecnologia, estamos sempre diante de novas informações, e por isso, está de fácil acesso para outras idades que possuírem dúvidas ou queiram buscar mais informações sobre os aplicativos mostrados em nossa aplicação.
+Diante de tudo que foi abordado nos outros tópicos, o público-alvo são pessoas idosas, que tem dificuldade ou não possuem conhecimento algum do mundo digital e buscam aprender sobre. Porém, entende-se que com o rápido avanço na tecnologia, estamos sempre diante de novas informações, e por isso, está de fácil acesso para outras idades que possuírem dúvidas ou queiram buscar mais informações sobre os aplicativos mostrados em nossa aplicação.
