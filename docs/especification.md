@@ -12,11 +12,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 3° - Lilia Gomes tem 59 anos, solteira, é uma enfermeira e trabalha em sua área. Pensa em aprimorar seus conhecimentos sobre os aplicativos, pois em seu trabalho estão implementando várias funções tecnologicas e também, além de simpatizar com o mundo tecnologico. Adora dialogar com seus pacientes, onde muitas das vezes não está por dentro das coisas quando falam sobre tecnologia, nisso ela está procurando uma maneira de se atualizar tanto no ambiente de trabalho, quanto em momentos de lazer. Seu hobby é tocar piano e dançar.  
 
-4° - Paulo Mendes tem 62 anos, viúvo, é um operador-logístico aposentado. Pretende montar um restaurante com foco em entregas por aplicativos. Está buscando ajuda para entender melhor a tecnologia, pois inicialmente os pedidos vão ser apenas online e por isso precisa-se atualizar rapidamente. Seu hobby é cozinhar. 
+4° - Paulo Mendes tem 62 anos, viúvo, é um operador-logístico aposentado. Pretende montar um restaurante com foco em entregas por aplicativos, pois depois de ter trabalhado provisoriamente em um restaurante de um amigo, percebeu que esse mercado no foco em entregas está mais rentavel. Está buscando ajuda para entender melhor a tecnologia, pois como inicialmente os pedidos vão ser apenas online, precisa-se ter um certo dominio com os aplicativos, por isso a necessidade de se atualizar rapidamente. Seu hobby é cozinhar. 
 
-5° - Christian Souza tem 35 anos, solteiro, é um programador e trabalha em sua área. Gosta em seu tempo livre ajudar as pessoas a entender melhor sobre a tecnologia, passando dicas em suas redes sociais ou postando tutoriais no YouTube. Em seu tempo livre, seu hobby é jogar. 
-
-6° - Eliane Ávila    
+5° - Christian Souza tem 35 anos, solteiro, é um programador e trabalha em sua área. Seu sonho futuramente é ser professor em uma universidade, pois em seu tempo livre, gosta de ajudar as pessoas a entender melhor sobre o mundo da tecnologia, sendo passando informações e dicas em suas redes sociais, quanto postando tutoriais no YouTube sobre diversos assuntos relacionados aos aplicativos. Em seu tempo livre, seu hobby é jogar. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
