@@ -8,15 +8,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  
 1° - Rodrigo Alves tem 67 anos, casado, é um motorista recém-aposentado e atualmente trabalha com um estabelecimento próprio. Pretende expandir seu negocio com a ajuda da tecnologia, pois adora cozinhar e era seu sonho ter seu próprio bar. Está procurando por ajuda para aprender melhor sobre os aplicativos, já que possui dificuldades em aprender a usar a tecnologia ao seu favor, nem sempre pode contar com a ajuda dos filhos e dos netos para fazer alguma atividade que envolva o uso de aplicativos. Seu hobby é tocar violão. 
 
-2° - Maria Silva tem 60 anos, casada, é uma professora aposentada e autônoma. Ajuda as crianças que tem dificuldade em aprender sobre a história do Brasil, pois é uma felicidade em passar o conhecimento. Está buscando uma maneira de aprender mais sobre a tecnologia, para poder criar vídeos sobre os conhecimentos no qual domina e ajudar as pessoas a entendê-los. Seu hobby é passar o tempo cuidando dos seus pets. 
+2° - Maria Silva tem 60 anos, casada, é uma professora aposentada e autônoma. Ajuda as crianças e adolescentes que possuem dificuldades em aprender sobre a história do Brasil, mostrando sempre boa vontade e transmitindo com clareza o seu conhecimento, pois é uma felicidade ajudar as pessoas. Está buscando uma maneira de aprender mais sobre a tecnologia, para poder criar vídeos sobre os conhecimentos no qual domina e montar um cronograma de estudos em seu canal para auxiliar os estudantes. Seu hobby é passar o tempo cuidando dos seus pets. 
 
-3° - Lilia Gomes tem 59 anos, solteira, é uma enfermeira e trabalha em sua área. Pensa em aprimorar seus conhecimentos sobre os aplicativos, pois além de simpatizar com o mundo tecnologico, adora dialogar com seus pacientes, onde muitas das vezes não está por dentro das coisas quando falam sobre tecnologia. Seu hobby é tocar piano e dançar.  
+3° - Lilia Gomes tem 59 anos, solteira, é uma enfermeira e trabalha em sua área. Pensa em aprimorar seus conhecimentos sobre os aplicativos, pois em seu trabalho estão implementando várias funções tecnologicas e também, além de simpatizar com o mundo tecnologico. Adora dialogar com seus pacientes, onde muitas das vezes não está por dentro das coisas quando falam sobre tecnologia, nisso ela está procurando uma maneira de se atualizar tanto no ambiente de trabalho, quanto em momentos de lazer. Seu hobby é tocar piano e dançar.  
 
 4° - Paulo Mendes tem 62 anos, viúvo, é um operador-logístico aposentado. Pretende montar um restaurante com foco em entregas por aplicativos. Está buscando ajuda para entender melhor a tecnologia, pois inicialmente os pedidos vão ser apenas online e por isso precisa-se atualizar rapidamente. Seu hobby é cozinhar. 
 
 5° - Christian Souza tem 35 anos, solteiro, é um programador e trabalha em sua área. Gosta em seu tempo livre ajudar as pessoas a entender melhor sobre a tecnologia, passando dicas em suas redes sociais ou postando tutoriais no YouTube. Em seu tempo livre, seu hobby é jogar. 
 
-6° - Eliane Ávila   
+6° - Eliane Ávila    
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
