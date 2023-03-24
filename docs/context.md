@@ -4,6 +4,7 @@ a falta de treinamento, clareza nas informações passadas, falta de auxílio , 
 
 
 ## Problema
+O maior problema enfrentado pelos idosos em aprender sobre tecnologia, é a falta de clareza nas informações encontradas na internet, falta de auxílio de familiares e amigos, insegurança ao fornecer dados, medo de quebrar os aparelhos e dificuldade áudio visual devido a problemas de saúde. A inclusão digital para os idosos é uma forma de agregá-los a sociedade. A tecnologia pode proporcionar mais qualidade de vida, facilitar o dia a dia, estreitar laços, dentre outros. O “Alcance” será uma aplicação que ajudará os idosos a realizar tarefas básicas no celular ou computador e assim cada vez mais estarem integrados no mundo digital, através de vídeo aulas curtas e objetivas e  de acordo com a dificuldade de cada pessoa.
 
 # Objetivos
 O objetivo é auxiliar as pessoas idosas que possuem dificuldade com o mundo digital, ensinando o passo a passo, através de vídeo aulas curtas e objetivas, de acordo com a dificuldade de cada pessoa.
