@@ -14,6 +14,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 4° - Paulo Mendes tem 62 anos, viúvo, é um operador-logístico aposentado. Pretende montar um restaurante com foco em entregas por aplicativos. Está buscando ajuda para entender melhor a tecnologia, pois inicialmente os pedidos vão ser apenas online e por isso precisa-se atualizar rapidamente. Seu hobby é cozinhar. 
 
+5° - Christian Souza tem 35 anos, solteiro, é um programador e trabalha em sua área. Gosta em seu tempo livre ajudar as pessoas a entender melhor sobre a tecnologia, passando dicas em suas redes sociais ou postando tutoriais no YouTube. Em seu tempo livre, seu hobby é jogar. 
+
+6° - Eliane Ávila   
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
