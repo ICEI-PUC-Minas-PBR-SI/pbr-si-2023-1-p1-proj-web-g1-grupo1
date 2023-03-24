@@ -6,7 +6,7 @@ a falta de treinamento, clareza nas informações passadas, falta de auxílio , 
 ## Problema
 
 # Objetivos
-O objetivo é auxiliar as pessoas idosas que possuem dificuldade com o mundo digital, ensinando o passo a passo, através de vídeo aulas curtas e objetivas, de acordo com cada dificuldade de cada pessoa.
+O objetivo é auxiliar as pessoas idosas que possuem dificuldade com o mundo digital, ensinando o passo a passo, através de vídeo aulas curtas e objetivas, de acordo com a dificuldade de cada pessoa.
 Exemplo: 
 - dificuldade em fazer uma ligação;
 - mexer na calculadora;
