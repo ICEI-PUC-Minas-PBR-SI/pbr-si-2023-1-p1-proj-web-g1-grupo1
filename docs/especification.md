@@ -57,7 +57,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Oferecer pontos para as pessoas que postarem vídeos | MÉDIA | 
+|RNF-001|Aplicação Responsiva | MÉDIA | 
 |RNF-002| O sistema suporta uma capacidade grande de usuários |  MÉDIA | 
 |RNF-003| Permitir comentários nos vídeos |  BAIXA | 
 
