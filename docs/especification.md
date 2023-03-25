@@ -84,7 +84,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| Não coletar dados pessoais                            |
 |04| Não vai gerar conteúdo próprio                        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata. 
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
