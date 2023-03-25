@@ -22,6 +22,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
+|Rodrigo Alves |Precisa de auxílio para aprender a usar aplicativos com a ajuda da tecnologia.|Para expandir seu negocio, pois adora culinária e pretende ter seu próprio bar.  |
+|Maria Silva  |Auxílio com a tecnologia para criar vídeo  |Para ajudar seus alunos transmitindo conhecimento e tendo um cronograma de estudos.|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
