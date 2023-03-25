@@ -50,7 +50,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Aplicação Responsiva | ALTA | 
 |RNF-002| Rodar nos principais browser: microsoft edge, firefox, google chrome, safari | MÉDIA | 
-|RNF-003| O sistema conseguir funcionar sem degradação no desempenho | ALTA | 
+|RNF-003| Conseguir funcionar sem degradação no desempenho | ALTA | 
+|RNF-004| Deve ser fácil de manter e atualizar | BAIXA |
+|RNF-005| Deve ser confiável e atender aos requisitos do usuário | MÉDIA |
+|RNF-006| Deve ser fácil de usar e entender                                | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
