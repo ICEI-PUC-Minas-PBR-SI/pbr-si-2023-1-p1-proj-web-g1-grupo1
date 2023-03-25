@@ -46,9 +46,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Cadastrar usuário nome e senha | ALTA | KARINE   |
 |RF-002| Separar o conteúdo por categorias  | BAIXA |KARINE  |
 |RF-003| Avaliar o conteúdo| BAIXA |KARINE  |
-|RF-004| Ordenar os vídeos de acordo com a avaliação | BAIXA | KARINE  |
-|RF-005| Postar o conteúdo | ALTA | KARINE  |
-|RF-006| Validar o conteúdo postado antes de publicar | MÉDIA | KARINE  |
+|RF-004| Ordenar os vídeos de acordo com a avaliação | BAIXA | LUNA |
+|RF-005| Postar o conteúdo | ALTA | LUNA |
+|RF-006| Validar o conteúdo postado antes de publicar | MÉDIA | LUNA |
 
 ### Requisitos não Funcionais
 
