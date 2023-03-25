@@ -23,10 +23,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Rodrigo Alves |Precisa de auxílio para aprender a usar aplicativos com a ajuda da tecnologia.|Para expandir seu negocio, pois adora culinária e pretende ter seu próprio bar.  |
-|Maria Silva  |Auxílio com a tecnologia para criar vídeo  |Para ajudar seus alunos transmitindo conhecimento e tendo um cronograma de estudos.|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Maria Silva  |Auxílio com a tecnologia para criar vídeos  |Para ajudar seus alunos transmitindo conhecimento e tendo um cronograma de estudos.|
+|Lilia Gomes  |Aprimorar seus conhecimentos em aplicativos.|Para usar os aperfeiçoamentos que obtiver a seu favor no trabalho, além de ficar por dentro do mundo tecnológico. |
+|Paulo Mendes |Precisa de ajuda para um entendimento melhor sobre o mercado de games e aperfeiçoamento em seu portfólio.  | Para entrar na indústria de jogos e abrir uma startup    |
+|Christian Souza   | Quer postar tutorias de diversos assuntos relacionados a aplicativos   |Auxiliar pessoas através de vídeos.|
 
 
 
@@ -40,12 +40,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Cadastrar usuário nome e senha | ALTA |   |
-|RF-002| Separar o conteúdo por categorias  | BAIXA |   |
-|RF-003| Avaliar o conteúdo| BAIXA |  |
-|RF-004| Ordenar os vídeos de acordo com a avaliação | BAIXA |   |
-|RF-005| Postar o conteúdo | ALTA |   |
-|RF-006| Validar o conteúdo postado antes de publicar | MÉDIA |   |
+|RF-001| Cadastrar usuário nome e senha | ALTA | KARINE   |
+|RF-002| Separar o conteúdo por categorias  | BAIXA |KARINE  |
+|RF-003| Avaliar o conteúdo| BAIXA |KARINE  |
+|RF-004| Ordenar os vídeos de acordo com a avaliação | BAIXA | KARINE  |
+|RF-005| Postar o conteúdo | ALTA | KARINE  |
+|RF-006| Validar o conteúdo postado antes de publicar | MÉDIA | KARINE  |
 
 ### Requisitos não Funcionais
 
