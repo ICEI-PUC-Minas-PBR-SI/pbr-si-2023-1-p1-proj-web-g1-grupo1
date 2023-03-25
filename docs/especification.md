@@ -37,17 +37,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Postar vídeos explicativos para os idosos | ALTA | Karine  |
-|RF-002| Auxiliar nas dúvidas diárias  | ALTA | Karine |
-|RF-003| Fazer cadastro para posta conteudo | MÉDIA | Karine |
+|RF-001| Cadastrar usuário nome e senha | ALTA |   |
+|RF-002| Separar o conteúdo por categorias  | BAIXA |   |
+|RF-003| Avaliar o conteúdo| BAIXA |  |
+|RF-004| Ordenar os vídeos de acordo com a avaliação | BAIXA |   |
+|RF-005| Postar o conteúdo | ALTA |   |
+|RF-006| Validar o conteúdo postado antes de publicar | MÉDIA |   |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|Aplicação Responsiva | MÉDIA | 
-|RNF-002| O sistema suporta uma capacidade grande de usuários |  MÉDIA | 
-|RNF-003| Permitir comentários nos vídeos |  BAIXA | 
+|RNF-001| Aplicação Responsiva | ALTA | 
+|RNF-002| Rodar nos principais browser: microsoft edge, firefox, google chrome, safari | MÉDIA | 
+|RNF-003| O sistema conseguir funcionar sem degradação no desempenho | ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -72,7 +75,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
+|03| Não coletar dados pessoais                            |
+|04| Não vamos gerar conteúdo próprio                      |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
