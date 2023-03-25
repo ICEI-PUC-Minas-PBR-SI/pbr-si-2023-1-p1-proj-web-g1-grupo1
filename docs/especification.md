@@ -29,7 +29,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Lilia Gomes  |Aprimorar seus conhecimentos em aplicativos.|Para usar os aperfeiçoamentos que obtiver a seu favor no trabalho, além de ficar por dentro do mundo tecnológico. |
 |Paulo Mendes |aperfeiçoamento em seu portfólio.  | adsministrar negócios e abrir uma startup    |
 |Christian Souza   | Quer postar tutorias de diversos assuntos relacionados a aplicativos   |Auxiliar pessoas através de vídeos.|
-|Maria Aparecida |Precisa de atualizações sobre os avanços tecnolígicos  | Para se destacar no mercado de trabalho e abrir seu próprio escritório  |
+|Maria Aparecida |Precisa de atualizações sobre os avanços tecnológicos  | Para se destacar no mercado de trabalho e abrir seu próprio escritório  |
 
 
 
