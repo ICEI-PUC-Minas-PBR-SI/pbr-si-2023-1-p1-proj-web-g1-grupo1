@@ -36,8 +36,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Cadastrar usuário nome e senha | ALTA | KARINE   |
-|RF-002| Separar o conteúdo por categorias  | BAIXA |KARINE  |
-|RF-003| Avaliar o conteúdo| BAIXA |KARINE  |
+|RF-002| Separar o conteúdo por categorias  | BAIXA | KARINE  |
+|RF-003| Avaliar o conteúdo| BAIXA | KARINE  |
 |RF-004| Ordenar os vídeos de acordo com a avaliação | BAIXA | LUNA |
 |RF-005| Postar o conteúdo | ALTA | LUNA |
 |RF-006| Validar o conteúdo postado antes de publicar | MÉDIA | LUNA |
@@ -51,7 +51,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-003| Conseguir funcionar sem degradação no desempenho | ALTA | 
 |RNF-004| Deve ser fácil de manter e atualizar | BAIXA |
 |RNF-005| Deve ser confiável e atender aos requisitos do usuário | MÉDIA |
-|RNF-006| Deve ser fácil de usar e entender                                | ALTA |
+|RNF-006| Deve ser simples de usar e entender                                | ALTA |
 
 ## Restrições
 
@@ -59,7 +59,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| 
+|02|        
 |03| Não coletar dados pessoais                            |
 |04| Não vai gerar conteúdo próprio                        |
