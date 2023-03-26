@@ -59,7 +59,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| 
-|02|        
-|03| Não coletar dados pessoais                            |
-|04| Não vai gerar conteúdo próprio                        |
+|01|  Não coletar dados pessoais 
+|02|  Não vai gerar conteúdo próprio       
+                   
