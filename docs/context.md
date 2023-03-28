@@ -24,4 +24,4 @@ Fonte : https://www.editorarealize.com.br/editora/anais/cieh/2019/TRABALHO_EV125
 
 ## Público-Alvo
 
-Diante de tudo que foi abordado nos outros tópicos, o público-alvo são pessoas idosas, que tem dificuldade ou não possuem conhecimento algum do mundo digital e buscam aprender sobre. Porém, entende-se que com o rápido avanço na tecnologia, estamos sempre diante de novas informações, e por isso, está de fácil acesso para outras idades que possuírem dúvidas ou queiram buscar mais informações sobre os aplicativos mostrados em nossa aplicação.
+O público-alvo são pessoas idosas, que tem dificuldade ou não possuem conhecimento algum do mundo digital e buscam aprender sobre. Porém, entende-se que com o rápido avanço na tecnologia, estamos sempre diante de novas informações, e por isso, está de fácil acesso para outras idades que possuírem dúvidas ou queiram buscar mais informações sobre os aplicativos mostrados em nossa aplicação.
