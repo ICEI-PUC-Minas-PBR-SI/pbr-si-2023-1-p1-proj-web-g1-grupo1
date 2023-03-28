@@ -1,4 +1,7 @@
 # Especificações do Projeto
+ Alcence, uma aplicação que tem como objetivo auxiliar aos idosos 
+Front-end html + css ; Bootstrap; 
+Back end javascript ; Crudserver Jason;
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
