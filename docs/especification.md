@@ -44,6 +44,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-004| Ordenar os vídeos de acordo com a avaliação | BAIXA | LUNA |
 |RF-005| Postar o conteúdo | ALTA | LUNA |
 |RF-006| Validar o conteúdo postado antes de publicar | MÉDIA | LUNA |
+|RF-007| Permitir alteração no cadastro | ALTA | GIOVANE |
 
 ### Requisitos não Funcionais
 
