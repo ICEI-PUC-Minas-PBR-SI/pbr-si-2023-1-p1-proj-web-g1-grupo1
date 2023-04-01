@@ -1,5 +1,6 @@
 # Especificações do Projeto
  Alcance, uma aplicação que tem como objetivo auxiliar aos idosos a interagir no mundo digital. O projeto visa ensinar  a como executar simples tarefas do cotidiano, seja no celular ou computador, contribuindo assim para inclusão digital entre as pessoas da terceira idade. Video aulas curtas e explicativas serão postadas na plataforma, por pessoas interessadas a ensinar os idosos. Também será integrado com videos em plataformas de streaming já exixstentes, como o Youtube, para assim obter um vasto conteúdo. 
+ 
  Em toda a aplicação será utilizado os recurso de: Front-end html + css, Bootstrap, Back end javascript, Crud, JasonServer, LocalStorage.
 ## Personas
  
