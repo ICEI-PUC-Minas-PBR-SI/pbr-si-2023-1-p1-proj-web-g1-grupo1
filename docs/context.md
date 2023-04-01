@@ -8,16 +8,17 @@ O maior problema enfrentado pelos idosos em aprender sobre tecnologia, é a falt
 
 # Objetivos
 O objetivo é auxiliar aos idosos que possuem dificuldade com o mundo digital, ensinando o passo a passo, através de vídeo aulas curtas e objetivas de acordo com a dificuldade de cada pessoa, como fazer uma ligação ou pesquisar uma receita. 
-Outras funcionalidades da aplicação:
+Outras funcionalidades da aplicação serão:
 - facilitar o uso das redes sociais;
-- fazer video chamadas;
+- auxiliar no uso do celular ao fazer video chamadas;
+- ensinar a usar as plataformas de filmes e musicas;
 
 ## Justificativa
-Hoje se faz necessário cada vez mais informações sobre a tecnologia. Cada ano que passa, tarefas simples do dia a dia são feitas por meios digitais. Tal objetivo do avanço tecnológico é facilitar a vida das pessoas. Porém, os idosos em geral possuem dificuldades em se adequar em tal modernidade. A maioria dos idosos tem disposição em aprender, porém algumas barreiras os impedem de aprofundar no assunto, tais como: a falta de treinamento, clareza nas instruções e o apoio dos familiares . Uma simples ligação, ou uma chamada de vídeo, uma pesquisa rápida no google parece fácil para o público em geral, mas para as pessoas da terceira idade são tarefas que necessitam de ajuda.  
+Hoje se faz necessário cada vez mais informações sobre a tecnologia. Cada ano que passa, tarefas simples do cotidiano são feitas por meios digitais. Tal objetivo do avanço tecnológico é facilitar a vida das pessoas. Porém, os idosos em geral possuem dificuldades em se adequar em tal modernidade. A maioria tem disposição em aprender, porém algumas barreiras os impedem de aprofundar no assunto, tais como: a falta de treinamento, clareza nas instruções e o apoio dos familiares . Uma simples ligação, ou uma chamada de vídeo, uma pesquisa rápida no google parece fácil para o público em geral, mas para as pessoas da terceira idade são tarefas que necessitam de ajuda.  
 O uso da internet pode trazer diversos benefícios para os idosos. Segundo uma pesquisa realizado por Meireles e Fortes (2016), em uma amostra de 37 idosos onde 78% eram mulheres e 22% homens, foram identificados que 95% afirmaram que o uso da internet proporcionou os seguintes benefícios: informações e conhecimentos 41%, comunicação com a família e amigos 31%, exercício da memória e aumento da autoestima 10%, diversão e entretenimento 6%, amizades 6% e facilidade cotidiana 6%.  Uma possibilidade de inclusão digital para os idosos é através da identificação das principais dificuldades que eles apresentam para que os profissionais desenvolvam estratégias abrangendo tais dificuldades. Diante desse problema, foi criado "Alcance", uma aplicação que irá quebrar barreiras, auxiliando os idosos por meio de vídeos explicativos a como realizar tarefas básicas no celular ou computador e assim cada vez mais estarem integrados no mundo digital . 
 
 Fonte : https://www.editorarealize.com.br/editora/anais/cieh/2019/TRABALHO_EV125_MD1_SA9_ID1712_27052019125015.pdf
 
 ## Público-Alvo
 
-O público-alvo são pessoas idosas, que tem dificuldade ou não possuem conhecimento algum do mundo digital e buscam aprender sobre. Porém, entende-se que com o rápido avanço na tecnologia, estamos sempre diante de novas informações, e por isso, está de fácil acesso para outras idades que possuírem dúvidas ou queiram buscar mais informações sobre os aplicativos mostrados em nossa aplicação.
+O público-alvo são pessoas idosas, que tem dificuldade ou não possuem conhecimento algum do mundo digital e buscam aprender sobre. Porém, entende-se que com o rápido avanço na tecnologia, estamos sempre diante de novas informações, e por isso, está de fácil acesso para outras idades que possuírem dúvidas ou queiram buscar mais informações sobre os aplicativos mostrados na aplicação.
