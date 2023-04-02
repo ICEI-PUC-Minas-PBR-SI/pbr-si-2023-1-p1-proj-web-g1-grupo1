@@ -51,8 +51,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-001| O sistema terá uma aplicação responsiva | ALTA | LUNA |
 |RNF-002| O sistema deve proteger os dados e garantir segurança das informações                                     | ALTA | GEOVANE |
 |RNF-003| O sistema deve ser capaz de ser executado em diferentes plataformas e ambientes                           | ALTA | BRENDA |
-|RNF-004| O sistema permite o usuário ter acesso com rede de internet como: wifi e dados movéis                        | MÉDIA | KARINE |
-|RNF-005| O sistema deve ser capaz de lidar com um aumento na demanda sem degradação no desempenho | ALTA | LUANNA |
+|RNF-004| O sistema deve ser capaz de lidar com um aumento na demanda sem degradação no desempenho | ALTA | LUANNA |
+|RNF-005| O sistema permite o usuário ter acesso com rede de internet como: wifi e dados movéis                        | MÉDIA | KARINE |
 |RNF-006| O sistema irá rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
 |RNF-007| O sistema deve ser confiável e atender aos requisitos do usuário | MÉDIA | ESTER |
 |RNF-008| O sistema deve manter a atualização em dia e com novas versões | MÉDIA | KARINE |
