@@ -40,7 +40,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-005| Postar o conteúdo | ALTA | LUNA |
 |RF-006| Validar o conteúdo postado antes de publicar | MÉDIA | LUNA |
 |RF-007| Permitir alteração no cadastro | ALTA | GIOVANE |
-|RF-008| Funcionalidade de pesquisa para permitir que encontrem vídeos específicos | MÉDIO | GIOVANE |
+|RF-008| Funcionalidade de pesquisa para permitir que encontrem vídeos específicos | MÉDIA | GIOVANE |
 |RF-009| Permitir comentários sobre os vídeos  | BAIXA | GIOVANE |
 
 ### Requisitos não Funcionais
