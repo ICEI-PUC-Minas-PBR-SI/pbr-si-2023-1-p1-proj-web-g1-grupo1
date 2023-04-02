@@ -33,29 +33,33 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve permitir o cadastro de usuários com login e senha para acesso | ALTA | KARINE   |
-|RF-002| O sistema irá separar o conteúdo por categorias e sobre determinados assuntos | BAIXA | KARINE |
-|RF-003| O sistema permite o usuário avaliar o conteúdo | BAIXA | BRENDA |
+|RF-001| O sistema irá separar o conteúdo por categorias e sobre determinados assuntos | BAIXA | KARINE |
+|RF-002| O sistema permite o usuário avaliar o conteúdo | BAIXA | BRENDA |
+|RF-003| O sistema permite o usuário adicionar comentários sobre os vídeos  | BAIXA | GIOVANE |
 |RF-004| O sistema permitirá ordenar os vídeos de acordo com a avaliação do usuário| BAIXA | LUNA |
-|RF-005| O sistema permite postar conteúdos em vídeo | ALTA | LUANNA |
+|RF-005| O sistema permite o usuário pesquisar os conteúdos desejados | MÉDIA | BRUNA |
 |RF-006| O sistema deve validar o conteúdo postado antes de ser publicado | MÉDIA | ESTER |
-|RF-007| O sistema permite a alteração no cadastro do usuário | ALTA | GIOVANE |
-|RF-008| O sistema permite o usuário pesquisar os conteúdos desejados | MÉDIA | BRUNA |
-|RF-009| O sistema permite o usuário adicionar comentários sobre os vídeos  | BAIXA | GIOVANE |
+|RF-007| O sistema permite postar conteúdos em vídeo | ALTA | LUANNA |
+|RF-008| O sistema permite a alteração no cadastro do usuário | ALTA | GIOVANE |
+|RF-009| O sistema deve permitir o cadastro de usuários com login e senha para acesso | ALTA | KARINE |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RNF-001| O sistema terá uma aplicação responsiva | ALTA | LUNA |
-|RNF-002| O sistema irá rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
-|RNF-003| O sistema deve ser capaz de lidar com um aumento na demanda sem degradação no desempenho | ALTA | LUANNA |
-|RNF-004| O sistema deve manter a atualização em dia e sempre com novas versões | BAIXA | KARINE |
-|RNF-005| O sistema deve ser confiável e atender aos requisitos do usuário | MÉDIA | ESTER |
-|RNF-006| O sistema será de fácil compreensão e manuseio                                | ALTA | BRUNA |
-|RNF-007| O sistema deve proteger os dados e garantir segurança das informações                                     | ALTA | GEOVANE |
-|RNF-008| O sistema deve ser capaz de ser executado em diferentes plataformas e ambientes                           | ALTA | BRENDA |
-|RNF-009| O sistema permite o usuário ter acesso com rede de internet como: wifi e dados movéis                        | ALTA | KARINE |
+|RNF-002| O sistema deve proteger os dados e garantir segurança das informações                                     | ALTA | GEOVANE |
+|RNF-003| O sistema deve ser capaz de ser executado em diferentes plataformas e ambientes                           | ALTA | BRENDA |
+|RNF-004| O sistema permite o usuário ter acesso com rede de internet como: wifi e dados movéis                        | MÉDIA | KARINE |
+|RNF-005| O sistema deve ser capaz de lidar com um aumento na demanda sem degradação no desempenho | ALTA | LUANNA |
+|RNF-006| O sistema irá rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
+|RNF-007| O sistema deve ser confiável e atender aos requisitos do usuário | MÉDIA | ESTER |
+|RNF-008| O sistema deve manter a atualização em dia e com novas versões | MÉDIA | KARINE |
+|RNF-009| O sistema será de fácil compreensão e manuseio                                | BAIXA | BRUNA |
+
+
+
 
 ## Restrições
 
