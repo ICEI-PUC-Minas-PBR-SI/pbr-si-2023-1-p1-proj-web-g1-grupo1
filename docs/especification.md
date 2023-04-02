@@ -36,7 +36,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-001| O sistema irá separar o conteúdo por categorias e sobre determinados assuntos | BAIXA | KARINE |
 |RF-002| O sistema permite o usuário avaliar o conteúdo | BAIXA | BRENDA |
 |RF-003| O sistema permite o usuário adicionar comentários sobre os vídeos  | BAIXA | GIOVANE |
-|RF-004| O sistema permitirá ordenar os vídeos de acordo com a avaliação do usuário| BAIXA | LUNA |
+|RF-004| O sistema permite ordenar os vídeos de acordo com a avaliação do usuário| BAIXA | LUNA |
 |RF-005| O sistema permite o usuário pesquisar os conteúdos desejados | MÉDIA | BRUNA |
 |RF-006| O sistema deve validar o conteúdo postado antes de ser publicado | MÉDIA | ESTER |
 |RF-007| O sistema permite postar conteúdos em vídeo | ALTA | LUANNA |
