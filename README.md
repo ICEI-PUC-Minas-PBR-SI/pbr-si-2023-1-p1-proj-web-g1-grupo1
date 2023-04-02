@@ -9,7 +9,7 @@
 
 - Projeto Alcance
 
-O Alcance será uma aplicação que auxiliará as pessoas idosas que possuem dificuldade com o mundo digital, a integra-los nesse meio. Por meio de vídeo aulas curtas com o passo de como executar cada tarefa até se alcançar o objetivo, como por exemplos , fazer chamadas , interagir em redes sociais, pesquisas entre outras tarefes pertinentes ao mundo digital.   
+O Alcance será uma aplicação que auxiliará as pessoas idosas que possuem dificuldade com o mundo digital, a integra-los nesse meio. Por meio de vídeo aulas curtas com o passo de como executar cada tarefa até se alcançar o objetivo, como por exemplo: Fazer chamadas, interagir em redes sociais, pesquisas e entre outras tarefas pertinentes no mundo digital.   
 
 ## Integrantes
 
