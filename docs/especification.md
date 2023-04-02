@@ -64,10 +64,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01|  Não coletar dados pessoais 
 |02|  Não vai gerar conteúdo próprio 
-|03|  Apenas postar conteúdo de vídeo tutorial e não incluir outros tipos
-|04|  Postar vídeos sem ser em categorias específicas
-|05|  Não possuir inguagem simples e fácil de entender para os idosos
-|06|  Conteúdo seja irrelevante para os idosos
-|07|  Aolicação não seja simples e intuitiva 
+|03|  Postar conteúdo de vídeo tutorial e não incluir outros tipos
+|04|  Postar vídeos em categorias específicas
+|05|  Possuir inguagem simples e fácil de entender para os idosos
+|06|  Conteúdo seja relevante para os idosos
+|07|  Aplicação seja simples e intuitiva 
 
                    
