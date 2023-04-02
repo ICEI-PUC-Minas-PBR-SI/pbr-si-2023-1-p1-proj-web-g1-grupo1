@@ -1,5 +1,5 @@
 # Especificações do Projeto
- Alcance, uma aplicação que tem como objetivo auxiliar a terceira idade a interagir no mundo digital.  O projeto visa ensinar a como executar simples tarefas do cotidiano, seja no celular ou computador, contribuindo assim para inclusão digital entre as pessoas da terceira idade. Vídeo aulas curtas e explicativas serão postadas na plataforma, por pessoas interessadas a ensinar os idosos. Também será integrado com vídeos em plataformas de streaming já existentes, como o Youtube, para assim obter um vasto conteúdo.
+ Alcance, uma aplicação que tem como objetivo auxiliar aos idosos a interagir no mundo digital.  O projeto visa ensinar a como executar simples tarefas do cotidiano, seja no celular ou computador, contribuindo assim para inclusão digital entre as pessoas da terceira idade. Vídeo aulas curtas e explicativas serão postadas na plataforma, por pessoas interessadas a ensinar os idosos. Também será integrado com vídeos em plataformas de streaming já existentes, como o Youtube, para assim obter um vasto conteúdo.
  
  Em toda a aplicação será utilizado os recurso de: Front-end HTML + CSS, Bootstrap, e Back-end javascript, CRUD, JSONServer, LocalStorage.
 ## Personas
@@ -33,28 +33,29 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve permitir o cadastro de usuários com nome e senha | ALTA | KARINE   |
-|RF-002| O sistema permite separar o conteúdo por categorias  | BAIXA | KARINE  |
-|RF-003| O sistema permite o usuário avaliar o conteúdo| BAIXA | KARINE  |
-|RF-004| O sistema permitirá ordenar os vídeos de acordo com a avaliação | BAIXA | LUNA |
-|RF-005| O sistema permite postar os conteúdos | ALTA | LUNA |
-|RF-006| O sistema deve validar o conteúdo postado antes de ser publicado | MÉDIA | LUNA |
+|RF-001| O sistema deve permitir o cadastro de usuários com nome e senha de acesso | ALTA | KARINE   |
+|RF-002| O sistema permite separar o conteúdo por categorias  | BAIXA | KARINE |
+|RF-003| O sistema permite o usuário avaliar o conteúdo | BAIXA | BRENDA |
+|RF-004| O sistema permitirá ordenar os vídeos de acordo com a avaliação do usuário| BAIXA | LUNA |
+|RF-005| O sistema permite postar conteúdos em vídeo | ALTA | LUANNA |
+|RF-006| O sistema deve validar o conteúdo postado antes de ser publicado | MÉDIA | ESTER |
 |RF-007| O sistema permite a alteração no cadastro do usuário | ALTA | GIOVANE |
-|RF-008| Funcionalidade de pesquisa para permitir que encontrem vídeos específicos | MÉDIA | GIOVANE |
-|RF-009| Permitir comentários sobre os vídeos  | BAIXA | GIOVANE |
+|RF-008| O sistema permite o usuário pesquisar os conteúdos desejados | MÉDIA | BRUNA |
+|RF-009| O sistema permitir comentários sobre os vídeos  | BAIXA | GIOVANE |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RNF-001| A aplicação deverá ser responsiva | ALTA | LUNA |
-|RNF-002| Rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
-|RNF-003| A aplicação deve ser capaz de lidar com um aumento na demanda sem desgradação no desempenho | ALTA | LUNA |
+|RNF-001| O sistema terá uma aplicação responsiva | ALTA | LUNA |
+|RNF-002| O sistema irá rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
+|RNF-003| o sistema deve ser capaz de lidar com um aumento na demanda sem degradação no desempenho | ALTA | LUANNA |
 |RNF-004| O sistema deve manter a fácil atualização | BAIXA | KARINE |
-|RNF-005| O sistema deve ser confiável e atender aos requisitos do usuário | MÉDIA |
-|RNF-006| Deve ser simples de usar e entender                                | ALTA |
-|RNF-007| Deve proteger os dados e garantir segurança das informações                                     | ALTA |
-|RNF-008| Deve ser capaz de ser executado em diferentes plataformas e ambientes                           | ALTA |
+|RNF-005| O sistema deve ser confiável e atender aos requisitos do usuário | MÉDIA | ESTER |
+|RNF-006| O sistema será de fácil compreensão e manuseio                                | ALTA | BRUNA |
+|RNF-007| O sistema deve proteger os dados e garantir segurança das informações                                     | ALTA | GEOVANE |
+|RNF-008| o sistema deve ser capaz de ser executado em diferentes plataformas e ambientes                           | ALTA | BRENDA |
+|RNF-009| O sistema permite o usuário ter acesso com rede de internet como: wifi e dados movéis                        | ALTA | KARINE |
 
 ## Restrições
 
@@ -63,7 +64,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01|  Não coletar dados pessoais 
-|02|  Não vai gerar conteúdo próprio 
+|02|  Não irá gerar conteúdo próprio 
 |03|  Postar conteúdo de vídeo tutorial e não incluir outros tipos
 |04|  Postar vídeos em categorias específicas
 |05|  Possuir linguagem simples e de fácil de entendimento
