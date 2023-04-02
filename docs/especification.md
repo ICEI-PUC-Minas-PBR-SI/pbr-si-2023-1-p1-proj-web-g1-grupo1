@@ -46,7 +46,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  | Prioridade | Responsável |
-|-------|-------------------------|----|
+|------|-----------------------------------------|----| ----|
 |RNF-001| Aplicação Responsiva | ALTA | LUNA |
 |RNF-002| Rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
 |RNF-003| Deve ser capaz de lidar com um aumento na demanda sem desgradação no desempenho | ALTA | LUNA |
