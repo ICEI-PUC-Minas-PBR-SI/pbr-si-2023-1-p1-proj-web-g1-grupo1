@@ -45,15 +45,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  | Prioridade | Responsável |
 |-------|-------------------------|----|
-|RNF-001| Aplicação Responsiva | ALTA | 
-|RNF-002| Rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | 
-|RNF-003| Deve ser capaz de lidar com um aumento na demanda sem desgradação no desempenho | ALTA | 
-|RNF-004| Deve ser fácil de manter e atualizar | BAIXA |
-|RNF-005| Deve ser confiável e atender aos requisitos do usuário | MÉDIA |
+|RNF-001| Aplicação Responsiva | ALTA | LUNA |
+|RNF-002| Rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
+|RNF-003| Deve ser capaz de lidar com um aumento na demanda sem desgradação no desempenho | ALTA | LUNA |
+|RNF-004| O sistema deve manter a fácil atualização | BAIXA | KARINE |
+|RNF-005| O sistema deve ser confiável e atender aos requisitos do usuário | MÉDIA |
 |RNF-006| Deve ser simples de usar e entender                                | ALTA |
-|RNF-007| Deve proteger os dados e garantir segurança das informações                            | ALTA |
+|RNF-007| Deve proteger os dados e garantir segurança das informações                                     | ALTA |
 |RNF-008| Deve ser capaz de ser executado em diferentes plataformas e ambientes                           | ALTA |
 
 ## Restrições
