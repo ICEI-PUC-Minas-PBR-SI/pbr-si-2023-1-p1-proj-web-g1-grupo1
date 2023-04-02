@@ -37,7 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-002| O sistema permite separar o conteúdo por categorias  | BAIXA | KARINE  |
 |RF-003| O sistema permite o usuário avaliar o conteúdo| BAIXA | KARINE  |
 |RF-004| O sistema permitirá ordenar os vídeos de acordo com a avaliação | BAIXA | LUNA |
-|RF-005| O siatema permite postar os conteúdos | ALTA | LUNA |
+|RF-005| O sistema permite postar os conteúdos | ALTA | LUNA |
 |RF-006| O sistema deve validar o conteúdo postado antes de ser publicado | MÉDIA | LUNA |
 |RF-007| O sistema permite a alteração no cadastro do usuário | ALTA | GIOVANE |
 |RF-008| Funcionalidade de pesquisa para permitir que encontrem vídeos específicos | MÉDIA | GIOVANE |
