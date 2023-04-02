@@ -1,7 +1,7 @@
 # Especificações do Projeto
  Alcance, uma aplicação que tem como objetivo auxiliar aos idosos a interagir no mundo digital.  O projeto visa ensinar a como executar simples tarefas do cotidiano, seja no celular ou computador, contribuindo assim para inclusão digital entre as pessoas da terceira idade. Vídeo aulas curtas e explicativas serão postadas na plataforma, por pessoas interessadas a ensinar os idosos. Também será integrado com vídeos em plataformas de streaming já existentes, como o Youtube, para assim obter um vasto conteúdo.
  
- Em toda a aplicação será utilizado os recurso de: Front-end html + css, Bootstrap, Back end javascript, Crud, JasonServer, LocalStorage.
+ Em toda a aplicação será utilizado os recurso de: Front-end HTML + CSS, Bootstrap, Back-end javascript, CRUD, JSONServer, LocalStorage.
 ## Personas
  
 1° - Rodrigo Alves tem 67 anos, casado, é um motorista recém-aposentado e atualmente trabalha com um estabelecimento próprio. Pretende expandir seu negocio com a ajuda da tecnologia, pois adora cozinhar e era seu sonho ter seu próprio bar. Está procurando por ajuda para aprender melhor sobre os aplicativos, já que possui dificuldades em aprender a usar a tecnologia ao seu favor, nem sempre pode contar com a ajuda dos filhos e dos netos para fazer alguma atividade que envolva o uso de aplicativos. Seu hobby é tocar violão. 
@@ -46,7 +46,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| Aplicação Responsiva | ALTA | 
-|RNF-002| Rodar nos principais browser: microsoft edge, firefox, google chrome, safari | MÉDIA | 
+|RNF-002| Rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | 
 |RNF-003| Conseguir funcionar sem degradação no desempenho | ALTA | 
 |RNF-004| Deve ser fácil de manter e atualizar | BAIXA |
 |RNF-005| Deve ser confiável e atender aos requisitos do usuário | MÉDIA |
