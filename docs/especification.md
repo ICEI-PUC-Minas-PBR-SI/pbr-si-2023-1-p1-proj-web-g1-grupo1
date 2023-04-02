@@ -47,9 +47,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |ID     | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RNF-001| Aplicação Responsiva | ALTA | LUNA |
+|RNF-001| A aplicação deverá ser responsiva | ALTA | LUNA |
 |RNF-002| Rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | LUNA |
-|RNF-003| Deve ser capaz de lidar com um aumento na demanda sem desgradação no desempenho | ALTA | LUNA |
+|RNF-003| A aplicação deve ser capaz de lidar com um aumento na demanda sem desgradação no desempenho | ALTA | LUNA |
 |RNF-004| O sistema deve manter a fácil atualização | BAIXA | KARINE |
 |RNF-005| O sistema deve ser confiável e atender aos requisitos do usuário | MÉDIA |
 |RNF-006| Deve ser simples de usar e entender                                | ALTA |
