@@ -40,6 +40,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-005| Postar o conteúdo | ALTA | LUNA |
 |RF-006| Validar o conteúdo postado antes de publicar | MÉDIA | LUNA |
 |RF-007| Permitir alteração no cadastro | ALTA | GIOVANE |
+|RF-008| Funcionalidade de pesquisa para permitir que encontrem vídeos específicos | MÉDIO | GIOVANE |
+|RF-009| Permitir comentários sobre os vídeos  | BAIXA | GIOVANE |
 
 ### Requisitos não Funcionais
 
@@ -47,10 +49,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |-------|-------------------------|----|
 |RNF-001| Aplicação Responsiva | ALTA | 
 |RNF-002| Rodar nos principais browsers: Microsoft Edge, Firefox, Google Chrome, Opera, Safari | MÉDIA | 
-|RNF-003| Conseguir funcionar sem degradação no desempenho | ALTA | 
+|RNF-003| Deve ser capaz de lidar com um aumento na demanda sem desgradação no desempenho | ALTA | 
 |RNF-004| Deve ser fácil de manter e atualizar | BAIXA |
 |RNF-005| Deve ser confiável e atender aos requisitos do usuário | MÉDIA |
 |RNF-006| Deve ser simples de usar e entender                                | ALTA |
+|RNF-007| Deve proteger os dados e garantir segurança das informações                            | ALTA |
+|RNF-008| Deve ser capaz de ser executado em diferentes plataformas e ambientes                           | ALTA |
 
 ## Restrições
 
@@ -59,5 +63,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01|  Não coletar dados pessoais 
-|02|  Não vai gerar conteúdo próprio      
+|02|  Não vai gerar conteúdo próprio 
+|03|  Apenas postar conteúdo de vídeo tutorial e não incluir outros tipos
+|04|  Postar vídeos sem ser em categorias específicas
+|05|  Não possuir inguagem simples e fácil de entender para os idosos
+|06|  Conteúdo seja irrelevante para os idosos
+|07|  Aolicação não seja simples e intuitiva 
+
                    
