@@ -1,7 +1,7 @@
 # Especificações do Projeto
  Alcance, uma aplicação que tem como objetivo auxiliar aos idosos a interagir no mundo digital.  O projeto visa ensinar a como executar simples tarefas do cotidiano, seja no celular ou computador, contribuindo assim para inclusão digital entre as pessoas da terceira idade. Vídeo aulas curtas e explicativas serão postadas na plataforma, por pessoas interessadas a ensinar os idosos. Também será integrado com vídeos em plataformas de streaming já existentes, como o Youtube, para assim obter um vasto conteúdo.
  
- Em toda a aplicação será utilizado os recurso de: Front-end HTML + CSS, Bootstrap, Back-end javascript, CRUD, JSONServer, LocalStorage.
+ Em toda a aplicação será utilizado os recurso de: Front-end HTML + CSS, Bootstrap, e Back-end javascript, CRUD, JSONServer, LocalStorage.
 ## Personas
  
 1° - Rodrigo Alves tem 67 anos, casado, é um motorista recém-aposentado e atualmente trabalha com um estabelecimento próprio. Pretende expandir seu negocio com a ajuda da tecnologia, pois adora cozinhar e era seu sonho ter seu próprio bar. Está procurando por ajuda para aprender melhor sobre os aplicativos, já que possui dificuldades em aprender a usar a tecnologia ao seu favor, nem sempre pode contar com a ajuda dos filhos e dos netos para fazer alguma atividade que envolva o uso de aplicativos. Seu hobby é tocar violão. 
