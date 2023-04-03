@@ -71,7 +71,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02|  Não irá gerar conteúdo próprio 
 |03|  Postar conteúdo de vídeo tutorial e não incluir outros tipos
 |04|  Postar vídeos em categorias específicas
-|05|  Possuir linguagem simples e de fácil de entendimento
+|05|  Possuir linguagem simples e de fácil entendimento
 |06|  Conteúdo seja relevante para os usuários
 |07|  Aplicação seja simples e intuitiva 
 
