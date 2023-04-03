@@ -26,7 +26,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário |Auxílio com a tecnologia para criar vídeos.  |Para ajudar seus alunos transmitindo conhecimento e tendo um cronograma de estudos.|
 |Usuário |Aprimorar seus conhecimentos em aplicativos.|Para usar os aperfeiçoamentos que obtiver a seu favor no trabalho, além de ficar por dentro do mundo tecnológico. |
 |Administrador |Aperfeiçoamento em seu portfólio.  | Administrar negócios e abrir uma startup.    |
-|Usuário| Quer postar tutorias de diversos assuntos relacionados a aplicativos   |Auxiliar pessoas através de vídeos.|
+|Usuário| Quer postar tutorias de diversos assuntos relacionados a aplicativos.   |Auxiliar pessoas através de vídeos.|
 |Usuário|Precisa de atualizações sobre os avanços tecnológicos.  | Para se destacar no mercado de trabalho e abrir seu próprio escritório.  |
 
 ### Requisitos Funcionais
