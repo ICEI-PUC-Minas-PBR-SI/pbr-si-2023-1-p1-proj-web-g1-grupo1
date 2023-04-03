@@ -11,7 +11,7 @@ O objetivo é auxiliar aos idosos que possuem dificuldade com o mundo digital, e
 Outras funcionalidades da aplicação serão:
 - facilitar o uso das redes sociais;
 - auxiliar com o uso dos aplicativos bancários, para diminuir o deslocamento aos bancos e se protetegem de possíveis fraudes;
-- ensinar a usar as plataformas de filmes e músicas;
+- ensinar a usar as plataformas de filmes e músicas.
 
 ## Justificativa
 Hoje se faz necessário cada vez mais informações sobre a tecnologia. Cada ano que passa, tarefas simples do cotidiano são feitas por meios digitais. Tal objetivo do avanço tecnológico é facilitar a vida das pessoas. Porém, os idosos em geral possuem dificuldades em se adequar em tal modernidade. A maioria tem disposição em aprender, porém algumas barreiras os impedem de aprofundar no assunto, tais como: a falta de treinamento, clareza nas instruções e o apoio dos familiares . Uma simples ligação, ou uma chamada de vídeo, uma pesquisa rápida no google parece fácil para o público em geral, mas para as pessoas da terceira idade são tarefas que necessitam de ajuda.  
