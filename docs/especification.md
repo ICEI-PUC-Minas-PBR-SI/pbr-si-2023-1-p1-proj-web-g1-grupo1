@@ -73,6 +73,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04|  Postar vídeos em categorias específicas
 |05|  Possuir linguagem simples e de fácil entendimento
 |06|  Conteúdo seja relevante para os usuários
-|07|  Aplicação seja simples e intuitiva 
 
-                   
+             
