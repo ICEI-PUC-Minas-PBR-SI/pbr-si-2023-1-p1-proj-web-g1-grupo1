@@ -69,7 +69,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01|  Não coletar dados pessoais 
 |02|  Não irá gerar conteúdo próprio 
-|03|  Postar conteúdo de vídeo tutorial e não incluir outros tipos
+|03|  Postar somente conteúdo de vídeo tutorial  
 |04|  Postar vídeos em categorias específicas
 |05|  Possuir linguagem simples e de fácil entendimento
 |06|  Conteúdo seja relevante para os usuários
