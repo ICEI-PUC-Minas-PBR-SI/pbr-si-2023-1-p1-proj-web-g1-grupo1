@@ -10,7 +10,7 @@ O maior problema enfrentado pelos idosos em aprender sobre tecnologia, é a falt
 O objetivo é auxiliar aos idosos que possuem dificuldade com o mundo digital, ensinando o passo a passo, através de vídeo aulas curtas e objetivas de acordo com a dificuldade de cada pessoa, como fazer uma ligação ou pesquisar uma receita. 
 Outras funcionalidades da aplicação serão:
 - facilitar o uso das redes sociais;
-- auxiliar com o uso dos aplicativos bancários, para diminuir o deslocamento aos bancos e se protetegem de possíveis fraudes;
+- auxiliar com o uso dos aplicativos bancários, sendo um dos focos, diminuir o deslocamento aos bancos;
 - ensinar a usar as plataformas de filmes e músicas.
 
 ## Justificativa
