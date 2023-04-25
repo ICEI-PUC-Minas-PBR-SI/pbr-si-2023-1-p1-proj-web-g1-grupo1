@@ -72,6 +72,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03|  Não será postado vídeos que não sejam em formato de tutorial
 
 
+
+
 ### Diagrama de Caso de Uso
 
 ![image](https://user-images.githubusercontent.com/126531276/234144232-1a9867cb-a71f-48df-9305-6ca33593b126.png)
