@@ -14,3 +14,4 @@ Bruna Leticia criou as páginas de interface Minha conta ( Interface simples, co
 
 Giovane Amorim fez em conjuto o código HTML + CSS com Karine e Luna, onde foi responsavel pelo template padrão, fazendo a parte lateral do site. 
 
+Luanna Oliveira ficou responsável pela criação do userflow fluxograma.
