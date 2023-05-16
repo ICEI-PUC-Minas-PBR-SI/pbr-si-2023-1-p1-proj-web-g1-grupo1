@@ -4,4 +4,11 @@ Brenda Rocha, ficou responsável por criar a branch Docs e a Ata para a segunda 
 
 Ester Giovanna não contribuiu nessa etapa do trabalho.
 
-Bruna Leticia, criou as páginas de interface Minha conta ( Interface simples, com algumas informações dos vídeos assistidos e sistema de pontução ), Sobre nós ( Página informando nosso objetivo e motivalçao), Dúvidas dos usuários( Página onde será exibido as respostas das principais dúvidas dos usuários ), Postar vídeos ( Página para quem deseja adicionar os vídeos), Políticas do site ( Página de políticas do site ) e Aprenda aqui ( Página incial explicando passo a passo do uso na aplicação). 
+Bruna Leticia criou as páginas de interface Minha conta ( Interface simples, com algumas informações dos vídeos assistidos e sistema de pontução ), Sobre nós ( Página informando nosso objetivo e motivalçao), Dúvidas dos usuários( Página onde será exibido as respostas das principais dúvidas dos usuários ), Postar vídeos ( Página para quem deseja adicionar os vídeos), Políticas do site ( Página de políticas do site ) e Aprenda aqui ( Página incial explicando passo a passo do uso na aplicação). 
+
+
+Giovane Amorim fez em conjuto o código HTML + CSS com Karine e Luna, onde foi responsavel pelo template padrão, fazendo a parte lateral do site. 
+
+Luanna Oliveira ficou responsável pela criação do userflow fluxograma.
+
+Luna Duarte arrumou os arquivos no git, criou o template base da aplicação seguindo o wireframe. Nesse template estão o cabeçalho, rodapé e menu lateral.
