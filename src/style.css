@@ -10,7 +10,7 @@
   }
 
   #cabecalho{
-    height: 150px;
+    height: 10vw;
     justify-content: space-between;
     background-color: lightgray;
     display: flex;
@@ -18,8 +18,8 @@
   }
   
   #cabecalho img{
-    width: 120px;
-    height: 120px;
+    width: 50%;
+    height: 50%;
     margin-left: 50px;
     margin-top: 10px;
   }
@@ -37,14 +37,13 @@
   }
 
   #menu{
-    height: 1000px;
+    height: 110vh;
     background-color: lightgray;
     width: 300px;
     float: left;
   }
 
   #menu-lateral{
-    
     display: grid;
     justify-content: left;
   }
@@ -72,16 +71,15 @@
     background-color: whitesmoke;
   }
 
-  footer{
+  footer{ 
     position: absolute;
-    bottom: 0px;
     width: 100%;
   }
 
   #rodape{
-    height: 100px;
-    height: 200px;
+    height: 20vh;
     background-color: lightgray;
+    box-sizing: border-box;
   }
 
   #baixo{
