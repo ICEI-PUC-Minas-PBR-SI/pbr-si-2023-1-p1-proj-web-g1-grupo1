@@ -22,8 +22,9 @@
         <img src="Logo.jpg" alt="logo">
       </div>
       <div id="pesquisar">
-        <form>
-          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
         </form>
       </div>
       <div id="menu-topo">
@@ -36,6 +37,7 @@
 
   <!-- Menu Lateral -->
   <main>
+
     <div id="menu">
       <div id="menu-lateral">
         <a href="#">Página Inicial</a>
@@ -60,8 +62,9 @@
           <a href="#">Aprenda Aqui</a>
           <a href="#">Informe a sua dúvida aqui:</a>
           <form>
-            <label for="inputQuestion" class="text-dark me-4 mt-2"></label>
-            <input id="inputQuestion" class="form-control me-2 mb-4 w-100" type="question" placeholder="" aria-label="Duvida">
+            <label for="inputQuestion" class="text-dark mt-3">
+              <input id="inputQuestion" class="form-control" type="question" placeholder="" aria-label="Duvida">
+            </label>
           </form>
         </div>
       </div>

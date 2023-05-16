@@ -1,102 +1,116 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
+body {
+  margin: 0;
+  background-color: green;
+}
 
-  body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    background-color: whitesmoke;
-  }
+#cabecalho {
+  height: 10vw;
+  justify-content: space-between;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
 
-  #cabecalho{
-    height: 10vw;
-    justify-content: space-between;
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
-  }
-  
-  #cabecalho img{
-    width: 50%;
-    height: 50%;
-    margin-left: 50px;
-    margin-top: 10px;
-  }
+#cabecalho img {
+  width: 50%;
+  height: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+}
 
-  #menu-topo a{
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-    font-size: 24px;
-    font-weight: 200px;
-  }
+#menu-topo a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: 23px;
+  font-weight: 200px;
+  text-transform: uppercase;
+}
 
-  #menu-topo a:hover{
-    color: white;
-  }
+#menu-topo a:hover {
+  color: white;
+}
 
-  #menu{
-    height: 110vh;
-    background-color: lightgray;
-    width: 300px;
-    float: left;
-  }
+#menu {
+  height: 110vh;
+  background-color: lightgray;
+  width: 300px;
+  float: left;
+}
 
-  #menu-lateral{
-    display: grid;
-    justify-content: left;
-  }
+#menu-lateral {
+  display: grid;
+  justify-content: left;
+}
 
-  #menu-lateral a{
-    text-decoration: none;
-    color: black;
-    padding: 50px;
-    font-size: 18px;
-    font-weight: 200px;
-  }
+#menu-lateral a {
+  text-decoration: none;
+  color: black;
+  padding: 50px;
+  font-size: 23px;
+  font-weight: 200px;
+  text-transform: uppercase;
+}
 
-  #menu-lateral a:hover{
-    color: white;
-  }
+#menu-lateral a:hover {
+  color: white;
+}
 
-  #principal{
-    height: 800px;
-    width: 100%;
-    background-color:whitesmoke;
-  }
+#principal {
+  height: 800px;
+  width: 100%;
+  background-color: whitesmoke;
+}
 
-  #avaliados{
-    height: 200px;
-    background-color: whitesmoke;
-  }
+#avaliados {
+  height: 200px;
+  background-color: whitesmoke;
+}
 
-  footer{ 
-    position: absolute;
-    width: 100%;
-  }
+footer {
+  position: absolute;
+  width: 100%;
+}
 
-  #rodape{
-    height: 20vh;
-    background-color: lightgray;
-    box-sizing: border-box;
-  }
+#rodape {
+  height: 20vh;
+  background-color: lightgray;
+  box-sizing: border-box;
+}
 
-  #baixo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+#baixo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  #baixo a{
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-    font-size: 24px;
-    font-weight: 200px;
-    margin-top: 20px;
-  }
+#baixo a {
+  text-decoration: none;
+  color: black;
+  padding: 60px;
+  font-size: 23px;
+  font-weight: 200px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
 
-  #baixo a:hover{
-    color: white;
-  }
+#baixo a:hover {
+  color: white;
+}
+
+#inputQuestion {
+  height: 150px;
+  width: 350px;
+  font-size: 23px;
+}
+
+.form-control {
+  width: 500px;
+  height: 50px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 23px;
+}
