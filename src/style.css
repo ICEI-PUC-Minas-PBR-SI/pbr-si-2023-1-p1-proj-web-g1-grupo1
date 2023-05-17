@@ -152,7 +152,7 @@ footer{
     }
 }
 
-/*PÁGINAs BRENDA ROCHA*/
+/*PÁGINAS BRENDA ROCHA*/
 
 body{
   margin: 0; /*Retirar a magem do body*/
@@ -203,5 +203,55 @@ margin: 0;
 .card-login > p{
   color: rgb(0, 0, 0);
   font-size: 29px;
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /*deixa a esquerda os elementos no eixo x (horizontal)*/
+  justify-content: center; /*centraliza os elementos no eixo y (vertical)*/
+  margin: 10px 0px; /*primeiro eixo x depois o y*/
+  font-size: 22px;
+  font-weight: bolder ;
+}
+
+.textfield > input{
+  width: 100%;
+  border: none; /*retirar as bordas do imput*/
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #e7e4ff;
+  color: rgb(0, 0, 0);
+  font-size: 18px; /*unidade de medida*/
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield > label{
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+color: #01010194;
+}
+
+.btn-login{
+width: 100%;
+padding: 16px 0px;
+margin: 25px;
+border: none;
+border-radius: 8px;
+outline: none;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 18px;
+letter-spacing: 3px;
+color: #0f1311;
+background-color: #b9dcca;
+cursor: pointer; /*mão sobre o botão de entrar*/
+box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
