@@ -174,13 +174,34 @@ box-sizing: border-box;
   align-items: center; /*centraliza os elementos no eixo y (vertical)*/
 }
 
-
-
 .right-login{
   width: 60vw; /*tamanho que será ocupado da página total*/
   height: 100vh; /*altura total da página*/
   display: flex; /*itens colocados lado a lado*/
   justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
   align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.card-login{
+  width: 70%; /*ocupação do 50vw da div right-login*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
+  background-color:#73b590;
+  border-radius: 20px; /*mofificar a borda dos quadrados*/
+  box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+}
+
+.card-login > h1{
+color: #000000;
+font-weight: 800; /*letra mais grossa*/
+margin: 0;
+}
+
+.card-login > p{
+  color: rgb(0, 0, 0);
+  font-size: 29px;
 }
 
