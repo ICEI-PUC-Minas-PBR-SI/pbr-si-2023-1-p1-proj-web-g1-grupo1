@@ -1,40 +1,12 @@
-body {
+* {
   margin: 0;
-  background-color: green;
-}
-
-#cabecalho {
-  height: 10vw;
-  justify-content: space-between;
-  background-color: lightgray;
-  display: flex;
-  align-items: center;
-}
-
-#cabecalho img {
-  width: 50%;
-  height: 50%;
-  margin-left: 50px;
-  margin-top: 10px;
-}
-
-#menu-topo a {
-  text-decoration: none;
-  color: black;
-  padding: 15px;
-  font-size: 23px;
-  font-weight: 200px;
-  text-transform: uppercase;
-}
-
-#menu-topo a:hover {
-  color: white;
+  padding: 0;
 }
 
 #menu {
   height: 110vh;
   background-color: lightgray;
-  width: 300px;
+  width: 20%;
   float: left;
 }
 
@@ -48,7 +20,6 @@ body {
   color: black;
   padding: 50px;
   font-size: 23px;
-  font-weight: 200px;
   text-transform: uppercase;
 }
 
@@ -56,26 +27,12 @@ body {
   color: white;
 }
 
-#principal {
-  height: 800px;
-  width: 100%;
-  background-color: whitesmoke;
-}
-
-#avaliados {
-  height: 200px;
-  background-color: whitesmoke;
-}
-
-footer {
-  position: absolute;
-  width: 100%;
-}
-
 #rodape {
   height: 20vh;
-  background-color: lightgray;
+  background-color: lightgreen;
   box-sizing: border-box;
+  width: 100%;
+  display: flex;
 }
 
 #baixo {
