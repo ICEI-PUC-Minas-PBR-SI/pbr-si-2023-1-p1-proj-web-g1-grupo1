@@ -41,7 +41,7 @@
         pass: '015409823',
     }
     ]
-
+    
     let botao = document.getElementById('btnlogar');
     botao.onclick = function logar(){
     
@@ -49,6 +49,16 @@
             let pegasenha = document.getElementById('senha').value
             let validaLogin = false
         
-        }
-
+            for (let i in usuarios){
+                if(pegausuario == usuarios[i].login && pegasenha == usuarios[i].pass){
+                    validaLogin = true
+                    break }
+            }
+    
+            if(validaLogin == true){
+               location.href = 'home.html'
+            } else{
+                alert('USUÁRIO E SENHA INCORRETOS')
+            }
+    }
     </script>
