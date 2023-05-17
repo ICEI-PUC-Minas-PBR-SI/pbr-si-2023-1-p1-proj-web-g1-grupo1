@@ -1,73 +1,153 @@
+/* Comandos gerais */
 * {
   margin: 0;
   padding: 0;
 }
 
-#menu {
-  height: 110vh;
-  background-color: lightgray;
-  width: 20%;
-  float: left;
+/* Cabeçalho */
+.cabecalho {
+  background-color: #73b590;
 }
 
-#menu-lateral {
+.mcabecalho {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.mcabecalho a {
+  margin: 15px;
+}
+
+.logoalcance {
+  margin-left: 45px;
+}
+
+.pesquisa { 
+  width: 50vh;
+  font-size: 23px;
+}
+
+.bpesquisa {
+  font-size: 23px;
+}
+
+/* Menu lateral */
+.menulateral {
+  background-color: #89c9a4;
   display: grid;
-  justify-content: left;
+  width: 20%;
 }
 
-#menu-lateral a {
+.menulateral a {
   text-decoration: none;
   color: black;
-  padding: 50px;
   font-size: 23px;
+  padding: 100px;
   text-transform: uppercase;
 }
 
-#menu-lateral a:hover {
-  color: white;
+/* Main */
+.main {
+  width: 70%;
 }
 
-#rodape {
-  height: 20vh;
-  background-color: lightgreen;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
+/* Rodapé */
+footer{
+  background-color: #73b590;
+    padding: 25px;
+    position: absolute;
+    width: 100%;
 }
 
-#baixo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container-footer{
+    max-width: 2000px;
+    padding: 0 3%;
 }
 
-#baixo a {
-  text-decoration: none;
-  color: black;
-  padding: 60px;
-  font-size: 23px;
-  font-weight: 200px;
-  margin-top: 20px;
-  text-transform: uppercase;
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#baixo a:hover {
-  color: white;
+.footer-col{
+    width: 25%;
+    padding: 0 10px;
+    text-transform: uppercase;
 }
 
-#inputQuestion {
-  height: 150px;
-  width: 350px;
-  font-size: 23px;
+.footer-col a{
+    font-size: 23px;
+    color: black;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.form-control {
-  width: 500px;
-  height: 50px;
-  font-size: 23px;
-  text-align: center;
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 15px;
+    font-size: 23px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
 }
 
-.btn {
-  font-size: 23px;
+.footer-col .form-sub input::placeholder{
+    color: black;
+    display: inline-block;
+}
+
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px; 
+    font-size: 23px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: rgb(30, 73, 30);        
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .menulateral {
+    display: none; 
+  }
+
+  .logoalcance {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .menulateral {
+      display: none; 
+    }
+}
+
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+
+    .menulateral {
+      display: none; 
+    }
+
+    .logoalcance {
+      margin-left: 0;
+    }
 }

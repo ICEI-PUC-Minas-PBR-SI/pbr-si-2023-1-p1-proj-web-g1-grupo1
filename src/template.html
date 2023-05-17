@@ -14,24 +14,24 @@
 <!-- Cabeçalho -->
 <body>
   <title>Alcance</title>
-  <header class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <header class="cabecalho navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="/img/logo.png" alt="" width="50px" class="me-2" />
-      </a>
+      <div>
+        <img src="imgs/alcance (2).png" alt="" width="" class="logoalcance">
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <form class="d-flex mx-auto my-2 my-lg-0">
-          <input class="form-control" type="search" placeholder="Pesquise aqui" aria-label="Search">
-          <button class="btn btn-outline-light mx-2" type="submit">Pesquisar</button>
+          <input class="pesquisa form-control" type="search" placeholder="Pesquise aqui" aria-label="Search">
+          <button class="bpesquisa btn btn-outline-dark mx-2" type="submit">Pesquisar</button>
         </form>
-        <nav class="navbar-nav">
-          <a class="nav-link text-light" href="#">Entrar</a>
-          <a class="nav-link text-light" href="#">Criar Conta</a>
-          <a class="nav-link text-light" href="#">Minha Conta</a>
+        <nav class="mcabecalho navbar-nav">
+          <a class="nav-link text-dark" href="#">Entrar</a>
+          <a class="nav-link text-dark" href="#">Criar Conta</a>
+          <a class="nav-link text-dark" href="#">Minha Conta</a>
         </nav>
       </div>
     </div>
@@ -40,29 +40,35 @@
   <!-- Menu Lateral -->
   <main>
     <aside>
-      <div id="menu">
-        <div id="menu-lateral">
-          <a href="#">Página Inicial</a>
-          <a href="#">Categorias</a>
-          <a href="#">Poste o Seu Vídeo Aqui</a>
-          <a href="#">Dúvidas</a>
-        </div>
+      <div class="menulateral">
+        <a href="#">Página Inicial</a>
+        <a href="#">Categorias</a>
+        <a href="#">Poste o Seu Vídeo Aqui</a>
+        <a href="#">Dúvidas</a>
       </div>
     </aside>
 
     <!-- Rodapé -->
-    <footer>
-      <div id="rodape">
-        <div id="baixo">
-          <a href="#">Sobre Nós</a>
-          <a href="#">Política e Regras de Uso</a>
-          <a href="#">Aprenda Aqui</a>
-          <a href="#">Informe a sua dúvida aqui:</a>
-          <form>
-            <label for="inputQuestion" class="text-dark mt-3">
-              <input id="inputQuestion" class="form-control" type="question" placeholder="" aria-label="Duvida">
-            </label>
-          </form>
+    <footer class="rodape">
+      <div class="container-footer">
+        <div class="row-footer">
+          <div class="footer-col mt-5">
+            <a href="#">Sobre Nós</a>
+          </div>
+          <div class="footer-col mt-5">
+            <a href="#">Aprenda aqui</a>
+          </div>
+          <div class="footer-col mt-5">
+            <a href="#">Política e Regras de Uso</a>
+          </div>
+          <div class="footer-col">
+            <div class="form-sub">
+              <form>
+                <input type="email" placeholder="Informe sua dúvida aqui" required>
+                <button>Enviar</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
