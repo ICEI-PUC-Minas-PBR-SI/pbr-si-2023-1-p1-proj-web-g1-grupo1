@@ -151,3 +151,36 @@ footer{
       margin-left: 0;
     }
 }
+
+/*PÁGINAs BRENDA ROCHA*/
+
+body{
+  margin: 0; /*Retirar a magem do body*/
+  background-color: #bed6cb
+}
+
+body * {
+box-sizing: border-box;
+}
+
+/*PÁGINA DE LOGIN*/
+
+.main-login{
+  width: 100vw; /*tamanho total da página*/
+  height: 100vh; /*altura total da página*/
+  background-color: #bed6cb; /*cor do fundo da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+
+
+.right-login{
+  width: 60vw; /*tamanho que será ocupado da página total*/
+  height: 100vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
