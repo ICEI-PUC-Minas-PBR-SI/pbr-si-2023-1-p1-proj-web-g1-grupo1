@@ -197,12 +197,13 @@ box-sizing: border-box;
 .card-login > h1{
 color: #000000;
 font-weight: 800; /*letra mais grossa*/
-margin: 0;
+margin-bottom: 30px;
 }
 
 .card-login > p{
   color: rgb(0, 0, 0);
   font-size: 29px;
+  margin-bottom: 29px;
 }
 
 .textfield{
