@@ -464,3 +464,16 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
   align-items: center; /*centraliza os elementos no eixo y (vertical)*/
 }
+
+.card-cadastro{
+  width: 80%; /*ocupação do 50vw da div right-login*/
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
+  background-color:#73b590;
+  border-radius: 20px; /*mofificar a borda dos quadrados*/
+  box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+}
