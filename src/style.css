@@ -291,3 +291,21 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     width: 90%;
   }
 }
+
+ /*PÁGINA PRINCIPAL*/
+
+ .main-entrar{
+  width: 100vw; /*tamanho total da página*/
+  height: 50vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.logo-entrar {
+  margin: 0;
+  width: 100vw; /*tamanho que será ocupado da página total*/
+  height: 50vh;   
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
