@@ -523,3 +523,18 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     height: 60%;
     }
 }
+
+@media screen and (max-width:376px) {
+  .main-cadastro{
+      flex-direction: column;
+  }
+  .card-cadastro > h1 {
+     margin-bottom: 20px;
+  }
+  .card-cadastro >p {
+      display: none;
+  }
+  .card-cadastro{
+      height: 80%;
+  }
+}
