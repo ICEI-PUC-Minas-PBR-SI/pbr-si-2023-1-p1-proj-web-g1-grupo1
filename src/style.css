@@ -36,8 +36,7 @@
   background-color: #89c9a4;
   display: grid;
   width: 20%;
-  position: sticky;
-} 
+}
 
 .menulateral a {
   text-decoration: none;
@@ -164,7 +163,7 @@ body * {
 box-sizing: border-box;
 }
 
-/*PÁGINA DE LOGIN*/
+/*PÁGINA DE LOGIN - BRENDA ROCHA*/
 
 .main-login{
   width: 100vw; /*tamanho total da página*/
@@ -290,6 +289,160 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     
   .card-login{
     width: 90%;
+  }
+}
+
+ /*PÁGINA PRINCIPAL - BRENDA ROCHA */
+
+ .main-entrar{
+  width: 100vw; /*tamanho total da página*/
+  height: 50vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.logo-entrar {
+  margin: 0;
+  width: 100vw; /*tamanho que será ocupado da página total*/
+  height: 50vh;   
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.logo-entrar > img {
+  padding: 50px;
+  width: 40%;
+}
+
+.logo-entrar > h1 {
+ margin: 45px;
+}
+
+.direita-entrar{
+  margin-top: 30px;
+  width: 50%; /*tamanho que será ocupado da página total*/
+  height: 50vh;
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.esquerda-entrar{
+  margin-top: 30px;
+  width: 50%; /*tamanho que será ocupado da página total*/
+   height: 50vh;
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items:center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.btn-entrar{
+  width: 100%;
+  padding: 16px ;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: #000000;
+  background-color: #579d7c;
+  cursor: pointer; /*mão sobre o botão de entrar*/
+  box-shadow: 0px 10px 40px -12px #06080756;
+  }
+
+  @media screen and (min-width:540px) and (max-width:720px){
+    .main-entrar{
+       display: block;
+       margin:0;
+       width: 90vw;
+    }
+
+    .direita-entrar{
+        margin:15px;
+        width: 90vw;
+        height: 15vh;
+     }
+
+     .esquerda-entrar{
+        margin:15px;
+        width: 90vw;
+        height:15vh;
+     }
+
+     .logo-entrar > img{
+        width: 60%;
+        padding: 0;
+        margin-right: 10px;
+     }
+}
+
+@media screen and (min-width:280px) and (max-width:667px){
+
+  .main-entrar{
+      display: block;
+      margin: 0 ;
+  }
+  .direita-entrar{
+      margin-left:20px;
+      width: 90vw;
+      height: 20vh;
+  }
+  .esquerda-entrar{
+      margin-left:20px;
+      margin-top: 45px;
+      width: 90vw;
+      height: 20vh;
+  }
+  .logo-entrar >h1{
+      font-size: 25px;
+      margin-top: 30px;
+  }
+  .logo-entrar > img{
+      width: 90%;
+  }
+  .btn-entrar{
+      margin: 0;
+   align-items: center;
+  }
+}
+
+@media screen and (min-width:721px) and (max-width:1020px){
+  .main-entrar{
+      display: block;
+      width: 100vw;
+   }
+
+   .direita-entrar{
+      width: 100vw;
+      height: 15vh;
+   }
+
+   .esquerda-entrar{
+      width: 100vw;
+      height: 15vh;
+   }
+
+   .logo-entrar >img{
+      width: 80%;
+   }
+
+   .logo-entrar >h1{
+      font-size: 45px;}
+  
+  .btn-entrar{
+      width: 90vw;
+      height: 11vh;
+      font-size: 25px;
+  }
+}
+
+@media screen and (min-width:912px) and (max-width:913px){
+
+  .btn-entrar{
+      font-size: 35px;
   }
 }
 
