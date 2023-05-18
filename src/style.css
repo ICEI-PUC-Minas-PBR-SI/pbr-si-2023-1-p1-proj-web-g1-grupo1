@@ -318,3 +318,21 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 .logo-entrar > h1 {
  margin: 45px;
 }
+
+.direita-entrar{
+  margin-top: 30px;
+  width: 50%; /*tamanho que será ocupado da página total*/
+  height: 50vh;
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.esquerda-entrar{
+  margin-top: 30px;
+  width: 50%; /*tamanho que será ocupado da página total*/
+   height: 50vh;
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items:center; /*centraliza os elementos no eixo y (vertical)*/
+}
