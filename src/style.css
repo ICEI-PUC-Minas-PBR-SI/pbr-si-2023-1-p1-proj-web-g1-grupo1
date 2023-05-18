@@ -31,7 +31,7 @@
   font-size: 23px;
 }
 
-/* Menu lateral
+/* Menu lateral */
 .menulateral {
   background-color: #89c9a4;
   display: grid;
@@ -45,63 +45,11 @@
   font-size: 23px;
   padding: 100px;
   text-transform: uppercase;
-} */
+}
 
 /* Parte central do site */
 .main {
   width: 70%;
-}
-
-.video1 {
-  margin: 20px;
-  display: flex;
-}
-
-.titulo1 {
-  margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.video2 {
-  margin: 20px;
-  display: flex;
-}
-
-.titulo2 {
-  margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.video3 {
-  margin: 20px;
-  display: flex;
-}
-
-.titulo3 {
-  margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.video4 {
-  margin: 20px;
-  display: flex;
-}
-
-.titulo4 {
-  margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 /* Rodapé */
