@@ -336,3 +336,19 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
   align-items:center; /*centraliza os elementos no eixo y (vertical)*/
 }
+
+.btn-entrar{
+  width: 100%;
+  padding: 16px ;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: #000000;
+  background-color: #579d7c;
+  cursor: pointer; /*mão sobre o botão de entrar*/
+  box-shadow: 0px 10px 40px -12px #06080756;
+  }
