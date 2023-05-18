@@ -352,6 +352,9 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   margin-right: 20px;
 }
 
+.avaliacao {
+}
+
 @media (max-width:600px) {
   .video1 {
     display: block;
