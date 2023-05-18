@@ -55,7 +55,18 @@
             let pegausuario = document.getElementById('usuariocadastro').value
             let pegasenha = document.getElementById('senhacadastro').value
             let pegaidade = document.getElementById('idade').value
-            let validaLogin = false}
+            let validaLogin = false
 
-
+            for (let i in usuarios){
+                if(pegausuario == usuarios[i].login && pegasenha == usuarios[i].pass && pegaidade == usuarios[i].idade){
+                    validaLogin = true
+                    break }
+            }
+    
+            if(validaLogin == true){
+               location.href = 'home.html'
+            } else{
+                alert('INFORME TODOS OS DADOS SOLICITADOS')
+            }
+    }
 </script>
