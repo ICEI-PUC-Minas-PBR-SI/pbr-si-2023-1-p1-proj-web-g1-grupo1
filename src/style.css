@@ -31,11 +31,12 @@
   font-size: 23px;
 }
 
-/* Menu lateral */
+/* Menu lateral
 .menulateral {
   background-color: #89c9a4;
   display: grid;
   width: 20%;
+  position: sticky;
 }
 
 .menulateral a {
@@ -44,11 +45,15 @@
   font-size: 23px;
   padding: 100px;
   text-transform: uppercase;
-}
+} */
 
-/* Main */
+/* Parte central do site */
 .main {
   width: 70%;
+}
+
+.videos {
+  margin: 20px;
 }
 
 /* Rodapé */
