@@ -378,3 +378,34 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
         margin-right: 10px;
      }
 }
+
+@media screen and (min-width:280px) and (max-width:667px){
+
+  .main-entrar{
+      display: block;
+      margin: 0 ;
+  }
+  .direita-entrar{
+      margin-left:20px;
+      width: 90vw;
+      height: 20vh;
+  }
+  .esquerda-entrar{
+      margin-left:20px;
+      margin-top: 45px;
+      width: 90vw;
+      height: 20vh;
+  }
+  .logo-entrar >h1{
+      font-size: 25px;
+      margin-top: 30px;
+  }
+  .logo-entrar > img{
+      width: 90%;
+  }
+  .btn-entrar{
+      margin: 0;
+   align-items: center;
+  }
+}
+
