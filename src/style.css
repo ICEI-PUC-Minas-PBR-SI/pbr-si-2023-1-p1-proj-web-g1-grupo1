@@ -292,7 +292,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 }
 
- /*PÁGINA PRINCIPAL - BRENDA ROCHA */
+ /*PÁGINA INICIAL - BRENDA ROCHA */
 
  .main-entrar{
   width: 100vw; /*tamanho total da página*/
@@ -444,4 +444,23 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   .btn-entrar{
       font-size: 35px;
   }
+}
+
+ /*PÁGINA DE CADASTRO - BRENDA ROCHA*/
+
+ .main-cadastro{
+  width: 100vw; /*tamanho total da página*/
+  height: 100vh; /*altura total da página*/
+  background-color: #bed6cb; /*cor do fundo da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.right-cadastro{
+  width: 60vw; /*tamanho que será ocupado da página total*/
+  height: 100vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
 }
