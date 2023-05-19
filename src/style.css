@@ -558,9 +558,320 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 
 
+/* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
 
+.video1 {
+  margin: 20px;
+  display: flex;
+}
 
+.titulo1 {
+  margin-left: 20px;
+  margin-top: 100px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+.video2 {
+  margin: 20px;
+  display: flex;
+}
 
-  /* css Bruna - Página principal */
- 
+.titulo2 {
+  margin-left: 20px;
+  margin-top: 100px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video3 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo3 {
+  margin-left: 20px;
+  margin-top: 100px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video4 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo4 {
+  margin-left: 20px;
+  margin-top: 100px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.videomaior {
+  float: right;
+  margin-right: 20px;
+}
+
+.estrelas {
+  width: 10vw;
+}
+
+.avaliacao {
+  width: 50%;
+  height: 12vw;
+  font-size: 23px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.abotao {
+  width: 10%;
+  height: 12vw;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.rbotao {
+  width: 30%;
+  height: 12vw;
+  font-size: 20px;
+  margin-left: 6vh;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width:600px) {
+  .video1 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo1 {
+    margin-top: 10px;
+  }
+
+  .video2 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo2 {
+    margin-top: 10px;
+  }
+
+  .video3 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo3 {
+    margin-top: 10px;
+  }
+
+  .video4 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo4 {
+    margin-top: 10px;
+  }
+
+  .videomaior1 {
+    margin: 13px;
+  }
+
+  .videomaior2 {
+    display: none;
+  }
+
+  .videomaior {
+    display: none;
+  }
+
+  .estrelas {
+    width: 50%;
+    margin-left: 90px;
+  }
+
+  .avaliacao {
+    width: 100%;
+    height: 50vw;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .abotao {
+    width: 100%;
+    height: 20vw;
+  }
+
+  .rbotao {
+    width: 100%;
+    height: 25vw;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width:601px) and (max-width:990px) {
+  .videomaior {
+    display: none;
+  }
+
+  .videomaior2 {
+    margin-left: px;
+  }
+
+  .estrelas {
+    width: 50%;
+    margin-left: 200px;
+  }
+
+  .avaliacao {
+    width: 100%;
+    height: 20vw;
+  }
+
+  .abotao {
+    width: 100%;
+    height: 20vw;
+  }
+
+  .rbotao {
+    width: 100%;
+    height: 20vw;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width:991px) {
+  .videomaior2 {
+    display: none;
+  }
+
+  .pesquisa1 { 
+    width: 40vh;
+    font-size: 23px;
+  }
+}
+
+/* PÁGINA DE POSTAGEM DE VÍDEOS - GABRIEL ROCHA */
+.menulateral1 {
+  background-color: #89c9a4;
+  display: flex;
+  flex-direction: column;
+}
+
+.menulateral1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding: 100px;
+  text-transform: uppercase;
+}
+
+.imgvideol {
+  margin-top: 15vw;
+  margin-bottom: 20vw;
+  margin-left: 2vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 372px 1fr;
+}
+
+.lateral {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 50px;
+}
+
+.textopost {
+  background-color: #73b590;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.acarregar {
+  margin-top: 20vh;
+  margin-left: 24vw;
+}
+
+.imgvideo {
+  width: 15vw;
+  margin-left: 5vw;
+}
+
+.carregarv {
+  background-color: #73b590;
+  width: 50%;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.pesquisa2 { 
+  width: 40vh;
+  font-size: 23px;
+}
+
+@media (min-width: 1px) and (max-width: 991px) {
+  .acarregar {
+    margin-top: 20vh;
+    margin-left: 0vw;
+  }
+  
+  .menulateral1 {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  .carregarv {
+    background-color: #73b590;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .imgvideo {
+    width: 80%;
+    margin-left: 8vw;
+  }
+  
+  .acarregar {
+    margin-top: 20vh;
+    margin-left: 0vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1450px) {
+  .pesquisa2 { 
+    width: 20vh;
+    font-size: 23px;
+  }
+}
+
