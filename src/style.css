@@ -758,4 +758,9 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   .videomaior2 {
     display: none;
   }
+
+  .pesquisa1 { 
+    width: 40vh;
+    font-size: 23px;
+  }
 }
