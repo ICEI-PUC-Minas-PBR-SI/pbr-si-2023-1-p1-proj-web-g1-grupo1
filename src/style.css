@@ -842,7 +842,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
   .grid {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: none;
   }
 
   .carregarv {
@@ -857,29 +857,13 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 
   .imgvideo {
-    width: 100%;
-    margin-left: 7vw;
+    width: 80%;
+    margin-left: 8vw;
   }
   
   .acarregar {
     margin-top: 20vh;
-    margin-left: 24vw;
-  }
-  
-  .imgvideo {
-    width: 46%;
-    margin-left: 5vw;
-  }
-  
-  .carregarv {
-    background-color: #73b590;
-    width: 60%;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 10px;
-    text-decoration: none;
-    color: black;
+    margin-left: 0vw;
   }
 }
 
