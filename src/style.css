@@ -1103,5 +1103,43 @@ color: #FFFFFF; /* Cor do texto do botão */
  
 }
 
+/*Lateral */
+
+.container{
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.image_outer_container{
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image_inner_container{
+  border-radius: 50%;
+  padding: 5px;
+ background: #833ab4; 
+ background: -webkit-linear-gradient(to bottom, #fcb045, #1dfd4a, #833ab4); 
+ background: linear-gradient(to bottom, #45fc73, #1dfd73, #3ab450);
+}
+.image_inner_container img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+#nome{
+  
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+ 
+
+}
+
 
 
