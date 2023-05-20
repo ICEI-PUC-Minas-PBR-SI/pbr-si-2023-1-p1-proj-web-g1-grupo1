@@ -629,7 +629,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
 .abotao {
-  width: 10%;
+  width: 12%;
   height: 12vw;
   font-size: 23px;
   text-transform: uppercase;
@@ -648,7 +648,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 @media (max-width:600px) {
   .video1 {
     display: block;
-    margin: 10px;
+    margin: 24px;
   }
 
   .titulo1 {
@@ -657,7 +657,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
   .video2 {
     display: block;
-    margin: 10px;
+    margin: 24px;
   }
 
   .titulo2 {
@@ -666,7 +666,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
   .video3 {
     display: block;
-    margin: 10px;
+    margin: 24px;
   }
 
   .titulo3 {
@@ -675,7 +675,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
   .video4 {
     display: block;
-    margin: 10px;
+    margin: 24px;
   }
 
   .titulo4 {
@@ -726,10 +726,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     display: none;
   }
 
-  .videomaior2 {
-    margin-left: px;
-  }
-
   .estrelas {
     width: 50%;
     margin-left: 200px;
@@ -762,6 +758,18 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   .pesquisa1 { 
     width: 40vh;
     font-size: 23px;
+  }
+}
+
+@media (min-width:800px) and (max-width:900px) {
+  .videomaior2 > iframe {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width:901px) and (max-width:990px) {
+  .videomaior2 > iframe {
+    margin-left: 65px;
   }
 }
 
