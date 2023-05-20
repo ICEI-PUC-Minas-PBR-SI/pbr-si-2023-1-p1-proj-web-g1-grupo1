@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: whitesmoke;
+  }
+
+  #cabecalho{
+    height: 150px;
+    justify-content: space-between;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+  }
+  
+  #cabecalho img{
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  #menu-topo a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 200px;
+  }
+
+  #menu-topo a:hover{
+    color: white;
+  }
+
+  #menu{
+    height: 1000px;
+    background-color: lightgray;
+    width: 300px;
+    float: left;
+  }
+
+  #menu-lateral{
+    
+    display: grid;
+    justify-content: left;
+  }
+
+  #menu-lateral a{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 200px;
+  }
+
+  #menu-lateral a:hover{
+    color: white;
+  }
+
+  #principal{
+    height: 800px;
+    width: 100%;
+    background-color:whitesmoke;
+  }
+
+  #avaliados{
+    height: 200px;
+    background-color: whitesmoke;
+  }
+
+  footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  #rodape{
+    height: 100px;
+    height: 200px;
+    background-color: lightgray;
+  }
+
+  #baixo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #baixo a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 200px;
+    margin-top: 20px;
+  }
+
+  #baixo a:hover{
+    color: white;
+  }
