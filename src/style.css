@@ -1105,11 +1105,11 @@ color: #FFFFFF; /* Cor do texto do botão */
 
 /*Lateral */
 
-.container{
+.container-1{
   height: 100%;
   align-content: center;
   justify-content: center;
-  padding: 30px;
+  
 }
 
 .image_outer_container{
@@ -1127,21 +1127,24 @@ color: #FFFFFF; /* Cor do texto do botão */
  background: linear-gradient(to bottom, #45fc73, #1dfd73, #3ab450);
 }
 .image_inner_container img{
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   border: 5px solid white;
 }
+
 #nome{
   
   border-radius: 50%;
   text-align: center;
   justify-content: center;
  
+ 
 
 }
+
 #pontos{
-  padding: 25px;
+  padding: 20px;
 }
 .rating {
   direction: rtl;
@@ -1166,4 +1169,7 @@ color: #FFFFFF; /* Cor do texto do botão */
   color: #ffcc00;
 }
 
-
+.btnprincipal{
+  text-align: right;
+  padding: 25px;
+}
