@@ -1078,3 +1078,30 @@ color: #FFFFFF; /* Cor do texto do botão */
 }
 
 /* css Bruna - Página Minha conta */
+
+.textopost2{
+
+  background-color: #73b590;
+  width: 50%;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  padding: 0%;
+  margin: 10px;
+
+}
+
+.textopost3 {
+
+  background-color: #e3eae6;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+
+
+
