@@ -1000,9 +1000,10 @@ aside{
 }
 
 
-/* css Bruna*/
+/* css Bruna - Página Principal*/
 
 .carousel { /*carousel */
+
   max-width: 1000px;
   
   justify-content: center;
@@ -1012,6 +1013,7 @@ aside{
   width: 1000px;
 }
 
+/* videos*/
 
 .best-rated-cards {
   display: grid;
@@ -1037,3 +1039,21 @@ aside{
   height: 90%;
 }
 
+
+.dropdown .dropdown-item {
+  
+  background-color: #73b590;/* Cor do texto dos itens do dropdown */
+}
+.dropdown .dropdown-menu {
+
+
+  background-color:#73b590; /* Cor de fundo do menu suspenso */
+}
+
+dropdown .btn {
+  background-color:#73b590; /* Cor de fundo do menu suspenso */
+ /* Cor de fundo do botão */
+
+  color: #FFFFFF; /* Cor do texto do botão */
+}
+/* css Bruna - Página Minha conta */
