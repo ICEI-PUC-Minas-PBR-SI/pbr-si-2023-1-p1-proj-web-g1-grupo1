@@ -873,3 +873,207 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     font-size: 23px;
   }
 }
+
+@media (min-width:800px) and (max-width:900px) {
+  .videomaior2 > iframe {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width:901px) and (max-width:990px) {
+  .videomaior2 > iframe {
+    margin-left: 65px;
+  }
+}
+
+/*PÁGINA DE PERGUNTAS E RESPOSTAS - GIOVANE AMORIM*/
+
+.menulateral-duvidas{
+  background-color: #89c9a4;
+  display: grid;
+  justify-content: left;
+  flex-direction: column;
+  width: 20%;
+}
+
+.central{
+  display: grid;
+  justify-content: left;
+}
+
+.perguntas{
+  display: grid;
+  padding: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: left;
+  align-items: center;
+}
+
+.coresperguntas{
+  background: #b9dcca;
+  padding: 5px;
+  display: inline-block;
+  width: 200px;
+}
+
+.resposta{
+  display: grid;
+  background: whitesmoke;
+  border: 1px solid #101010;
+  margin-left: 40px;
+  width: 600px;
+  height: 100px;
+  padding: 10px;
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.botaoretornar{
+  text-align: center;
+  justify-content: right;
+  width: 160px;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 1270px;
+  margin-bottom: 10px;
+}
+
+aside{
+  display: flex;
+  justify-content: left;
+  position: inherit;
+}
+
+/*PÁGINA DE APRENDA AQUI - GIOVANE AMORIM*/
+
+.central1{
+  display: grid;
+  justify-content: left;
+  margin-top: 30px;
+}
+
+.contcentral{
+  display: grid;
+  margin-left: 50px;
+}
+
+.seta{
+  display: grid;
+  justify-content: left;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.setadois{
+  display: grid;
+  justify-content: left;
+  align-items: left;
+  margin-left: 200px;
+}
+
+.quadrado {
+  width: 1000px;
+  height: 500px;
+  background-color: #ccc;
+  margin-left: 200px;
+  padding-left: 1000px;
+  padding-top: 100px;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quadradodois {
+  width: 800px;
+  height: 300px;
+  background-color: #ccc;
+  margin-left: 300px;
+  padding-top: 100px;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quadrado p{
+  color: white;
+}
+
+.botaoretornar1{
+  text-align: center;
+  justify-content: right;
+  width: 160px;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 1270px;
+  margin-bottom: 10px;
+}
+
+/* css Bruna - Página Principal*/
+
+.carousel { /*carousel */
+
+max-width: 1000px;
+
+justify-content: center;
+flex-direction: row;
+
+flex-direction: row;
+width: 1000px;
+}
+
+/* videos*/
+
+.best-rated-cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+gap: 10px;
+margin: 10px ;
+}
+#videos{
+text-align: center;
+}
+
+.video-container {
+display: flex;
+}
+
+.video-wrapper {
+flex: 1;
+padding: 5px;
+}
+
+.video-wrapper iframe {
+width: 90%;
+height: 90%;
+}
+
+
+.dropdown .dropdown-item {
+
+background-color: #73b590;/* Cor do texto dos itens do dropdown */
+}
+.dropdown .dropdown-menu {
+
+
+background-color:#73b590; /* Cor de fundo do menu suspenso */
+}
+
+dropdown .btn {
+background-color:#73b590; /* Cor de fundo do menu suspenso */
+/* Cor de fundo do botão */
+
+color: #FFFFFF; /* Cor do texto do botão */
+}
+/* css Bruna - Página Minha conta */
