@@ -1010,3 +1010,61 @@
     justify-content: left;
     position: inherit;
   }
+  
+/* css Bruna - Página Principal*/
+
+.carousel { /*carousel */
+
+  max-width: 1000px;
+  
+  justify-content: center;
+  flex-direction: row;
+
+  flex-direction: row;
+  width: 1000px;
+}
+
+/* videos*/
+
+.best-rated-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px;
+  margin: 10px ;
+}
+#videos{
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+}
+
+.video-wrapper {
+  flex: 1;
+  padding: 5px;
+}
+
+.video-wrapper iframe {
+  width: 90%;
+  height: 90%;
+}
+
+
+.dropdown .dropdown-item {
+  
+  background-color: #73b590;/* Cor do texto dos itens do dropdown */
+}
+.dropdown .dropdown-menu {
+
+
+  background-color:#73b590; /* Cor de fundo do menu suspenso */
+}
+
+dropdown .btn {
+  background-color:#73b590; /* Cor de fundo do menu suspenso */
+ /* Cor de fundo do botão */
+
+  color: #FFFFFF; /* Cor do texto do botão */
+}
+/* css Bruna - Página Minha conta */
