@@ -5,3 +5,5 @@ Brenda Rocha, ficou responsável por criar a ata etapa 3 e a branch release 2.0 
 Giovane Amorim, ficou responsável por criar as páginas "Aprenda Aqui" e "Dúvidas".
 
 Gabriel Rocha, ficou responsável por refazer template.html/style.css para facilitar o uso do código pelo grupo, além de ficar responsável por fazer a página de postagem de vídeos e a página de vídeos.
+
+Bruna Letícia, ficou responsávela pela criação das páginas Minha conta e a página principal.
