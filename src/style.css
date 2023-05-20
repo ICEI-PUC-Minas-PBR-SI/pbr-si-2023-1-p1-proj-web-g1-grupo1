@@ -1,1012 +1,883 @@
 /* Comandos gerais */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Cabeçalho */
-  .cabecalho {
-    background-color: #73b590;
-  }
-  
-  .mcabecalho {
-    font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  background-color: #73b590;
+}
+
+.mcabecalho {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.mcabecalho a {
+  margin: 15px;
+}
+
+.logoalcance {
+  margin-left: 45px;
+}
+
+.pesquisa { 
+  width: 50vh;
+  font-size: 23px;
+}
+
+.bpesquisa {
+  font-size: 23px;
+}
+
+/* Menu lateral */
+.menulateral {
+  background-color: #89c9a4;
+  display: grid;
+  width: 20%;
+}
+
+.menulateral a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding: 100px;
+  text-transform: uppercase;
+}
+
+/* Parte central do site */
+.main {
+  width: 70%;
+}
+
+/* Rodapé */
+footer{
+  background-color: #73b590;
+    padding: 25px;
+    position: absolute;
+    width: 100%;
+}
+
+.container-footer{
+    max-width: 2000px;
+    padding: 0 3%;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 10px;
     text-transform: uppercase;
-  }
-  
-  .mcabecalho a {
-    margin: 15px;
-  }
-  
-  .logoalcance {
-    margin-left: 45px;
-  }
-  
-  .pesquisa { 
-    width: 50vh;
+}
+
+.footer-col a{
     font-size: 23px;
-  }
-  
-  .bpesquisa {
-    font-size: 23px;
-  }
-  
-  /* Menu lateral */
-  .menulateral {
-    background-color: #89c9a4;
-    display: grid;
-    width: 20%;
-  }
-  
-  .menulateral a {
-    text-decoration: none;
     color: black;
-    font-size: 23px;
-    padding: 100px;
+    font-weight: 400;
+    position: relative;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 15px;
+    font-size: 23px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.footer-col .form-sub input::placeholder{
+    color: black;
+    display: inline-block;
+}
+
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px; 
+    font-size: 23px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: rgb(30, 73, 30);        
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .menulateral {
+    display: none; 
   }
-  
-  /* Parte central do site */
-  .main {
-    width: 70%;
+
+  .logoalcance {
+    margin-left: 10px;
   }
-  
-  /* Rodapé */
-  footer{
-    background-color: #73b590;
-      padding: 25px;
-      position: absolute;
-      width: 100%;
-  }
-  
-  .container-footer{
-      max-width: 2000px;
-      padding: 0 3%;
-  }
-  
-  .row-footer{
-      display: flex;
-      flex-wrap: wrap;
-  }
-  
-  .footer-col{
-      width: 25%;
-      padding: 0 10px;
-      text-transform: uppercase;
-  }
-  
-  .footer-col a{
-      font-size: 23px;
-      color: black;
-      font-weight: 400;
-      position: relative;
-      text-transform: uppercase;
-      text-decoration: none;
-  }
-  
-  .footer-col .form-sub input{
-      width: 100%;
-      padding: 15px;
-      font-size: 23px;
-      outline: none;
-      border: 1px solid black;
-      color: black;
-      background-color: white;
-      margin-top: 5px;
-      text-transform: uppercase;
-  }
-  
-  .footer-col .form-sub input::placeholder{
-      color: black;
-      display: inline-block;
-  }
-  
-  .footer-col .form-sub button{
-      width: 100%;
-      margin-top: 10px;
-      padding: 15px; 
-      font-size: 23px;
-      text-transform: uppercase;
-      outline: none;
-      border: none;
-      cursor: pointer;
-      color: white;
-      border-radius: 3px;
-      font-weight: bold;
-      background-color: rgb(30, 73, 30);        
-  }
-  
-  /* Responsividade */
-  @media (max-width: 1200px) {
+}
+
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
     .menulateral {
       display: none; 
     }
-  
-    .logoalcance {
-      margin-left: 10px;
+}
+
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
     }
-  }
-  
-  @media (max-width: 800px) {
-      .footer-col{
-          width: 50%;
-          margin-bottom: 30px;
-      }
-  
-      .menulateral {
-        display: none; 
-      }
-  }
-  
-  @media (max-width:600px) {
-      .footer-col{
-          width: 100%;
-      }
-  
-      .menulateral {
-        display: none; 
-      }
-  
-      .logoalcance {
-        margin-left: 0;
-      }
-  }
-  
-  /*PÁGINAS BRENDA ROCHA*/
-  
-  body{
-    margin: 0; /*Retirar a magem do body*/
-    background-color: #bed6cb
-  }
-  
-  body * {
+
+    .menulateral {
+      display: none; 
+    }
+
+    .logoalcance {
+      margin-left: 0;
+    }
+}
+
+/*PÁGINAS BRENDA ROCHA*/
+
+body{
+  margin: 0; /*Retirar a magem do body*/
+  background-color: #bed6cb
+}
+
+body * {
+box-sizing: border-box;
+}
+
+/*PÁGINA DE LOGIN - BRENDA ROCHA*/
+
+.main-login{
+  width: 100vw; /*tamanho total da página*/
+  height: 100vh; /*altura total da página*/
+  background-color: #bed6cb; /*cor do fundo da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.right-login{
+  width: 60vw; /*tamanho que será ocupado da página total*/
+  height: 100vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.card-login{
+  width: 70%; /*ocupação do 50vw da div right-login*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
+  background-color:#73b590;
+  border-radius: 20px; /*mofificar a borda dos quadrados*/
+  box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+}
+
+.card-login > h1{
+color: #000000;
+font-weight: 800; /*letra mais grossa*/
+margin-bottom: 30px;
+}
+
+.card-login > p{
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  margin-bottom: 29px;
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /*deixa a esquerda os elementos no eixo x (horizontal)*/
+  justify-content: center; /*centraliza os elementos no eixo y (vertical)*/
+  margin: 10px 0px; /*primeiro eixo x depois o y*/
+  font-size: 22px;
+  font-weight: bolder ;
+}
+
+.textfield > input{
+  width: 100%;
+  border: none; /*retirar as bordas do imput*/
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #e7e4ff;
+  color: rgb(0, 0, 0);
+  font-size: 18px; /*unidade de medida*/
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
   box-sizing: border-box;
+}
+
+.textfield > label{
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+color: #01010194;
+}
+
+.btn-login{
+width: 100%;
+padding: 16px 0px;
+margin: 25px;
+border: none;
+border-radius: 8px;
+outline: none;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 18px;
+letter-spacing: 3px;
+color: #0f1311;
+background-color: #b9dcca;
+cursor: pointer; /*mão sobre o botão de entrar*/
+box-shadow: 0px 10px 40px -12px #6c756e56;
+}
+
+@media screen and (min-width: 950px) and (max-width:1450px){
+  .card-login{
+      width: 95%;
+  }
   }
   
-  /*PÁGINA DE LOGIN - BRENDA ROCHA*/
-  
+  @media screen and (max-width: 600px){
   .main-login{
-    width: 100vw; /*tamanho total da página*/
-    height: 100vh; /*altura total da página*/
-    background-color: #bed6cb; /*cor do fundo da página*/
-    display: flex; /*itens colocados lado a lado*/
-    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
-    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+      flex-direction: column;
   }
   
   .right-login{
-    width: 60vw; /*tamanho que será ocupado da página total*/
-    height: 100vh; /*altura total da página*/
-    display: flex; /*itens colocados lado a lado*/
-    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
-    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+      width: 100%;
+      height: auto; 
   }
   
   .card-login{
-    width: 70%; /*ocupação do 50vw da div right-login*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
-    background-color:#73b590;
-    border-radius: 20px; /*mofificar a borda dos quadrados*/
-    box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+  width: 90%;
   }
-  
-  .card-login > h1{
-  color: #000000;
-  font-weight: 800; /*letra mais grossa*/
-  margin-bottom: 30px;
+}
+
+  @media screen and (min-width: 601px) and (max-width:949px){
+  .main-login{
+        flex-direction: column;
   }
-  
-  .card-login > p{
-    color: rgb(0, 0, 0);
-    font-size: 29px;
-    margin-bottom: 29px;
+    
+  .right-login{
+        width: 80%;
+        height: auto; 
   }
-  
-  .textfield{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /*deixa a esquerda os elementos no eixo x (horizontal)*/
-    justify-content: center; /*centraliza os elementos no eixo y (vertical)*/
-    margin: 10px 0px; /*primeiro eixo x depois o y*/
-    font-size: 22px;
-    font-weight: bolder ;
+    
+  .card-login{
+    width: 90%;
   }
-  
-  .textfield > input{
-    width: 100%;
-    border: none; /*retirar as bordas do imput*/
-    border-radius: 10px;
-    padding: 15px;
-    background-color: #e7e4ff;
-    color: rgb(0, 0, 0);
-    font-size: 18px; /*unidade de medida*/
-    box-shadow: 0px 10px 40px #00000056;
-    outline: none;
-    box-sizing: border-box;
-  }
-  
-  .textfield > label{
-    color: rgb(0, 0, 0);
-    margin-bottom: 10px;
-  }
-  
-  .textfield > input::placeholder{
-  color: #01010194;
-  }
-  
-  .btn-login{
+}
+
+ /*PÁGINA INICIAL - BRENDA ROCHA */
+
+ .main-entrar{
+  width: 100vw; /*tamanho total da página*/
+  height: 50vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.logo-entrar {
+  margin: 0;
+  width: 100vw; /*tamanho que será ocupado da página total*/
+  height: 50vh;   
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.logo-entrar > img {
+  padding: 50px;
+  width: 40%;
+}
+
+.logo-entrar > h1 {
+ margin: 45px;
+}
+
+.direita-entrar{
+  margin-top: 30px;
+  width: 50%; /*tamanho que será ocupado da página total*/
+  height: 50vh;
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.esquerda-entrar{
+  margin-top: 30px;
+  width: 50%; /*tamanho que será ocupado da página total*/
+   height: 50vh;
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items:center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.btn-entrar{
   width: 100%;
-  padding: 16px 0px;
-  margin: 25px;
+  padding: 16px ;
   border: none;
   border-radius: 8px;
   outline: none;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  letter-spacing: 3px;
-  color: #0f1311;
-  background-color: #b9dcca;
+  letter-spacing: 5px;
+  color: #000000;
+  background-color: #579d7c;
   cursor: pointer; /*mão sobre o botão de entrar*/
-  box-shadow: 0px 10px 40px -12px #6c756e56;
+  box-shadow: 0px 10px 40px -12px #06080756;
   }
-  
-  @media screen and (min-width: 950px) and (max-width:1450px){
-    .card-login{
-        width: 95%;
+
+  @media screen and (min-width:540px) and (max-width:720px){
+    .main-entrar{
+       display: block;
+       margin:0;
+       width: 90vw;
     }
-    }
-    
-    @media screen and (max-width: 600px){
-    .main-login{
-        flex-direction: column;
-    }
-    
-    .right-login{
-        width: 100%;
-        height: auto; 
-    }
-    
-    .card-login{
-    width: 90%;
-    }
+
+    .direita-entrar{
+        margin:15px;
+        width: 90vw;
+        height: 15vh;
+     }
+
+     .esquerda-entrar{
+        margin:15px;
+        width: 90vw;
+        height:15vh;
+     }
+
+     .logo-entrar > img{
+        width: 60%;
+        padding: 0;
+        margin-right: 10px;
+     }
+}
+
+@media screen and (min-width:280px) and (max-width:667px){
+
+  .main-entrar{
+      display: block;
+      margin: 0 ;
   }
-  
-    @media screen and (min-width: 601px) and (max-width:949px){
-    .main-login{
-          flex-direction: column;
-    }
-      
-    .right-login{
-          width: 80%;
-          height: auto; 
-    }
-      
-    .card-login{
-      width: 90%;
-    }
-  }
-  
-   /*PÁGINA INICIAL - BRENDA ROCHA */
-  
-   .main-entrar{
-    width: 100vw; /*tamanho total da página*/
-    height: 50vh; /*altura total da página*/
-    display: flex; /*itens colocados lado a lado*/
-    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
-    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
-  }
-  
-  .logo-entrar {
-    margin: 0;
-    width: 100vw; /*tamanho que será ocupado da página total*/
-    height: 50vh;   
-    text-align: center;
-    color: rgb(0, 0, 0);
-  }
-  
-  .logo-entrar > img {
-    padding: 50px;
-    width: 40%;
-  }
-  
-  .logo-entrar > h1 {
-   margin: 45px;
-  }
-  
   .direita-entrar{
-    margin-top: 30px;
-    width: 50%; /*tamanho que será ocupado da página total*/
-    height: 50vh;
-    display: flex; /*itens colocados lado a lado*/
-    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
-    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+      margin-left:20px;
+      width: 90vw;
+      height: 20vh;
   }
-  
   .esquerda-entrar{
-    margin-top: 30px;
-    width: 50%; /*tamanho que será ocupado da página total*/
-     height: 50vh;
-    display: flex; /*itens colocados lado a lado*/
-    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
-    align-items:center; /*centraliza os elementos no eixo y (vertical)*/
+      margin-left:20px;
+      margin-top: 45px;
+      width: 90vw;
+      height: 20vh;
   }
+  .logo-entrar >h1{
+      font-size: 25px;
+      margin-top: 30px;
+  }
+  .logo-entrar > img{
+      width: 90%;
+  }
+  .btn-entrar{
+      margin: 0;
+   align-items: center;
+  }
+}
+
+@media screen and (min-width:721px) and (max-width:1020px){
+  .main-entrar{
+      display: block;
+      width: 100vw;
+   }
+
+   .direita-entrar{
+      width: 100vw;
+      height: 15vh;
+   }
+
+   .esquerda-entrar{
+      width: 100vw;
+      height: 15vh;
+   }
+
+   .logo-entrar >img{
+      width: 80%;
+   }
+
+   .logo-entrar >h1{
+      font-size: 45px;}
   
   .btn-entrar{
-    width: 100%;
-    padding: 16px ;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 18px;
-    letter-spacing: 5px;
-    color: #000000;
-    background-color: #579d7c;
-    cursor: pointer; /*mão sobre o botão de entrar*/
-    box-shadow: 0px 10px 40px -12px #06080756;
-    }
-  
-    @media screen and (min-width:540px) and (max-width:720px){
-      .main-entrar{
-         display: block;
-         margin:0;
-         width: 90vw;
-      }
-  
-      .direita-entrar{
-          margin:15px;
-          width: 90vw;
-          height: 15vh;
-       }
-  
-       .esquerda-entrar{
-          margin:15px;
-          width: 90vw;
-          height:15vh;
-       }
-  
-       .logo-entrar > img{
-          width: 60%;
-          padding: 0;
-          margin-right: 10px;
-       }
+      width: 90vw;
+      height: 11vh;
+      font-size: 25px;
   }
-  
-  @media screen and (min-width:280px) and (max-width:667px){
-  
-    .main-entrar{
-        display: block;
-        margin: 0 ;
-    }
-    .direita-entrar{
-        margin-left:20px;
-        width: 90vw;
-        height: 20vh;
-    }
-    .esquerda-entrar{
-        margin-left:20px;
-        margin-top: 45px;
-        width: 90vw;
-        height: 20vh;
-    }
-    .logo-entrar >h1{
-        font-size: 25px;
-        margin-top: 30px;
-    }
-    .logo-entrar > img{
-        width: 90%;
-    }
-    .btn-entrar{
-        margin: 0;
-     align-items: center;
-    }
+}
+
+@media screen and (min-width:912px) and (max-width:913px){
+
+  .btn-entrar{
+      font-size: 35px;
   }
-  
-  @media screen and (min-width:721px) and (max-width:1020px){
-    .main-entrar{
-        display: block;
-        width: 100vw;
-     }
-  
-     .direita-entrar{
-        width: 100vw;
-        height: 15vh;
-     }
-  
-     .esquerda-entrar{
-        width: 100vw;
-        height: 15vh;
-     }
-  
-     .logo-entrar >img{
-        width: 80%;
-     }
-  
-     .logo-entrar >h1{
-        font-size: 45px;}
-    
-    .btn-entrar{
-        width: 90vw;
-        height: 11vh;
-        font-size: 25px;
-    }
+}
+
+ /*PÁGINA DE CADASTRO - BRENDA ROCHA*/
+
+ .main-cadastro{
+  width: 100vw; /*tamanho total da página*/
+  height: 100vh; /*altura total da página*/
+  background-color: #bed6cb; /*cor do fundo da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.right-cadastro{
+  width: 60vw; /*tamanho que será ocupado da página total*/
+  height: 100vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.card-cadastro{
+  width: 80%; /*ocupação do 50vw da div right-login*/
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
+  background-color:#73b590;
+  border-radius: 20px; /*mofificar a borda dos quadrados*/
+  box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+}
+
+.card-cadastro > h1{
+  color: #000000;
+  font-weight: 800; /*letra mais grossa*/
+  margin-top: 32px;
+  margin-bottom: 25px;
   }
-  
-  @media screen and (min-width:912px) and (max-width:913px){
-  
-    .btn-entrar{
-        font-size: 35px;
-    }
-  }
-  
-   /*PÁGINA DE CADASTRO - BRENDA ROCHA*/
-  
-   .main-cadastro{
-    width: 100vw; /*tamanho total da página*/
-    height: 100vh; /*altura total da página*/
-    background-color: #bed6cb; /*cor do fundo da página*/
-    display: flex; /*itens colocados lado a lado*/
-    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
-    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+
+.card-cadastro > p{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+
+@media screen and (max-width: 600px){
+  .main-cadastro{
+      flex-direction: column;
   }
   
   .right-cadastro{
-    width: 60vw; /*tamanho que será ocupado da página total*/
-    height: 100vh; /*altura total da página*/
-    display: flex; /*itens colocados lado a lado*/
-    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
-    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+      width: 100%;
+      height: 100%;  
   }
   
   .card-cadastro{
-    width: 80%; /*ocupação do 50vw da div right-login*/
-    height: 85%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
-    background-color:#73b590;
-    border-radius: 20px; /*mofificar a borda dos quadrados*/
-    box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+  width: 90%;
+  height: 95%;
   }
-  
-  .card-cadastro > h1{
-    color: #000000;
-    font-weight: 800; /*letra mais grossa*/
-    margin-top: 32px;
-    margin-bottom: 25px;
-    }
-  
-  .card-cadastro > p{
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    margin-top: 0;
-    margin-bottom: 29px;
   }
-  
-  @media screen and (max-width: 600px){
+
+  @media screen and (min-width: 601px) and (max-width:913px){
     .main-cadastro{
         flex-direction: column;
     }
     
     .right-cadastro{
         width: 100%;
-        height: 100%;  
+        height: 100%; 
     }
     
     .card-cadastro{
     width: 90%;
-    height: 95%;
+    height: 60%;
     }
-    }
-  
-    @media screen and (min-width: 601px) and (max-width:913px){
-      .main-cadastro{
-          flex-direction: column;
-      }
-      
-      .right-cadastro{
-          width: 100%;
-          height: 100%; 
-      }
-      
-      .card-cadastro{
-      width: 90%;
-      height: 60%;
-      }
+}
+
+@media screen and (max-width:376px) {
+  .main-cadastro{
+      flex-direction: column;
   }
-  
-  @media screen and (max-width:376px) {
-    .main-cadastro{
-        flex-direction: column;
-    }
-    .card-cadastro > h1 {
-       margin-bottom: 20px;
-    }
-    .card-cadastro >p {
-        display: none;
-    }
-    .card-cadastro{
-        height: 80%;
-    }
+  .card-cadastro > h1 {
+     margin-bottom: 20px;
   }
-  
-  @media screen and (min-width: 1020px) and (max-width:1120px){
-    .card-cadastro{
-        width: 100%;
-        height: 100%;
-    }
-    .right-cadastro{
-        width: 80%;
-        height: 94%;  
-    }
-    .card-cadastro >p {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    .card-cadastro >h1{
-        font-size: 29px;
-    }
-    }
-  
-  /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
-  
+  .card-cadastro >p {
+      display: none;
+  }
+  .card-cadastro{
+      height: 80%;
+  }
+}
+
+@media screen and (min-width: 1020px) and (max-width:1120px){
+  .card-cadastro{
+      width: 100%;
+      height: 100%;
+  }
+  .right-cadastro{
+      width: 80%;
+      height: 94%;  
+  }
+  .card-cadastro >p {
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+  .card-cadastro >h1{
+      font-size: 29px;
+  }
+  }
+
+/* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
+
+.video1 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo1 {
+  margin-left: 20px;
+  margin-top: 70px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video2 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo2 {
+  margin-left: 20px;
+  margin-top: 70px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video3 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo3 {
+  margin-left: 20px;
+  margin-top: 70px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video4 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo4 {
+  margin-left: 20px;
+  margin-top: 70px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.videomaior {
+  float: right;
+  margin-right: 20px;
+}
+
+.estrelas {
+  width: 10vw;
+}
+
+.avaliacao {
+  width: 50%;
+  height: 12vw;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.abotao {
+  width: 12%;
+  height: 12vw;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.rbotao {
+  width: 25%;
+  height: 12vw;
+  font-size: 20px;
+  margin-left: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width:600px) {
   .video1 {
-    margin: 20px;
-    display: flex;
+    display: block;
+    margin: 24px;
   }
-  
+
   .titulo1 {
-    margin-left: 20px;
-    margin-top: 100px;
-    font-size: 23px;
-    text-transform: uppercase;
-    font-weight: bold;
+    margin-top: 10px;
   }
-  
+
   .video2 {
-    margin: 20px;
-    display: flex;
+    display: block;
+    margin: 24px;
   }
-  
+
   .titulo2 {
-    margin-left: 20px;
-    margin-top: 100px;
-    font-size: 23px;
-    text-transform: uppercase;
-    font-weight: bold;
+    margin-top: 10px;
   }
-  
+
   .video3 {
-    margin: 20px;
-    display: flex;
+    display: block;
+    margin: 24px;
   }
-  
+
   .titulo3 {
-    margin-left: 20px;
-    margin-top: 100px;
-    font-size: 23px;
-    text-transform: uppercase;
-    font-weight: bold;
+    margin-top: 10px;
   }
-  
+
   .video4 {
-    margin: 20px;
-    display: flex;
+    display: block;
+    margin: 24px;
   }
-  
+
   .titulo4 {
-    margin-left: 20px;
-    margin-top: 100px;
-    font-size: 23px;
-    text-transform: uppercase;
-    font-weight: bold;
+    margin-top: 10px;
   }
-  
+
+  .videomaior1 {
+    margin: 13px;
+  }
+
+  .videomaior2 {
+    display: none;
+  }
+
   .videomaior {
-    float: right;
-    margin-right: 20px;
+    display: none;
   }
-  
+
   .estrelas {
-    width: 10vw;
-  }
-  
-  .avaliacao {
     width: 50%;
-    height: 12vw;
+    margin-left: 90px;
+  }
+
+  .avaliacao {
+    width: 100%;
+    height: 50vw;
     font-size: 23px;
     text-transform: uppercase;
     text-align: center;
   }
-  
+
   .abotao {
-    width: 10%;
-    height: 12vw;
-    font-size: 23px;
-    text-transform: uppercase;
-    font-weight: bold;
+    width: 100%;
+    height: 20vw;
   }
-  
+
   .rbotao {
-    width: 30%;
-    height: 12vw;
-    font-size: 20px;
-    margin-left: 6vh;
-    text-transform: uppercase;
-    font-weight: bold;
+    width: 100%;
+    height: 25vw;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
-  
-  @media (max-width:600px) {
-    .video1 {
-      display: block;
-      margin: 10px;
-    }
-  
-    .titulo1 {
-      margin-top: 10px;
-    }
-  
-    .video2 {
-      display: block;
-      margin: 10px;
-    }
-  
-    .titulo2 {
-      margin-top: 10px;
-    }
-  
-    .video3 {
-      display: block;
-      margin: 10px;
-    }
-  
-    .titulo3 {
-      margin-top: 10px;
-    }
-  
-    .video4 {
-      display: block;
-      margin: 10px;
-    }
-  
-    .titulo4 {
-      margin-top: 10px;
-    }
-  
-    .videomaior1 {
-      margin: 13px;
-    }
-  
-    .videomaior2 {
-      display: none;
-    }
-  
-    .videomaior {
-      display: none;
-    }
-  
-    .estrelas {
-      width: 50%;
-      margin-left: 90px;
-    }
-  
-    .avaliacao {
-      width: 100%;
-      height: 50vw;
-      font-size: 23px;
-      text-transform: uppercase;
-      text-align: center;
-    }
-  
-    .abotao {
-      width: 100%;
-      height: 20vw;
-    }
-  
-    .rbotao {
-      width: 100%;
-      height: 25vw;
-      margin-left: 0;
-      margin-top: 20px;
-      margin-bottom: 30px;
-    }
+}
+
+@media (min-width:601px) and (max-width:990px) {
+  .videomaior {
+    display: none;
   }
-  
-  @media (min-width:601px) and (max-width:990px) {
-    .videomaior {
-      display: none;
-    }
-  
-    .videomaior2 {
-      margin-left: px;
-    }
-  
-    .estrelas {
-      width: 50%;
-      margin-left: 200px;
-    }
-  
-    .avaliacao {
-      width: 100%;
-      height: 20vw;
-    }
-  
-    .abotao {
-      width: 100%;
-      height: 20vw;
-    }
-  
-    .rbotao {
-      width: 100%;
-      height: 20vw;
-      margin-left: 0;
-      margin-top: 30px;
-      margin-bottom: 0;
-    }
+
+  .estrelas {
+    width: 50%;
+    margin-left: 200px;
   }
-  
-  @media (min-width:991px) {
-    .videomaior2 {
-      display: none;
-    }
-  
-    .pesquisa1 { 
-      width: 40vh;
-      font-size: 23px;
-    }
+
+  .avaliacao {
+    width: 100%;
+    height: 20vw;
   }
-  
-  /* PÁGINA DE POSTAGEM DE VÍDEOS - GABRIEL ROCHA */
-  .menulateral1 {
-    background-color: #89c9a4;
-    display: flex;
-    flex-direction: column;
+
+  .abotao {
+    width: 100%;
+    height: 20vw;
   }
-  
-  .menulateral1 a {
-    text-decoration: none;
-    color: black;
+
+  .rbotao {
+    width: 100%;
+    height: 20vw;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width:991px) {
+  .videomaior2 {
+    display: none;
+  }
+
+  .pesquisa1 { 
+    width: 40vh;
     font-size: 23px;
-    padding: 100px;
-    text-transform: uppercase;
+  }
+}
+
+@media (min-width:800px) and (max-width:900px) {
+  .videomaior2 > iframe {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width:901px) and (max-width:990px) {
+  .videomaior2 > iframe {
+    margin-left: 65px;
+  }
+}
+
+/* PÁGINA DE POSTAGEM DE VÍDEOS - GABRIEL ROCHA */
+.menulateral1 {
+  background-color: #89c9a4;
+  display: flex;
+  flex-direction: column;
+}
+
+.menulateral1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding: 100px;
+  text-transform: uppercase;
+}
+
+.imgvideol {
+  margin-top: 15vw;
+  margin-bottom: 20vw;
+  margin-left: 2vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 372px 1fr;
+}
+
+.lateral {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 50px;
+}
+
+.textopost {
+  background-color: #73b590;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.acarregar {
+  margin-top: 20vh;
+  margin-left: 24vw;
+}
+
+.imgvideo {
+  width: 15vw;
+  margin-left: 5vw;
+}
+
+.carregarv {
+  background-color: #73b590;
+  width: 50%;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.pesquisa2 { 
+  width: 40vh;
+  font-size: 23px;
+}
+
+@media (min-width: 1px) and (max-width: 991px) {
+  .acarregar {
+    margin-top: 20vh;
+    margin-left: 0vw;
   }
   
-  .imgvideol {
-    margin-top: 15vw;
-    margin-bottom: 20vw;
-    margin-left: 2vw;
+  .menulateral1 {
+    display: none;
   }
-  
+
   .grid {
     display: grid;
-    grid-template-columns: 372px 1fr;
+    grid-template-columns: none;
   }
-  
-  .lateral {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin: 50px;
-  }
-  
-  .textopost {
+
+  .carregarv {
     background-color: #73b590;
     width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
     text-align: center;
     border-radius: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .imgvideo {
+    width: 80%;
+    margin-left: 8vw;
   }
   
   .acarregar {
     margin-top: 20vh;
-    margin-left: 24vw;
+    margin-left: 0vw;
   }
-  
-  .imgvideo {
-    width: 15vw;
-    margin-left: 5vw;
-  }
-  
-  .carregarv {
-    background-color: #73b590;
-    width: 50%;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 10px;
-    text-decoration: none;
-    color: black;
-  }
-  
+}
+
+@media (min-width: 992px) and (max-width: 1450px) {
   .pesquisa2 { 
-    width: 40vh;
+    width: 20vh;
     font-size: 23px;
   }
-  
-  @media (min-width: 1px) and (max-width: 991px) {
-    .acarregar {
-      margin-top: 20vh;
-      margin-left: 0vw;
-    }
-    
-    .menulateral1 {
-      display: none;
-    }
-  
-    .grid {
-      display: grid;
-      grid-template-columns: none;
-    }
-  
-    .carregarv {
-      background-color: #73b590;
-      width: 100%;
-      font-size: 30px;
-      text-transform: uppercase;
-      text-align: center;
-      border-radius: 10px;
-      text-decoration: none;
-      color: black;
-    }
-  
-    .imgvideo {
-      width: 80%;
-      margin-left: 8vw;
-    }
-    
-    .acarregar {
-      margin-top: 20vh;
-      margin-left: 0vw;
-    }
-  }
-  
-  @media (min-width: 992px) and (max-width: 1450px) {
-    .pesquisa2 { 
-      width: 20vh;
-      font-size: 23px;
-    }
-  }
-
-  @media (min-width:800px) and (max-width:900px) {
-    .videomaior2 > iframe {
-      margin-left: 20px;
-    }
-  }
-  
-  @media (min-width:901px) and (max-width:990px) {
-    .videomaior2 > iframe {
-      margin-left: 65px;
-    }
-  }
-
-  /*PÁGINA DE PERGUNTAS E RESPOSTAS - GIOVANE AMORIM*/
-
-  .menulateral-duvidas{
-    background-color: #89c9a4;
-    display: grid;
-    justify-content: left;
-    flex-direction: column;
-    width: 20%;
-  }
-
-  .central{
-    display: grid;
-    justify-content: left;
-  }
-
-  .perguntas{
-    display: grid;
-    padding: 70px;
-    text-decoration: none;
-    margin-left: 20px;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .resposta{
-    display: grid;
-    margin-left: 80px;
-    border: 1px;
-    width: 100%;
-    padding: 15px;
-    font-size: 23px;
-    outline: none;
-    margin-top: 5px;
-    margin-bottom: 20px;
-  }
-
-  .botaoretornar{
-    text-align: center;
-    justify-content: right;
-    width: 100%;
-    border: 1px;
-    display: grid;
-    margin-bottom: 10px;
-    margin-left: 628px;
-  }
-  
-  aside{
-    display: flex;
-    justify-content: left;
-    position: inherit;
-  }
-
-  /*PÁGINA DE APRENDA AQUI - GIOVANE AMORIM*/
-
-  .central1{
-    display: grid;
-    justify-content: left;
-    margin-top: 30px;
-  }
-
-  .contcentral{
-    display: grid;
-    margin-left: 50px;
-  }
-
-  .seta{
-    display: grid;
-    justify-content: left;
-    margin-left: 100px;
-    margin-bottom: 10px;
-  }
-  
-  .setadois{
-    display: grid;
-    justify-content: left;
-    align-items: left;
-    margin-left: 200px;
-  }
-
-  .quadrado {
-    width: 1000px;
-    height: 500px;
-    background-color: #ccc;
-    margin-left: 200px;
-    padding-left: 1000px;
-    padding-top: 100px;
-    padding: 50px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .quadradodois {
-    width: 800px;
-    height: 300px;
-    background-color: #ccc;
-    margin-left: 300px;
-    padding-top: 100px;
-    padding: 50px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .quadrado p{
-    color: white;
-  }
-
-  .botaoretornar1{
-    text-align: center;
-    justify-content: right;
-    width: 100%;
-    border: 1px;
-    display: grid;
-    margin-bottom: 10px;
-    margin-left: 228px;
-  }
-
-  aside{
-    display: flex;
-    justify-content: left;
-    position: inherit;
-  }
+}
