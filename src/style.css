@@ -566,8 +566,8 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .titulo1 {
   margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
+  margin-top: 70px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -579,8 +579,8 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .titulo2 {
   margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
+  margin-top: 70px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -592,8 +592,8 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .titulo3 {
   margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
+  margin-top: 70px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -605,8 +605,8 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .titulo4 {
   margin-left: 20px;
-  margin-top: 100px;
-  font-size: 23px;
+  margin-top: 70px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -623,7 +623,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 .avaliacao {
   width: 50%;
   height: 12vw;
-  font-size: 23px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -631,16 +631,16 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 .abotao {
   width: 12%;
   height: 12vw;
-  font-size: 23px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .rbotao {
-  width: 30%;
+  width: 25%;
   height: 12vw;
   font-size: 20px;
-  margin-left: 6vh;
+  margin-left: 100px;
   text-transform: uppercase;
   font-weight: bold;
 }
