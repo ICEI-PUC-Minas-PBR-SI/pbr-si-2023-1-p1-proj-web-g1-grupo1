@@ -40,44 +40,123 @@
   
   <!-- Parte central do site -->
 
-  <main>
-    <!-- Carrosel de imagens -->
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-9">
-          <div class="row">
-            <div id="carouselExampleSlidesOnly" class="carousel slide pt-4" data-bs-ride="carousel">
+  <!--BARRA LATERAL-->
+  
+ <aside> 
+  <div id="menu">
+    <div id="menu-lateral">
+    
+
+      <a href="index.html">Página Inicial</a>
+
+      <!--Categorias, menu suspenso -->
+
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a href="categorias.html">Categorias</a>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-bs-success">
+          <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+          <li><a class="dropdown-item" href="#">Vídeos</a></li>
+          <li><a class="dropdown-item" href="#">Pesquisas</a></li>
+          <li><a class="dropdown-item" href="#">Receitas</a></li>
+          <li><a class="dropdown-item" href="#">Aplicativos em geral</a></li>
+        </ul>
+      </div>
+      <a href="posteseuvideo.html">Poste o Seu Vídeo Aqui</a>
+      <a href="duvidas.html">Dúvidas</a>
+    </div>
+  </div>
+</div>
+</aside>  
+
+<main>
+<div id="principal">
+  <div class="wrapper">
+      <div class="sidebar">
+       
+      <div class="carousel-wrapper">
+        <div class="carousel">
+
+
+          <!-- conteúdo do carrossel aqui -->
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="10000">
                   <img src="pexels-andrea-piacquadio-3783348.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                   <img src="pexels-andrea-piacquadio-3823488.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="pexels-andrea-piacquadio-3824771.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </main>
+     <!-- conteúdo dos cards aqui -->
+       <div id="videos">
+      <h3>   Vídeos com melhores avaliações </h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=kF-20oyjqlU" frameborder="0" allowfullscreen></iframe>
+          
+            
+            <h4> Como fazer pesquisas no Google ?</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/video2" frameborder="0" allowfullscreen></iframe>
+            
+            <h4> Como fazer vídeos chamadas no WhatsApp</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/video2" frameborder="0" allowfullscreen></iframe>
+            
+            <h4> Como baixar aplicativos no celular ?</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            
 
-  <!-- Menu Lateral -->
-  <aside>
+      </div>
+    </div>
     
-    <div class="menulateral ">
-      <a href="#">Página Inicial</a>
-      <a href="#">Categorias</a>
-      <a href="#">Poste o Seu Vídeo Aqui</a>
-      <a href="#">Dúvidas</a>
-      
        
-    
 </div>
-  </aside>
+</div>
+
+
+
+</div>
+</div>
+
+</main>
+</body>
 
 
   <!-- Rodapé -->
