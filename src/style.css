@@ -1096,6 +1096,9 @@ width: 90%;
 height: 90%;
 }
 
+.lateral > h1{
+  margin-bottom: 45px;
+}
 
 .dropdown .dropdown-item {
 
@@ -1209,4 +1212,6 @@ color: #FFFFFF; /* Cor do texto do botão */
 .btnprincipal{
   text-align: right;
   padding: 25px;
+ margin-top: 25px;
+ font-size: 25px;
 }
