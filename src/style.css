@@ -772,3 +772,112 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     margin-left: 65px;
   }
 }
+
+/* PÁGINA DE POSTAGEM DE VÍDEOS - GABRIEL ROCHA */
+.menulateral1 {
+  background-color: #89c9a4;
+  display: flex;
+  flex-direction: column;
+}
+
+.menulateral1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding: 100px;
+  text-transform: uppercase;
+}
+
+.imgvideol {
+  margin-top: 15vw;
+  margin-bottom: 20vw;
+  margin-left: 2vw;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 372px 1fr;
+}
+
+.lateral {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 50px;
+}
+
+.textopost {
+  background-color: #73b590;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.acarregar {
+  margin-top: 20vh;
+  margin-left: 24vw;
+}
+
+.imgvideo {
+  width: 15vw;
+  margin-left: 5vw;
+}
+
+.carregarv {
+  background-color: #73b590;
+  width: 50%;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.pesquisa2 { 
+  width: 40vh;
+  font-size: 23px;
+}
+
+@media (min-width: 1px) and (max-width: 991px) {
+  .acarregar {
+    margin-top: 20vh;
+    margin-left: 0vw;
+  }
+  
+  .menulateral1 {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  .carregarv {
+    background-color: #73b590;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .imgvideo {
+    width: 80%;
+    margin-left: 8vw;
+  }
+  
+  .acarregar {
+    margin-top: 20vh;
+    margin-left: 0vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1450px) {
+  .pesquisa2 { 
+    width: 20vh;
+    font-size: 23px;
+  }
+}
