@@ -557,7 +557,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
   }
 
-
 /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
 
 .video1 {
@@ -875,4 +874,42 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 }
 
+
+
+/* css Bruna*/
+
+.carousel { /*carousel */
+  max-width: 1000px;
+  
+  justify-content: center;
+  flex-direction: row;
+
+  flex-direction: row;
+  width: 1000px;
+}
+
+
+.best-rated-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px;
+  margin: 10px ;
+}
+#videos{
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+}
+
+.video-wrapper {
+  flex: 1;
+  padding: 5px;
+}
+
+.video-wrapper iframe {
+  width: 90%;
+  height: 90%;
+}
 
