@@ -7,3 +7,5 @@ Giovane Amorim, ficou responsável por criar as páginas "Aprenda Aqui" e "Dúvi
 Gabriel Rocha, ficou responsável por refazer template.html/style.css para facilitar o uso do código pelo grupo, além de ficar responsável por fazer a página de postagem de vídeos e a página de vídeos.
 
 Bruna Letícia, ficou responsávela pela criação das páginas Minha conta e a página principal.
+
+Karine Gilberti, ficou responsável pela criação das paginas sobre nós e políticas do site
