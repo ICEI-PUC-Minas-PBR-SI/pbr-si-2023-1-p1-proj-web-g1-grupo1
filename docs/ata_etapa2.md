@@ -4,11 +4,6 @@ Brenda Rocha, ficou responsável por criar a branch Docs e a Ata para a segunda 
 
 Ester Giovanna não contribuiu nessa etapa do trabalho.
 
-
-
-
-
-
 Bruna Leticia criou as páginas de interface Minha conta ( Interface simples, com algumas informações dos vídeos assistidos e sistema de pontução ), Sobre nós ( Página informando nosso objetivo e motivaçao), Dúvidas dos usuários( Página onde será exibido as respostas das principais dúvidas dos usuários ), Postar vídeos ( Página para quem deseja adicionar os vídeos), Políticas do site  e Aprenda aqui ( Página incial explicando passo a passo do uso na aplicação). 
 
 
