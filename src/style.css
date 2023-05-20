@@ -1210,3 +1210,57 @@ color: #FFFFFF; /* Cor do texto do botão */
   text-align: right;
   padding: 25px;
 }
+
+/* PÁGINA SOBRE NÓS - KARINE */
+ .msobrenos {
+  width: 100%;
+  color: #000000;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.corpo-central {
+  width: 70%;
+  margin-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 9vh;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.smenulateral {
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #89c9a4;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.botao-retorno {
+  font-size: 23px;
+  width: 20%;
+  height: 20%;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 8vh;
+}
+
+.botao-retorno > a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+@media (min-width:1px) and (max-width: 992px) {
+  .smenulateral {
+    display: none;
+  }
+}
