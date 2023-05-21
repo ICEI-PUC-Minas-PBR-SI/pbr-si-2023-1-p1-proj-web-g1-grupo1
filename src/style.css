@@ -1096,9 +1096,6 @@ width: 90%;
 height: 90%;
 }
 
-.lateral > h1{
-  margin-bottom: 45px;
-}
 
 .dropdown .dropdown-item {
 
@@ -1153,8 +1150,8 @@ color: #FFFFFF; /* Cor do texto do botão */
 }
 
 .image_outer_container{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   border-radius: 50%;
   position: relative;
 }
@@ -1209,9 +1206,122 @@ color: #FFFFFF; /* Cor do texto do botão */
   color: #ffcc00;
 }
 
+.lateral > h1{
+  margin-bottom: 45px;
+}
+
 .btnprincipal{
   text-align: right;
   padding: 25px;
- margin-top: 25px;
+  margin-top: 25px;
  font-size: 25px;
 }
+
+/* PÁGINA SOBRE NÓS - KARINE */
+.msobrenos {
+  width: 100%;
+  color: #000000;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.corpo-central {
+  width: 70%;
+  margin-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 9vh;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.smenulateral {
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #89c9a4;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.botao-retorno {
+  font-size: 23px;
+  width: 20%;
+  height: 20%;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 8vh;
+}
+
+.botao-retorno > a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+@media (min-width:1px) and (max-width: 992px) {
+  .smenulateral {
+    display: none;
+  }
+}
+
+/* PÁGINA POLÍTICAS E REGRAS DO SITE - KARINE */
+.politicar {
+  width: 100%;
+  color: #000000;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
+.pmenulateral {
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #89c9a4;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+}
+
+.pcorpo-central {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 9vh;
+  text-transform: uppercase;
+  font-size: 25px;
+  position: relative;
+  margin-top: 10vh;
+}
+
+.pbotao-retorno {
+  font-size: 23px;
+  width: 20%;
+  height: 15%;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.pbotao-retorno > a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+@media (min-width:1px) and (max-width: 992px) {
+  .pmenulateral {
+    display: none;
+  }
+}
+
