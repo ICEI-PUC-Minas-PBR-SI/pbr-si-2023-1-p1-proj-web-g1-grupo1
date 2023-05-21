@@ -1150,8 +1150,8 @@ color: #FFFFFF; /* Cor do texto do botão */
 }
 
 .image_outer_container{
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
   border-radius: 50%;
   position: relative;
 }
@@ -1206,9 +1206,15 @@ color: #FFFFFF; /* Cor do texto do botão */
   color: #ffcc00;
 }
 
+.lateral > h1{
+  margin-bottom: 45px;
+}
+
 .btnprincipal{
   text-align: right;
   padding: 25px;
+  margin-top: 25px;
+ font-size: 25px;
 }
 
 /* PÁGINA SOBRE NÓS - KARINE */
@@ -1318,3 +1324,4 @@ color: #FFFFFF; /* Cor do texto do botão */
     display: none;
   }
 }
+
