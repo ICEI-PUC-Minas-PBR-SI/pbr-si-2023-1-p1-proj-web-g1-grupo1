@@ -480,16 +480,18 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .card-cadastro > h1{
   color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
   font-weight: 800; /*letra mais grossa*/
-  margin-top: 32px;
+  margin-top: 25px;
   margin-bottom: 25px;
   }
 
 .card-cadastro > p{
   color: rgb(0, 0, 0);
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 0;
-  margin-bottom: 29px;
+  margin-bottom: 26px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
 }
 
 @media screen and (max-width: 600px){
@@ -520,7 +522,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     
     .card-cadastro{
     width: 90%;
-    height: 60%;
+    height: 90%;
     }
 }
 
