@@ -564,68 +564,10 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   display: flex;
 }
 
-.titulo1 {
+.tituloVideoPequeno {
   margin-left: 20px;
   margin-top: 60px;
   font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.titulo2 {
-  margin-left: 20px;
-  margin-top: 60px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.titulo3 {
-  margin-left: 20px;
-  margin-top: 60px;
-  font-size: 21px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.titulo4 {
-  margin-left: 20px;
-  margin-top: 60px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.videomaior {
-  float: right;
-  margin-right: 20px;
-}
-
-.estrelas {
-  width: 10vw;
-}
-
-.avaliacao {
-  width: 50%;
-  height: 12vw;
-  font-size: 23px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.abotao {
-  width: 10%;
-  height: 12vw;
-  font-size: 23px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.rbotao {
-  width: 30%;
-  height: 12vw;
-  font-size: 20px;
-  margin-left: 6vh;
   text-transform: uppercase;
   font-weight: bold;
 }
