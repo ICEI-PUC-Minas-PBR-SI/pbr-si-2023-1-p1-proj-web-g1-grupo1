@@ -1391,3 +1391,50 @@ color: #FFFFFF; /* Cor do texto do botão */
     margin-bottom: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
   }
+
+  @media screen and (min-width: 950px) and (max-width:1450px){
+    .card-senha{
+      width: 95%;
+    }
+    }
+    
+    @media screen and (max-width: 600px){
+    .main-senha{
+      flex-direction: column;
+    }
+    
+    .right-senha{
+      width: 100%;
+      height: auto; 
+    }
+    
+    .card-senha{
+    width: 90%;
+    
+    }
+    }
+    
+    @media screen and (min-width: 601px) and (max-width:949px){
+      .main-senha{
+          flex-direction: column;
+      }
+      
+      .right-senha{
+          width: 80%;
+          height: auto; 
+      }
+      
+      .card-senha{
+      width: 90%;
+      }
+      }
+    
+      .p2{
+          color: red;
+      }
+    
+    #passwordMessage{
+      margin-top: 10px;
+      font-size: 23px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
