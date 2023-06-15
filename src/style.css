@@ -573,122 +573,13 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
 @media (max-width:600px) {
-  .video1 {
+  .videoPequeno {
     display: block;
     margin: 10px;
   }
 
-  .titulo1 {
+  .tituloVideoPequeno {
     margin-top: 10px;
-  }
-
-  .video2 {
-    display: block;
-    margin: 10px;
-  }
-
-  .titulo2 {
-    margin-top: 10px;
-  }
-
-  .video3 {
-    display: block;
-    margin: 10px;
-  }
-
-  .titulo3 {
-    margin-top: 10px;
-  }
-
-  .video4 {
-    display: block;
-    margin: 10px;
-  }
-
-  .titulo4 {
-    margin-top: 10px;
-  }
-
-  .videomaior1 {
-    margin: 13px;
-  }
-
-  .videomaior2 {
-    display: none;
-  }
-
-  .videomaior {
-    display: none;
-  }
-
-  .estrelas {
-    width: 50%;
-    margin-left: 90px;
-  }
-
-  .avaliacao {
-    width: 100%;
-    height: 50vw;
-    font-size: 23px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  .abotao {
-    width: 100%;
-    height: 20vw;
-  }
-
-  .rbotao {
-    width: 100%;
-    height: 25vw;
-    margin-left: 0;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width:601px) and (max-width:990px) {
-  .videomaior {
-    display: none;
-  }
-
-  .videomaior2 {
-    margin-left: px;
-  }
-
-  .estrelas {
-    width: 50%;
-    margin-left: 200px;
-  }
-
-  .avaliacao {
-    width: 100%;
-    height: 20vw;
-  }
-
-  .abotao {
-    width: 100%;
-    height: 20vw;
-  }
-
-  .rbotao {
-    width: 100%;
-    height: 20vw;
-    margin-left: 0;
-    margin-top: 30px;
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width:991px) {
-  .videomaior2 {
-    display: none;
-  }
-
-  .pesquisa1 { 
-    width: 40vh;
-    font-size: 23px;
   }
 }
 
