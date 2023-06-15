@@ -35,7 +35,7 @@
           
           var username = document.getElementById("username").value;
           var password = document.getElementById("password").value;
-
+          
           // Verifica se o usuário existe no local storage
           if (localStorage.getItem(username)) {
             var user = JSON.parse(localStorage.getItem(username));
@@ -44,7 +44,7 @@
             if (password === user.password) {
               alert("Login bem-sucedido. Bem-vindo, " + username + "!");
               window.location.href = "home.html"; // Redireciona para a página home
-            }else {
+            } else {
               alert("Senha incorreta. Por favor, tente novamente.");
             }
           } else {
