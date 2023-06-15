@@ -30,7 +30,7 @@
     </div>
 
     <script>
-        document.getElementById("loginForm").addEventListener("submit", function(event) {})
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
           event.preventDefault();
           
           var username = document.getElementById("username").value;
@@ -44,8 +44,14 @@
             if (password === user.password) {
               alert("Login bem-sucedido. Bem-vindo, " + username + "!");
               window.location.href = "home.html"; // Redireciona para a página home
-            }}
-    </script>
+            }else {
+              alert("Senha incorreta. Por favor, tente novamente.");
+            }
+          } else {
+            alert("Usuário não encontrado. Por favor, verifique o nome de usuário.");
+          }
+        });
+      </script>
 
   </body>
 </html>
