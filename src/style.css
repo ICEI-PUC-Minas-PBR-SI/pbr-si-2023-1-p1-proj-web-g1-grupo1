@@ -1343,3 +1343,37 @@ color: #FFFFFF; /* Cor do texto do botão */
      color: black;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
   }
+
+   /*PÁGINA RECUPERAÇÃO SENHA*/
+
+.main-senha{
+  width: 100vw; /*tamanho total da página*/
+  height: 100vh; /*altura total da página*/
+  background-color: #bed6cb; /*cor do fundo da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+
+
+.right-senha{
+  width: 60vw; /*tamanho que será ocupado da página total*/
+  height: 100vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.card-senha{
+  width: 70%; /*ocupação do 50vw da div right-login*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
+  background-color:#73b590;
+  border-radius: 20px; /*mofificar a borda dos quadrados*/
+  box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+}
+
