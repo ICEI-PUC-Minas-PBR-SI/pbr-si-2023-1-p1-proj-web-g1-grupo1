@@ -559,7 +559,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
 
-.video1 {
+.videoPequeno {
   margin: 20px;
   display: flex;
 }
@@ -572,11 +572,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   font-weight: bold;
 }
 
-.video2 {
-  margin: 20px;
-  display: flex;
-}
-
 .titulo2 {
   margin-left: 20px;
   margin-top: 60px;
@@ -585,22 +580,12 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   font-weight: bold;
 }
 
-.video3 {
-  margin: 20px;
-  display: flex;
-}
-
 .titulo3 {
   margin-left: 20px;
   margin-top: 60px;
   font-size: 21px;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.video4 {
-  margin: 20px;
-  display: flex;
 }
 
 .titulo4 {
