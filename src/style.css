@@ -198,12 +198,15 @@ box-sizing: border-box;
 color: #000000;
 font-weight: 800; /*letra mais grossa*/
 margin-bottom: 30px;
+font-family: Arial, Helvetica, sans-serif;/*modificação*/
 }
 
 .card-login > p{
   color: rgb(0, 0, 0);
-  font-size: 29px;
+  font-size: 26px;
   margin-bottom: 29px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
+
 }
 
 .textfield{
@@ -214,6 +217,7 @@ margin-bottom: 30px;
   justify-content: center; /*centraliza os elementos no eixo y (vertical)*/
   margin: 10px 0px; /*primeiro eixo x depois o y*/
   font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
   font-weight: bolder ;
 }
 
@@ -246,9 +250,9 @@ margin: 25px;
 border: none;
 border-radius: 8px;
 outline: none;
-text-transform: uppercase;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
+font-size: 22px;/*modificação*/
 font-weight: 800;
-font-size: 18px;
 letter-spacing: 3px;
 color: #0f1311;
 background-color: #b9dcca;
@@ -1328,3 +1332,14 @@ color: #FFFFFF; /* Cor do texto do botão */
   }
 }
 
+ /*INFORMAÇÕES ADICIONAIS BRENDA*/
+
+ .recsenha{
+  text-decoration: none;
+  }
+
+  p3{
+     font-size: 22px;
+     color: black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
+  }
