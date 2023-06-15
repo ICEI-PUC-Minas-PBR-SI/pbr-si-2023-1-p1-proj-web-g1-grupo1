@@ -42,3 +42,16 @@
               var dob = document.getElementById("dob").value;
               var password = document.getElementById("password").value;
               
+          // Verifica se o usuário já existe no local storage
+          if (localStorage.getItem(username)) {
+            alert("Usuário já cadastrado. Por favor, escolha outro nome de usuário.");
+            return;
+          }
+          
+          // Cria um objeto com os dados do usuário
+          var user = {
+            username: username,
+            dob: dob,
+            password: password
+          };
+              
