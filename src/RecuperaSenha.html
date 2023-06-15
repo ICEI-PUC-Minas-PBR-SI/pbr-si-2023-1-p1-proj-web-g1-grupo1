@@ -36,3 +36,14 @@
           
           var username = document.getElementById("username").value;
           var dob = document.getElementById("dob").value;})   
+
+          // Verifica se o usuário existe no local storage
+        if (localStorage.getItem(username)) {
+          var user = JSON.parse(localStorage.getItem(username));
+          
+          // Verifica se a data de nascimento corresponde ao usuário
+          if (dob === user.dob) {
+            var passwordMessage = document.getElementById("passwordMessage");
+            passwordMessage.textContent = "Sua senha é: " + user.password;
+            passwordMessage.style.display = "block";
+          } else{}}
