@@ -54,4 +54,14 @@
             dob: dob,
             password: password
           };
-              
+          
+          // Armazena o usuário no local storage usando o nome de usuário como chave
+          localStorage.setItem(username, JSON.stringify(user));
+          
+          // Redireciona para a página de login
+          window.location.href = "home.html";
+        });
+      </script>
+
+</body>
+</html>        
