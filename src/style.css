@@ -558,27 +558,17 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 
 /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
-#videoPequeno {
-  margin: 15px;
-}
-
-@media (max-width:1099px) {
-  #videoPequeno {
-    margin: 5px;
-  }
-}
-
-@media (max-width:720px) {
-  #videoPequeno {
-    margin-left: 35px;
-  }
-}
-
 #divBotaoVoltarHome {
   font-size: 23px;
   display: flex;
   justify-content: end;
   padding: 15px;
+}
+
+@media (max-width:680px) {
+  #divBotaoVoltarHome {
+    justify-content: center;
+  }
 }
 
 #botaoVoltarHome {
@@ -601,7 +591,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 @media (max-width:680px) {
   #botaoVoltarHome { 
-    margin-right: 29px;
     height: 15vw;
   }
 }
@@ -611,17 +600,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   background-color: #89c9a4;
   border-radius: 15px;
   margin: 15px;
-}
-
-@media (max-width:600px) {
-  .videoPequeno {
-    display: block;
-    margin: 10px;
-  }
-
-  .tituloVideoPequeno {
-    margin-top: 10px;
-  }
 }
 
 /* PÁGINA DE POSTAGEM DE VÍDEOS - GABRIEL ROCHA */
