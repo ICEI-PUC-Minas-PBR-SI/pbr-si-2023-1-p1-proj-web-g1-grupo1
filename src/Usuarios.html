@@ -24,4 +24,13 @@
       
       // Obtém o objeto usuário a partir do local storage
       var user = JSON.parse(localStorage.getItem(key));
+       // Cria um item de lista com os dados do usuário
+       var listItem = document.createElement("li");
+      listItem.textContent = "Usuário: " + user.username + ", Data de Nascimento: " + user.dob;
       
+      // Adiciona o item de lista à lista de usuários
+      userListElement.appendChild(listItem);
+    }
+  </script>
+</body>
+</html>    
