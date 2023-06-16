@@ -8,3 +8,11 @@
   
   <ul id="userList"></ul>
   
+  <script>
+    // Obtém todas as chaves do local storage
+    var keys = Object.keys(localStorage);
+    
+    // Percorre as chaves e exibe os usuários
+    var userListElement = document.getElementById("userList");
+    for (var i = 0; i < keys.length; i++) {
+      var key = keys[i];
