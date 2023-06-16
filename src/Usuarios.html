@@ -16,3 +16,12 @@
     var userListElement = document.getElementById("userList");
     for (var i = 0; i < keys.length; i++) {
       var key = keys[i];
+           
+      // Ignora a chave "username" usada no exemplo anterior
+      if (key === "username") {
+        continue;
+      }
+      
+      // Obtém o objeto usuário a partir do local storage
+      var user = JSON.parse(localStorage.getItem(key));
+      
