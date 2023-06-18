@@ -71,7 +71,7 @@
     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
   </svg></h3>
   
-  <div class="rating">
+  <div class="star">
     <input type="radio" id="star5" name="rating" value="5">
     <label for="star5" title="5 estrelas">&#9733;</label>
     <input type="radio" id="star4" name="rating" value="4">
@@ -218,3 +218,40 @@
 </body>
 
 </html>
+
+<script>
+
+  let botao = document.getElementById('irhome');
+  botao.onclick = function logar(){
+
+      location.href = 'home.html' 
+}
+
+// Passo 1: Obter todas as estrelas e os inputs de classificação
+const stars = document.querySelectorAll('.star input');
+const ratingContainer = document.querySelector('.star');
+
+// Passo 2: Adicionar eventos de clique para as estrelas
+stars.forEach(star => {
+  star.addEventListener('click', setRating);
+});
+
+// Passo 3: Definir a classificação selecionada
+function setRating(e) {
+  const rating = e.target.value;
+
+   // Passo 4: Atualizar o valor do input oculto com a classificação selecionada
+ ratingContainer.setAttribute('data-rating', rating);
+
+ // Passo 5: Ativar a classificação selecionada e desativar as outras
+ stars.forEach(star => {
+    const starValue = star.value;
+    if (starValue <= rating) {
+      star.checked = true;
+    } else {
+      star.checked = false;
+    }
+  });
+}
+
+</script>
