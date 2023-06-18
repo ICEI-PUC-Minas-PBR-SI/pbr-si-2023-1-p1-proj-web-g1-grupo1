@@ -226,32 +226,17 @@
 
       location.href = 'home.html' 
 }
-
-// Passo 1: Obter todas as estrelas e os inputs de classificação
-const stars = document.querySelectorAll('.star input');
-const ratingContainer = document.querySelector('.star');
-
-// Passo 2: Adicionar eventos de clique para as estrelas
-stars.forEach(star => {
-  star.addEventListener('click', setRating);
+  
+//Estrelas de pontuação
+var stars = document.querySelectorAll('#star');
+document.addEventListener('click', function(e){
+var idStar = e.target.idList;
+  if(!idStar.contains('Ativo')){
+    stars.forEach(function(star){
+      star.idList.remove('Ativo');
+    });
+    idStar.add('Ativo');
+  }
 });
-
-// Passo 3: Definir a classificação selecionada
-function setRating(e) {
-  const rating = e.target.value;
-
-   // Passo 4: Atualizar o valor do input oculto com a classificação selecionada
- ratingContainer.setAttribute('data-rating', rating);
-
- // Passo 5: Ativar a classificação selecionada e desativar as outras
- stars.forEach(star => {
-    const starValue = star.value;
-    if (starValue <= rating) {
-      star.checked = true;
-    } else {
-      star.checked = false;
-    }
-  });
-}
 
 </script>
