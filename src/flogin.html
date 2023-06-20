@@ -9,56 +9,49 @@
 </head>
 <body>
     <div class="main-login">
-       
+        <form id="loginForm">
         <div class="right-login">
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <p class="texto">Para que possa acessar a aplicação ALCANCE é necessário informar o usuário e a sua senha:</p>
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" id="usuario" name="usuario" placeholder="Usuário">
+                    <input type="text" id="username" placeholder="Usuário">
                 </div>
                 <div class="textfield">
                     <label for="usuario">Senha</label>
-                    <input type="password" id="senha" name="senha" placeholder="Senha">
+                    <input type="password" id="password"  placeholder="Senha">
                 </div>
-                <button class="btn-login" id="btnlogar" >Entrar</button>
+                <button class="btn-login" type="submit" value="Entrar">ENTRAR</button>
+                <a href="RecuperaSenha.html" class="recsenha"><p3>Esqueceu a sua senha?</p3></a>
             </div>
         </div>
+    </form>
     </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+          event.preventDefault();
+          
+          var username = document.getElementById("username").value;
+          var password = document.getElementById("password").value;
+          
+          // Verifica se o usuário existe no local storage
+          if (localStorage.getItem(username)) {
+            var user = JSON.parse(localStorage.getItem(username));
+            
+            // Verifica se a senha corresponde ao usuário
+            if (password === user.password) {
+              alert("Login bem-sucedido. Bem-vindo, " + username + "!");
+              window.location.href = "home.html"; // Redireciona para a página home
+            } else {
+              alert("Senha incorreta. Por favor, tente novamente.");
+            }
+          } else {
+            alert("Usuário não encontrado. Por favor, verifique o nome de usuário.");
+          }
+        });
+      </script>
+
   </body>
 </html>
-
-<script>
-
-    const usuarios = [
-    {
-        login: 'admin',
-        pass: '049295372',
-    },
-    {
-        login: 'fabio',
-        pass: '015409823',
-    }
-    ]
-    
-    let botao = document.getElementById('btnlogar');
-    botao.onclick = function logar(){
-    
-            let pegausuario = document.getElementById('usuario').value
-            let pegasenha = document.getElementById('senha').value
-            let validaLogin = false
-        
-            for (let i in usuarios){
-                if(pegausuario == usuarios[i].login && pegasenha == usuarios[i].pass){
-                    validaLogin = true
-                    break }
-            }
-    
-            if(validaLogin == true){
-               location.href = 'home.html'
-            } else{
-                alert('USUÁRIO E SENHA INCORRETOS')
-            }
-    }
-    </script>

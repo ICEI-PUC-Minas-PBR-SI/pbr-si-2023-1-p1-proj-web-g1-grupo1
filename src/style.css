@@ -198,12 +198,15 @@ box-sizing: border-box;
 color: #000000;
 font-weight: 800; /*letra mais grossa*/
 margin-bottom: 30px;
+font-family: Arial, Helvetica, sans-serif;/*modificação*/
 }
 
 .card-login > p{
   color: rgb(0, 0, 0);
-  font-size: 29px;
+  font-size: 26px;
   margin-bottom: 29px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
+
 }
 
 .textfield{
@@ -214,6 +217,7 @@ margin-bottom: 30px;
   justify-content: center; /*centraliza os elementos no eixo y (vertical)*/
   margin: 10px 0px; /*primeiro eixo x depois o y*/
   font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
   font-weight: bolder ;
 }
 
@@ -246,9 +250,9 @@ margin: 25px;
 border: none;
 border-radius: 8px;
 outline: none;
-text-transform: uppercase;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
+font-size: 22px;/*modificação*/
 font-weight: 800;
-font-size: 18px;
 letter-spacing: 3px;
 color: #0f1311;
 background-color: #b9dcca;
@@ -317,6 +321,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .logo-entrar > h1 {
  margin: 45px;
+ font-family: Arial, Helvetica, sans-serif;/*modificação*/
 }
 
 .direita-entrar{
@@ -341,11 +346,10 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   width: 100%;
   padding: 16px ;
   border: none;
-  border-radius: 8px;
   outline: none;
-  text-transform: uppercase;
   font-weight: 800;
-  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;/*modificação*/
+  font-size: 25px;
   letter-spacing: 5px;
   color: #000000;
   background-color: #579d7c;
@@ -480,16 +484,18 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .card-cadastro > h1{
   color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
   font-weight: 800; /*letra mais grossa*/
-  margin-top: 32px;
+  margin-top: 25px;
   margin-bottom: 25px;
   }
 
 .card-cadastro > p{
   color: rgb(0, 0, 0);
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 0;
-  margin-bottom: 29px;
+  margin-bottom: 26px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
 }
 
 @media screen and (max-width: 600px){
@@ -520,7 +526,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     
     .card-cadastro{
     width: 90%;
-    height: 60%;
+    height: 90%;
     }
 }
 
@@ -1328,3 +1334,109 @@ color: #FFFFFF; /* Cor do texto do botão */
   }
 }
 
+ /*INFORMAÇÕES ADICIONAIS BRENDA*/
+
+ .recsenha{
+  text-decoration: none;
+  }
+
+  p3{
+     font-size: 22px;
+     color: black;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
+  }
+
+  /*PÁGINA RECUPERAÇÃO SENHA BRENDA*/
+
+.main-senha{
+  width: 100vw; /*tamanho total da página*/
+  height: 100vh; /*altura total da página*/
+  background-color: #bed6cb; /*cor do fundo da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+
+
+.right-senha{
+  width: 60vw; /*tamanho que será ocupado da página total*/
+  height: 100vh; /*altura total da página*/
+  display: flex; /*itens colocados lado a lado*/
+  justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+  align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+}
+
+.card-senha{
+  width: 70%; /*ocupação do 50vw da div right-login*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
+  background-color:#73b590;
+  border-radius: 20px; /*mofificar a borda dos quadrados*/
+  box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+}
+
+.card-senha > h1{
+  color: black;
+  font-weight: 800; /*letra mais grossa*/
+  margin-bottom: 28px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;/*modificação*/
+  }
+  
+  .card-senha > p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;/*modificação*/
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*modificação*/
+  }
+
+  @media screen and (min-width: 950px) and (max-width:1450px){
+    .card-senha{
+      width: 95%;
+    }
+    }
+    
+    @media screen and (max-width: 600px){
+    .main-senha{
+      flex-direction: column;
+    }
+    
+    .right-senha{
+      width: 100%;
+      height: auto; 
+    }
+    
+    .card-senha{
+    width: 90%;
+    
+    }
+    }
+    
+    @media screen and (min-width: 601px) and (max-width:949px){
+      .main-senha{
+          flex-direction: column;
+      }
+      
+      .right-senha{
+          width: 80%;
+          height: auto; 
+      }
+      
+      .card-senha{
+      width: 90%;
+      }
+      }
+    
+      .p2{
+          color: red;
+      }
+    
+    #passwordMessage{
+      margin-top: 10px;
+      font-size: 23px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
