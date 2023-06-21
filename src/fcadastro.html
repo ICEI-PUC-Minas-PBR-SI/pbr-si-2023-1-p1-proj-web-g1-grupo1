@@ -9,64 +9,59 @@
 </head>
 <body>
     <div class="main-cadastro">
-    
-        <div class="right-cadastro">
-            <div class="card-cadastro">
-                <h1>CADASTRO</h1>
-                <p class="texto">Vamos começar! É necessário criar um usuário: nome ou apelido, que será utilizado para acessar a aplicação ALCANCE. Informar também a sua idade e criar uma senha:</p>
-                <div class="textfield">
-                    <label for="usuario">Crie usuário</label>
-                    <input type="text" id="usuariocadastro" name="usuario" placeholder="Usuário">
+        <form id="registrationForm">
+            <div class="right-cadastro" id="registrationForm">
+                <div class="card-cadastro">
+                    <h1>CADASTRO</h1>
+                    <p class="texto">Vamos começar! É necessário criar um usuário: nome ou apelido, que será utilizado para acessar a aplicação ALCANCE. Informar também a data de nascimento e criar uma senha:</p>
+                    <div class="textfield">
+                        <label for="usuario">Crie Usuário</label>
+                        <input type="text" placeholder="Usuário" id="username" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="usuario">Data de Nascimento</label>
+                        <input type="date" placeholder="Idade" id="dob" required>
+                    </div>
+                    <div class="textfield">
+                        <label for="usuario">Crie uma Senha</label>
+                        <input type="password" placeholder="Senha" id="password" required >
+                    </div>
+                    <button type="submit"  value="Cadastrar"class="btn-login" >CADASTRAR</button>
                 </div>
-                <div class="textfield">
-                    <label for="usuario">Informe a sua idade</label>
-                    <input type="text" id="idade" name="idade" placeholder="Idade">
-                </div>
-                <div class="textfield">
-                    <label for="usuario">Crie uma Senha</label>
-                    <input type="password" id="senhacadastro" name="senha" placeholder="Senha">
-                </div>
-                <button class="btn-login" id="btnlogar" >Entrar</button>
             </div>
+        </form>
         </div>
-    </div>
+
+
+        <script>
+            // Manipula o envio do formulário de cadastro
+            document.getElementById("registrationForm").addEventListener("submit", function(event) {
+              event.preventDefault(); // Evita que o formulário seja enviado
+              
+              var username = document.getElementById("username").value;
+              var dob = document.getElementById("dob").value;
+              var password = document.getElementById("password").value;
+              
+          // Verifica se o usuário já existe no local storage
+          if (localStorage.getItem(username)) {
+            alert("Usuário já cadastrado. Por favor, escolha outro nome de usuário.");
+            return;
+          }
+          
+          // Cria um objeto com os dados do usuário
+          var user = {
+            username: username,
+            dob: dob,
+            password: password
+          };
+          
+          // Armazena o usuário no local storage usando o nome de usuário como chave
+          localStorage.setItem(username, JSON.stringify(user));
+          
+          // Redireciona para a página de login
+          window.location.href = "home.html";
+        });
+      </script>
+
 </body>
-</html>   
-
-
-<script>
-
-    const usuarios = [
-    {
-        login: 'admin',
-        pass: '049295372',
-        idade: '24',
-    },
-    {
-        login: 'fabio',
-        pass: '015409823',
-        idade: '40',
-    }
-    ]
-
-    let botao = document.getElementById('btnlogar');
-    botao.onclick = function logar(){
-    
-            let pegausuario = document.getElementById('usuariocadastro').value
-            let pegasenha = document.getElementById('senhacadastro').value
-            let pegaidade = document.getElementById('idade').value
-            let validaLogin = false
-
-            for (let i in usuarios){
-                if(pegausuario == usuarios[i].login && pegasenha == usuarios[i].pass && pegaidade == usuarios[i].idade){
-                    validaLogin = true
-                    break }
-            }
-    
-            if(validaLogin == true){
-               location.href = 'home.html'
-            } else{
-                alert('INFORME TODOS OS DADOS SOLICITADOS')
-            }
-    }
-</script>
+</html>        
