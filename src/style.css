@@ -558,48 +558,211 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 
 /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
-#divBotaoVoltarHome {
-  font-size: 23px;
+
+.video1 {
+  margin: 20px;
   display: flex;
-  justify-content: end;
-  padding: 15px;
 }
 
-@media (max-width:680px) {
-  #divBotaoVoltarHome {
-    justify-content: center;
-  }
-}
-
-#botaoVoltarHome {
-  padding: 15px;
-  height: 6vw;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  color: white;
-  border-radius: 3px;
+.titulo1 {
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 20px;
+  text-transform: uppercase;
   font-weight: bold;
-  background-color: rgb(30, 73, 30);  
 }
 
-@media (max-width:1029px) {
-  #botaoVoltarHome { 
-    height: 8vw;
+.video2 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo2 {
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video3 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo3 {
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.video4 {
+  margin: 20px;
+  display: flex;
+}
+
+.titulo4 {
+  margin-left: 20px;
+  margin-top: 60px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.videomaior {
+  float: right;
+  margin-right: 20px;
+}
+
+.estrelas {
+  width: 10vw;
+}
+
+.avaliacao {
+  width: 50%;
+  height: 12vw;
+  font-size: 23px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.abotao {
+  width: 10%;
+  height: 12vw;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.rbotao {
+  width: 30%;
+  height: 12vw;
+  font-size: 20px;
+  margin-left: 6vh;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width:600px) {
+  .video1 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo1 {
+    margin-top: 10px;
+  }
+
+  .video2 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo2 {
+    margin-top: 10px;
+  }
+
+  .video3 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo3 {
+    margin-top: 10px;
+  }
+
+  .video4 {
+    display: block;
+    margin: 10px;
+  }
+
+  .titulo4 {
+    margin-top: 10px;
+  }
+
+  .videomaior1 {
+    margin: 13px;
+  }
+
+  .videomaior2 {
+    display: none;
+  }
+
+  .videomaior {
+    display: none;
+  }
+
+  .estrelas {
+    width: 50%;
+    margin-left: 90px;
+  }
+
+  .avaliacao {
+    width: 100%;
+    height: 50vw;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .abotao {
+    width: 100%;
+    height: 20vw;
+  }
+
+  .rbotao {
+    width: 100%;
+    height: 25vw;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
 
-@media (max-width:680px) {
-  #botaoVoltarHome { 
-    height: 15vw;
+@media (min-width:601px) and (max-width:990px) {
+  .videomaior {
+    display: none;
+  }
+
+  .videomaior2 {
+    margin-left: px;
+  }
+
+  .estrelas {
+    width: 50%;
+    margin-left: 200px;
+  }
+
+  .avaliacao {
+    width: 100%;
+    height: 20vw;
+  }
+
+  .abotao {
+    width: 100%;
+    height: 20vw;
+  }
+
+  .rbotao {
+    width: 100%;
+    height: 20vw;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
   }
 }
 
-#abaTexto {
-  color: black;
-  background-color: #89c9a4;
-  border-radius: 15px;
-  margin: 15px;
+@media (min-width:991px) {
+  .videomaior2 {
+    display: none;
+  }
+
+  .pesquisa1 { 
+    width: 40vh;
+    font-size: 23px;
+  }
 }
 
 /* PÁGINA DE POSTAGEM DE VÍDEOS - GABRIEL ROCHA */
