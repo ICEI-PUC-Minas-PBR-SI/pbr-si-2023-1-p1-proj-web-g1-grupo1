@@ -1255,11 +1255,12 @@ color: #FFFFFF; /* Cor do texto do botão */
 
 .corpo-central {
   width: 70%;
-  margin-top: 20vh;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: 9vh;
+  
+  
 }
 
 .smenulateral {
@@ -1456,8 +1457,16 @@ color: #FFFFFF; /* Cor do texto do botão */
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    p7{
+    ul li p7{
       font-size: 24px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+      
+    }
+
+    .listasobrenos{
+     margin: 15px;
+    }
+
+    .dados{
+     margin: 25px;
     }
