@@ -1260,8 +1260,6 @@ color: #FFFFFF; /* Cor do texto do botão */
   justify-content: center;
   position: relative;
   margin-left: 9vh;
-  text-transform: uppercase;
-  font-size: 30px;
 }
 
 .smenulateral {
@@ -1456,4 +1454,10 @@ color: #FFFFFF; /* Cor do texto do botão */
       margin-top: 10px;
       font-size: 23px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p7{
+      font-size: 24px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     }
