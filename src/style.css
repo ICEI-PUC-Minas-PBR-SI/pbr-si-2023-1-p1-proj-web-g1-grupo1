@@ -585,6 +585,77 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   font-weight: bold;
 }
 
+.button {
+    background-color: #89c9a4;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .comment-box {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    display: none;
+  }
+  
+  .comment-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-submit {
+    background-color: #89c9a4;
+    border: none;
+    color: white;
+    width: 98%;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+
 @media (max-width:600px) {
   .botaoPaginaPrincipal {
     width: 100%;
