@@ -570,10 +570,24 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   display: flex;
 }
 
+@media (min-width:0px) and (max-width:991px) {
+  .videosPequenos {
+    display: block;
+  }
+}
+
 .tituloVideosPequenos {
   margin-left: 20px;
   margin-top: 120px;
   font-size: 23px;
+}
+
+@media (min-width:0px) and (max-width:991px) {
+  .tituloVideosPequenos {
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 #botaoPaginaPrincipal {
@@ -639,7 +653,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 @media (min-width:900px) and (max-width:1199px) {
   .button {
-    padding: 20px 15px;
+    padding: 20px 5px;
     bottom: 90px;
   }
 }
