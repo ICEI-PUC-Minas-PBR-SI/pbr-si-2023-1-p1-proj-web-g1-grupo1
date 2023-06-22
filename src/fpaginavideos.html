@@ -12,7 +12,6 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- Cabeçalho -->
-
 <body onload="exibirVideosWpp()">
   <title>Alcance</title>
   <header class="cabecalho navbar navbar-expand-lg navbar-light">
@@ -44,15 +43,15 @@
       <div id="exibirVideos"></div>
     </section>
     <section>
+      <button class="button" onclick="toggleCommentBox()">Comentar</button>
+      <div id="commentBox" class="comment-box">
+        <span class="close-button" onclick="toggleCommentBox()">&#10005;</span>
+        <input type="text" id="commentInput" class="comment-input" placeholder="Digite seu comentário">
+        <button class="comment-submit" onclick="submitComment()">Enviar</button>
+        <div id="commentSection"></div>
+      </div>
       <form>
-        <button class="button" onclick="toggleCommentBox()">Comentar</button>
-        <div id="commentBox" class="comment-box">
-          <span class="close-button" onclick="toggleCommentBox()">&#10005;</span>
-          <input type="text" id="commentInput" class="comment-input" placeholder="Digite seu comentário">
-          <button class="comment-submit" onclick="submitComment()">Enviar</button>
-          <div id="commentSection"></div>
-        </div>
-        <button class="botaoPaginaPrincipal">Página principal</button>
+        <button id="botaoPaginaPrincipal">Página principal</button>
       </form>
     </section>
   </main>
@@ -88,10 +87,10 @@
 
 <script>
 
-  let botao = document.getElementById('irhome');
-  botao.onclick = function logar() {
+  let botao = document.getElementById('botaoPaginaPrincipal');
+  botao.onclick = function logar(){
 
-    location.href = 'home.html'
-  }
+      location.href = 'home.html' 
+}
 
 </script>
