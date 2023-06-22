@@ -44,6 +44,15 @@
     </section>
     <section>
       <form>
+        <button class="button" onclick="toggleCommentBox()">Comentar</button>
+
+        <div id="commentBox" class="comment-box">
+          <span class="close-button" onclick="toggleCommentBox()">&#10005;</span>
+          <input type="text" id="commentInput" class="comment-input" placeholder="Digite seu comentário">
+          <button class="comment-submit" onclick="submitComment()">Enviar</button>
+      
+          <div id="commentSection"></div>
+        </div>
         <button class="botaoPaginaPrincipal">Página principal</button>
       </form>
     </section>
