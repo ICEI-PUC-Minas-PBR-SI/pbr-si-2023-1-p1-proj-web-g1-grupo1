@@ -565,15 +565,22 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
 
-.videosPequenos {
+#videosMaiores {
   margin: 20px;
   display: flex;
 }
 
 @media (min-width:0px) and (max-width:991px) {
-  .videosPequenos {
-    display: block;
-  }
+  #videosMaiores {
+    display: grid;
+    margin: 5px;
+    width: 15%;
+  } 
+}
+
+.respIframe {
+  width: 400px;
+  height: 220px;
 }
 
 .tituloVideosPequenos {
@@ -602,7 +609,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 @media (max-width:600px) {
   .botaoPaginaPrincipal {
-    width: 100%;
+    width: 150%;
     height: 25vw;
     margin-left: 0;
     margin-top: 20px;
@@ -653,8 +660,15 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 @media (min-width:900px) and (max-width:1199px) {
   .button {
-    padding: 20px 5px;
-    bottom: 90px;
+    padding: 20px 65px;
+    bottom: 80px;
+  }
+}
+
+@media (min-width:600px) and (max-width:899px) {
+  .button {
+    padding: 15px 50px;
+    bottom: 70px;
   }
 }
 

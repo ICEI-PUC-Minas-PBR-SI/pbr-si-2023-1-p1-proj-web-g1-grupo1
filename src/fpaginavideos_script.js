@@ -5,8 +5,8 @@ function exibirVideosWpp() {
             let str = ''
             for (let i = 0; i < data.length; i++) {
                 let videoswpp = data[i]
-                str += `<div class="videosPequenos">
-                <iframe width="500" height="280" src="${videoswpp.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                str += `<div id="videosMaiores">
+                <iframe src="${videoswpp.link}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p class="tituloVideosPequenos">${videoswpp.titulo}</p>
             </div>`
             }
