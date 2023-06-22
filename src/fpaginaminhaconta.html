@@ -259,6 +259,51 @@ window.addEventListener('load', function() {
 
 
 
+// Função para obter os vídeos de um determinado tipo
+function getVideos(tipo) {
+  // Verifica se os vídeos estão armazenados no localStorage
+  if (localStorage.getItem(tipo)) {
+    return JSON.parse(localStorage.getItem(tipo));
+  } else {
+    return [];
+  }
+}
+
+// Função para adicionar um novo vídeo
+function adicionarVideo(tipo, video) {
+  // Obtém os vídeos do tipo especificado
+  let videos = getVideos(tipo);
+
+  // Adiciona o novo vídeo à lista
+  videos.push(video);
+
+  // Armazena a lista de vídeos atualizada no localStorage
+  localStorage.setItem(tipo, JSON.stringify(videos));
+}
+
+// Exemplo de uso:
+
+// Obtém os vídeos do tipo "videoswpp"
+let videosWpp = getVideos('videoswpp');
+console.log(videosWpp);
+
+// Cria um novo vídeo
+let novoVideo = {
+  id: 5,
+  titulo: 'Novo vídeo do WhatsApp',
+  link: 'https://www.youtube.com/embed/abc123',
+  idvideo: 'abc123'
+};
+
+// Adiciona o novo vídeo aos vídeos do tipo "videoswpp"
+adicionarVideo('videoswpp', novoVideo);
+
+// Obtém os vídeos do tipo "videoswpp" novamente, após adicionar o novo vídeo
+videosWpp = getVideos('videoswpp');
+console.log(videosWpp);
+
+
+
 
   let botao = document.getElementById('irhome');
   botao.onclick = function logar(){
@@ -279,5 +324,3 @@ var idStar = e.target.idList;
 });
 </script>
 
-
-</script>
