@@ -22,3 +22,32 @@ function exibirVideosWpp() {
             document.getElementById('exibirVideos').innerHTML = str
         })
 }
+
+function toggleCommentBox() {
+    var commentBox = document.getElementById("commentBox");
+    var commentInput = document.getElementById("commentInput");
+  
+    if (commentBox.style.display === "none") {
+      commentBox.style.display = "block";
+      commentBox.style.animationName = "slideIn";
+      commentInput.value = ""; // Limpa o campo de comentário ao abrir a aba
+    } else {
+      commentBox.style.animationName = "slideOut";
+      setTimeout(function() {
+        commentBox.style.display = "none";
+      }, 500);
+    }
+  }
+  
+  function submitComment() {
+    var commentInput = document.getElementById("commentInput");
+    var commentSection = document.getElementById("commentSection");
+    var comment = commentInput.value;
+  
+    if (comment !== "") {
+      var newComment = document.createElement("p");
+      newComment.innerHTML = comment;
+      commentSection.appendChild(newComment);
+      commentInput.value = ""; // Limpa o campo de comentário após enviar
+    }
+  }
