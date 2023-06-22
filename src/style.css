@@ -583,6 +583,19 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   height: 220px;
 }
 
+@media (min-width:800px) and (max-width:991px) {
+  #videosMaiores {
+    display: inline-table;
+  } 
+}
+
+@media (min-width:0px) and (max-width:400px) {
+  .respIframe {
+    width: 365px;
+    height: 200px;
+  }
+}
+
 .tituloVideosPequenos {
   margin-left: 20px;
   margin-top: 120px;
@@ -608,8 +621,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
 @media (max-width:600px) {
-  .botaoPaginaPrincipal {
-    width: 150%;
+  #botaoPaginaPrincipal {
     height: 25vw;
     margin-left: 0;
     margin-top: 20px;
@@ -617,13 +629,29 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 }
 
-@media (min-width:601px) and (max-width:990px) {
-  .botaoPaginaPrincipal {
-    width: 100%;
-    height: 20vw;
+@media (min-width:601px) and (max-width:1199px) {
+  #botaoPaginaPrincipal {
+    height: 10vw;
+    width: 95%;
     margin-left: 0;
-    margin-top: 30px;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+@media (min-width:1px) and (max-width:600px) {
+  #botaoPaginaPrincipal {
+    height: 20vw;
+    width: 93%;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
   }
 }
 
@@ -632,7 +660,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   border: none;
   border-radius: 10px;
   color: black;
-  padding: 20px 118px;
+  padding: 20px 190px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -660,15 +688,31 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 @media (min-width:900px) and (max-width:1199px) {
   .button {
+    width: 95%;
     padding: 20px 65px;
-    bottom: 80px;
+    bottom: 5px;
+    position: relative;
+    left: 10px;
   }
 }
 
 @media (min-width:600px) and (max-width:899px) {
   .button {
-    padding: 15px 50px;
-    bottom: 70px;
+    width: 95%;
+    padding: 15px 57px;
+    bottom: 3px;
+    position: relative;
+    left: 10px;
+  }
+}
+
+@media (min-width:1px) and (max-width:599px) {
+  .button {
+    width: 92%;
+    padding: 15px 30px;
+    bottom: 3px;
+    position: relative;
+    left: 10px;
   }
 }
 
