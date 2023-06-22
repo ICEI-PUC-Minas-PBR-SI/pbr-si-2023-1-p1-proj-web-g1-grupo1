@@ -581,8 +581,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   height: 5vw;
   font-size: 20px;
   margin-left: 6vh;
-  text-transform: uppercase;
-  font-weight: bold;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -592,7 +590,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 20px 197px;
+  padding: 20px 140px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -626,7 +624,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   background-color: #f1f1f1;
   border: 1px solid #ccc;
   padding: 25px;
-  width: 400px;
+  width: 490px;
   position: fixed;
   top: 130px;
   right: -300px;
@@ -638,7 +636,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .comment-input {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 10px;
 }
 
@@ -647,7 +645,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   border: none;
   color: white;
   width: 100%;
-  padding: 8px 12px;
+  padding: 12px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
