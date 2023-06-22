@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- Cabeçalho -->
+
 <body onload="exibirVideosWpp()">
   <title>Alcance</title>
   <header class="cabecalho navbar navbar-expand-lg navbar-light">
@@ -45,12 +46,10 @@
     <section>
       <form>
         <button class="button" onclick="toggleCommentBox()">Comentar</button>
-
         <div id="commentBox" class="comment-box">
           <span class="close-button" onclick="toggleCommentBox()">&#10005;</span>
           <input type="text" id="commentInput" class="comment-input" placeholder="Digite seu comentário">
           <button class="comment-submit" onclick="submitComment()">Enviar</button>
-      
           <div id="commentSection"></div>
         </div>
         <button class="botaoPaginaPrincipal">Página principal</button>
@@ -90,9 +89,9 @@
 <script>
 
   let botao = document.getElementById('irhome');
-  botao.onclick = function logar(){
+  botao.onclick = function logar() {
 
-      location.href = 'home.html' 
-}
+    location.href = 'home.html'
+  }
 
 </script>
