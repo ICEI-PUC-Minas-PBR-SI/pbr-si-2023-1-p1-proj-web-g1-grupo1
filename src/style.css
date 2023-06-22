@@ -11,8 +11,7 @@
 
 .mcabecalho {
   font-size: 23px;
-  text-transform: uppercase;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .mcabecalho a {
   margin: 15px;
@@ -27,8 +26,14 @@
   font-size: 23px;
 }
 
+.pesquisa1 { 
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .bpesquisa {
   font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Menu lateral */
@@ -72,7 +77,7 @@ footer{
 .footer-col{
     width: 25%;
     padding: 0 10px;
-    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-col a{
@@ -80,7 +85,7 @@ footer{
     color: black;
     font-weight: 400;
     position: relative;
-    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
@@ -93,7 +98,7 @@ footer{
     color: black;
     background-color: white;
     margin-top: 5px;
-    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-col .form-sub input::placeholder{
