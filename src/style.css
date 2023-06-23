@@ -885,12 +885,12 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     color: black;
   }
 
-  .imgvideo {
+  .imgVideo {
     width: 80%;
     margin-left: 8vw;
   }
   
-  .acarregar {
+  .abaCarregarVideo {
     margin-top: 20vh;
     margin-left: 0vw;
   }
@@ -904,13 +904,13 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
 @media (min-width:750px) and (max-width: 991px) {
-  .imgvideo {
+  .imgVideo {
     width: 50%;
     margin-left: 15vh;
     margin-bottom: 2vh;
   }
 
-  .acarregar {
+  .abaCarregarVideo {
     margin-top: 4vh;
     margin-left: 0vw;
   }
