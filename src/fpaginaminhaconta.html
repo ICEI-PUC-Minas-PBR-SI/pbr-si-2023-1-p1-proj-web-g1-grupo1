@@ -259,7 +259,7 @@ window.addEventListener('load', function() {
 
 
 // Função para buscar os vídeos da API e armazenar no LocalStorage
-function buscarVideos() {
+function videosPostados() {
   fetch('https://api-tiaw.vercel.app/videoswpp')
     .then(response => response.json())
     .then(data => {
