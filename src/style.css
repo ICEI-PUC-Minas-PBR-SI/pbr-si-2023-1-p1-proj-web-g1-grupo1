@@ -1259,7 +1259,7 @@ color: #FFFFFF; /* Cor do texto do botão */
   align-items: center;
   justify-content: center;
   position: relative;
-  
+  text-align: left;
   
 }
 
@@ -1278,7 +1278,6 @@ color: #FFFFFF; /* Cor do texto do botão */
   font-size: 23px;
   width: 27%;
   height: 13%;
-  text-transform: uppercase;
   float: right;
   margin-top: 25px;
 }
@@ -1287,7 +1286,6 @@ color: #FFFFFF; /* Cor do texto do botão */
   text-decoration: none;
   color: black;
   font-size: 22px;
-  text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
