@@ -55,14 +55,14 @@ function toggleCommentBox() {
                 str += `<div id="videosMaiores">
                     <iframe src="${videoswpp.link}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p class="tituloVideosPequenos" onclick="abrirVideo('${videoswpp.link}')">${videoswpp.titulo}</p>
-                </div>`;
-            }
-            document.getElementById('exibirVideos').innerHTML = str;
-        });
-}
-
-function abrirVideo(link) {
-    // Redirecionar para a página do vídeo dentro da aplicação
-    // Você pode usar a função window.location.href para isso
-    window.location.href = link;
-}
+                </div>`;            }
+                document.getElementById('exibirVideos').innerHTML = str;
+            });
+    }
+    
+    function abrirVideo(link) {
+        // Redirecionar para a página do vídeo dentro da aplicação
+        // Você pode usar a função window.location.href para isso
+        window.location.href = link;
+    }
+    
