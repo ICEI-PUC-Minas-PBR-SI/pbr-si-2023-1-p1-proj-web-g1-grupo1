@@ -18,18 +18,16 @@
   <header class="cabecalho navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <div>
-        <img src="imgs/alcance (2).png" alt="" width="" class="logoalcance">
+        <img src="imgs/alcance (2).png" alt width class="logoalcance">
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <form class="d-flex mx-auto my-2 my-lg-0">
-          <input class="pesquisa2 form-control" type="search" placeholder="Pesquise aqui" aria-label="Search">
-          <button class="bpesquisa btn btn-outline-dark mx-2" type="submit">Pesquisar</button>
-        </form>
+        <form class="d-flex mx-auto my-2 my-lg-0"></form>
         <nav class="mcabecalho navbar-nav">
+          <a class="nav-link text-dark" href="pesquisa.html">Pesquisar</a>
           <a class="nav-link text-dark" href="flogin.html">Entrar</a>
           <a class="nav-link text-dark" href="fcadastro.html">Criar Conta</a>
           <a class="nav-link text-dark" href="fpaginaminhaconta.html">Minha Conta</a>
@@ -90,75 +88,52 @@
                   <!--FIM CAROUSEL-->
                   <!--Videos principais/temporários-->
                  <!-- conteúdo dos cards aqui -->
-     <div id="videos">
+      <!-- Videos principais -->
       <br>
-      <h3>   Vídeos com as melhores avaliações </h3>
+     <div id="titulovideos">
+      <h3 > Vídeos com as melhores avaliações</h3>
+      </div>
+      <div id="videos" class="row">
+        
+        <br>
+       
+        <div class="col-md-4">
+          
+        <div class="row" id="videoContainer"></div>
+      </div>
+      </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/t5bQp6IFbH0" frameborder="0" allowfullscreen></iframe>
-          
-            
-            <h4> utilizando as camêras do celular </h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/dR5PNZhaLzU" frameborder="0" allowfullscreen></iframe>
-            
-            <h4> Como mexer no  WhatsApp ?</h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-          
-        </div>
-        <div class="col-md-4">
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/wxKLLmCX_Bw" frameborder="0" allowfullscreen></iframe>
-            
-            <h4> Utilizando o Instragram!</h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-             </div>
-              
-              </div>
               
              </section>
             </div>
-            
+          </div> 
           </main>
-  
+
 
   <!-- Rodapé -->
   <footer class="rodape">
     <div class="container-footer">
       <div class="row-footer">
         <div class="footer-col mt-5">
-          <a href="#">Sobre Nós</a>
+          <a href="fsobre_nos.html">Sobre Nós</a>
         </div>
         <div class="footer-col mt-5">
           <a href="faprendaaqui.html">Aprenda aqui</a>
         </div>
         <div class="footer-col mt-5">
-          <a href="#">Política e Regras de Uso</a>
+          <a href="fpoliticaseregrasdosite.html">Política e Regras de Uso</a>
         </div>
         <div class="footer-col">
           <div class="form-sub">
             <form>
               <input type="email" placeholder="Informe sua dúvida aqui" required>
-              <button>Enviar</button>
+              <button> Enviar </button>
             </form>
           </div>
         </div>
       </div>
     </div>
+    <script src="videosprincipais.js"></script>
   </footer>
 
 </body>
