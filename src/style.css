@@ -1207,6 +1207,19 @@ flex-direction: row;
 flex-direction: row;
 width: 1000px;
 }
+.carousel {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.carousel img {
+  max-width: 90%;
+  max-height: 450px; /* Defina a altura desejada */
+  height: auto;
+  /* Outras propriedades adicionais se necessário */
+}
 
 /* videos*/
 
