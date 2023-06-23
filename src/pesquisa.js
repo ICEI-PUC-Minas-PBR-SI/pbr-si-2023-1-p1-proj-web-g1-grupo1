@@ -2,7 +2,7 @@ function pesquisar_video() {
     const palavra = $('#palavra').val();
     const categoria = $('#categoria').val(); // Obtém a categoria selecionada
   
-    fetch('https://api-tiaw.vercel.app/geral')
+    fetch('https://api-tiaw.vercel.app/videoswpp')
       .then(res => res.json())
       .then(data => {
         let str = '';
