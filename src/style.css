@@ -1490,12 +1490,5 @@ text-transform: none;
 }
 
 
-  .botao1-retorno {
-    position:absolute;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-    align-items: end;
-  }
-
+ 
 
