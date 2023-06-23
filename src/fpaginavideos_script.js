@@ -45,6 +45,8 @@ function toggleCommentBox() {
     commentSection.appendChild(commentParagraph);
   }
 
+//Realizado por Brenda//
+
   function exibirVideosWpp() {
     fetch("https://api-tiaw.vercel.app/videoswpp")
         .then(res => res.json())
