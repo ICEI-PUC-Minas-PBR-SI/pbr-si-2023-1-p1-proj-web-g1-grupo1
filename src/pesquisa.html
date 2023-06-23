@@ -37,11 +37,71 @@
       </div>
     </div>
   </header>
+ <!-- Parte central do site -->
+
+ <main>
+
+    <!-- Menu Lateral -->
+    <section class="grid">
+        <div class="menulateral1">
+            <a href="home.html">Página Inicial</a>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle-split" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href="#">Categorias</a>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item"
+                            href="fpaginavideos.html"> Principais vídeos</a></li>
+                    <li><a class="dropdown-item" href="#"> WhatsApp</a></li>
+                    <li><a class="dropdown-item" href="#">Instragram</a></li>
+                    <li><a class="dropdown-item" href="#">Pesquisas</a></li>
+                    <li><a class="dropdown-item" href="#">OUtros</a></li>
+                    <!-- Adicione mais categorias conforme necessário -->
+                </ul>
+            </div>
+            <a href="fpostvideos.html">Poste o Seu Vídeo Aqui</a>
+            <a href="fpergeresp.html">Dúvidas</a>
+        </div>
+        <!--PARTE CENTRAL PESQUISA-->
+        <div class="lateral">
+
+            <div id="telapesquisa"></div>
+            <div class="container">
+                <div>
+                    <h2> Informe o que está procurando </h2>
+                </div>
+
+                <div class="input-group">
+                    <input id="palavra" type="search"
+                        class="form-control rounded"
+                        placeholder="Pesquisar" aria-label="Pesquisar"
+                        aria-describedby="search-addon" />
+                    <button type="button"
+                        class="btn btn-outline-dark"
+                        onclick="pesquisar_video()"> Pesquisar </button>
+                </div>
+            </div>
+
+            <div id="videos-container">
+                <br>
+                <h3> Resultados encontrados:</h3>
+
+                <div class="col-md-4">
+                    <ul id="video-list"></ul>
+                </div>
+                <div class="col-md-8">
+                    <div class="video-wrapper" id="tela_pesquisa"></div>
+                </div>
+            </div>
+        </div>
+
+    </main>
 
 
 
 
-  
  <!-- Rodapé -->
  <footer class="rodape">
     <div class="container-footer">
