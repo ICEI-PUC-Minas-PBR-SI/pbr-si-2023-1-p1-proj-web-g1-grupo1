@@ -50,10 +50,46 @@
         <p class="textopost">Poste aqui seus vídeos</p>
         <div class="acarregar">
           <img src="imgs/1.png" alt="" width="" class="imgvideo">
+          <button type="button" class="btn btn-primary" id="addVideoButton">
+            Adicionar Vídeo
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">Adicionar Vídeo</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="videoForm">
+                            <div class="form-group">
+                                <label for="videoId">ID do Vídeo:</label>
+                                <input type="text" class="form-control" id="videoId" name="videoId">
+                            </div>
+                            <div class="form-group">
+                                <label for="videoLink">Link do Vídeo:</label>
+                                <input type="text" class="form-control" id="videoLink" name="videoLink">
+                            </div>
+                            <div class="form-group">
+                                <label for="videoTitle">Título do Vídeo:</label>
+                                <input type="text" class="form-control" id="videoTitle" name="videoTitle">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <div id="messageContainer" class="mt-2"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="home.html"> 
+    </div>
+        </div>
+        <!--<a href="home.html"> 
          <button class="rbotao2">Página principal</button>
-        </a>
+        </a>-->
       </div>
     </section>
   </main>
