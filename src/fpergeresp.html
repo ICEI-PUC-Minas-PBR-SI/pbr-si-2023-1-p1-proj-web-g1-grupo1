@@ -36,170 +36,83 @@
 
     <!-- Parte central do site -->
     <main>
+
       <!-- Menu Lateral -->
-      <aside>
-        <div class="menulateral-duvidas">
+      <section class="grid">
+
+        <div class="menulateral1">
+         
           <a></a>
-          <a></a>
-          <br>
-          <h2 href="#"> &nbsp &nbsp &nbsp Dúvida dos Usuários &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <h2 href=""> &nbsp &nbsp Dúvidas dos Usuários &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
           </svg></h2>
           <a></a>
-          <a></a>
-          <a></a>
+          <br></br>
         </div>
-      
-        <!-- Parte Central -->
-        <div>
-          <ul class="containerperguntas">
-            <div class="resposta-form">
-              <form id="respostaForm">
-                <input id="respostaInput" type="text" placeholder="Digite sua resposta" required>
-                <button id="respostaButton" type="submit">Enviar</button>
-              </form>
-            </div>
+
+        <div class="container">
+          <template id="templateperg">
+            <li>
+              <div class="lista-de-perguntas-pergunta">
+                <!-- Pergunta -->
+                <p></p>
+                <!-- Excluir Pergunta -->
+                <img src="https://img.icons8.com/?size=512&id=67884&format=png" alt="excluirPergunta" class="excluirPergunta">
+                <img src="https://img.icons8.com/?size=512&id=Kdxoczl8qte4&format=png" alt="responderPergunta" class="responderPergunta">
+              </div>
+
+              <ul class="lista-de-perguntas-resposta">
+                <!-- Respostas -->
+                <li></li>
+              </ul>
+            </li>
+          </template>
+
+          <ul class="lista-de-perguntas">
+            <li>
+              <div class="lista-de-perguntas-pergunta">
+                <!-- Pergunta -->
+                <p>Como fazer bolo</p>
+                <!-- Excluir Pergunta -->
+                <img src="https://img.icons8.com/?size=512&id=67884&format=png" alt="excluirPergunta" class="excluirPergunta" id="">
+                <img src="https://img.icons8.com/?size=512&id=Kdxoczl8qte4&format=png" alt="responderPergunta" class="responderPergunta" id="">
+              </div>
+
+              <ul class="lista-de-perguntas-resposta">
+                <!-- Respostas -->
+                
+              </ul>
+              
+            </li>
           </ul>
         </div>
-
-        <template class="templateperg">
-          <div class="central">
-            <div class="perguntas">
-              <h2 class="coresperguntas"></h2>
-            </div>
-          </div>
-        </template>
-
-        <div class="botaoretornar">
-          <a href="home.html">
-            <button>Retornar a página principal</button>
-          </a>
-        </div>
-      </aside>
+  
+      </section>
+      
     </main>
 
-    <!-- Rodapé -->
     <footer class="rodape">
       <div class="container-footer">
         <div class="row-footer">
           <div class="footer-col mt-5">
-            <a href="fsobre_nos.html">Sobre Nós</a>
+            <a href="#">Sobre Nós</a>
           </div>
           <div class="footer-col mt-5">
             <a href="faprendaaqui.html">Aprenda aqui</a>
           </div>
           <div class="footer-col mt-5">
-            <a href="fpoliticaseregrasdosite.html">Política e Regras de Uso</a>
+            <a href="#">Política e Regras de Uso</a>
           </div>
           <div class="footer-col">
             <div class="form-sub">
               <form id="formulario">
                 <input id="formularioInput" type="text" placeholder="Informe sua dúvida aqui" required>
-                <button id="formularioButton" type="submit">Enviar</button>
+                <button id="formularioButton">Enviar</button>
               </form>
             </div>
           </div>
         </div>
       </div>
     </footer>
-
-    <script defer>
-      let containerperguntas = document.querySelector(".containerperguntas");
-      let formulario = document.querySelector("#formulario");
-      let formularioInput = document.querySelector("#formularioInput"); 
-      let formularioButton = document.querySelector("#formularioButton");
-      let templateperg = document.querySelector(".templateperg");
-
-      formularioButton.addEventListener("click", (event) => {
-        event.preventDefault();
-        let templateClone = templateperg.content.cloneNode(true);
-        let templateCloneh2 = templateClone.querySelector("h2");
-        templateCloneh2.textContent = formularioInput.value;
-        containerperguntas.appendChild(templateClone);
-
-        let pergunta = {
-          perguntas: `${formularioInput.value}`,
-          data: "21/06/2023",
-          disponibilidade: 1,
-        }
-        adicionarPerguntas(pergunta);
-        formularioInput.value = "";
-      })
-
-      async function listarPerguntas(){
-        let templateperg = document.querySelector(".templateperg");
-        const response = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/perguntas", {
-          method: "GET"
-        });
-        if(response.status == 200){
-          const data = await response.json();
-          data.forEach(item => {
-            let templateClone = templateperg.content.cloneNode(true);
-            let templateCloneh2 = templateClone.querySelector("h2");
-            templateCloneh2.textContent = item.perguntas;
-            containerperguntas.appendChild(templateCloneh2);
-          });
-        }
-      }
-      listarPerguntas();
-
-      async function adicionarPerguntas(pergunta){
-        const responsePost = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/perguntas",{
-          method: "POST",
-          headers: {'content-type':'application/json'},
-          body: JSON.stringify(pergunta)   
-        });
-      }
-
-      async function listarRespostas() {
-        const response = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/respostas", {
-          method: "GET"
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          data.forEach(item => {
-            const respostaElement = document.createElement("div");
-            respostaElement.classList.add("resposta");
-            respostaElement.textContent = item.resposta;
-
-            containerperguntas.appendChild(respostaElement);
-          });
-        } else {
-          console.error("Erro ao obter as respostas da API.");
-        }
-      }
-
-      let respostaForm = document.querySelector("#respostaForm");
-      let respostaInput = document.querySelector("#respostaInput");
-      let respostaButton = document.querySelector("#respostaButton");
-
-      respostaForm.addEventListener("submit", (event) => {
-        event.preventDefault();
-        let resposta = respostaInput.value;
-        adicionarResposta({ resposta });
-        respostaInput.value = "";
-      });
-
-      async function adicionarResposta(resposta) {
-        const response = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/respostas", {
-          method: "POST",
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(resposta)
-        });
-
-        if (response.ok) {
-          console.log("Resposta adicionada com sucesso!");
-          const respostaElement = document.createElement("div");
-          respostaElement.classList.add("resposta");
-          respostaElement.textContent = resposta.resposta;
-
-          containerperguntas.appendChild(respostaElement);
-        } else {
-          console.error("Erro ao adicionar a resposta na API.");
-        }
-      }
-
-      listarRespostas();
-    </script>
+    <script src="jpergeresp.js" defer></script>
 </html>
