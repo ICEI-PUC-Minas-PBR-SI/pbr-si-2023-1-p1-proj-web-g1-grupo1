@@ -41,6 +41,7 @@
   background-color: #89c9a4;
   display: grid;
   width: 20%;
+  
 }
 
 .menulateral a {
@@ -49,6 +50,7 @@
   font-size: 23px;
   padding: 100px;
   text-transform: uppercase;
+  
 }
 
 /* Parte central do site */
@@ -1470,4 +1472,11 @@ color: #FFFFFF; /* Cor do texto do botão */
 
  .regras{
   margin: 23px;
+ }
+
+ /*css menu*/
+
+ .menulateral1{
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
