@@ -956,7 +956,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 }
 
-@media (min-width:501px) and (max-width: 991px) {
+@media (min-width:501px) and (max-width: 768px) {
   .imgVideo {
     width: 50%;
     margin-left: 20vh;
@@ -990,10 +990,10 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 }
 
-@media (min-width:501px) and (max-width: 991px) {
+@media (min-width:769px) and (max-width: 991px) {
   .imgVideo {
     width: 50%;
-    margin-left: 20vh;
+    margin-left: 19vh;
     margin-bottom: 2vh;
   }
 
@@ -1003,7 +1003,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 
   #addVideoButton {
-    padding: 15px 295px;
+    padding: 15px 320px;
     margin-left: 15px;
     margin-bottom: 50px;
   }
