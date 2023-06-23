@@ -1478,17 +1478,13 @@ color: #FFFFFF; /* Cor do texto do botão */
  /*css menu - Bruna*/
 
  .menulateral1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  
-#telapesquisa{
 
-  font-family:  Verdana, Geneva, Tahoma, sans-serif;
- font-size: 50px;
+
+
+#titulovideos h3 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-transform: none;
 }
-
-
-
- #titulosvideos{
-  text-align: center;
- }
