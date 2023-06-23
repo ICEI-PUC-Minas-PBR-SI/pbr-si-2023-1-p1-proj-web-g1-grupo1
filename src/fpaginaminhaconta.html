@@ -258,49 +258,37 @@ window.addEventListener('load', function() {
 
 
 
+// Função para buscar os vídeos da API e armazenar no LocalStorage
+function buscarVideos() {
+  fetch('https://api-tiaw.vercel.app/videoswpp')
+    .then(response => response.json())
+    .then(data => {
+      localStorage.setItem('videos', JSON.stringify(data.videoswpp));
+      console.log('Vídeo postado com sucesso!');
+    })
+    .catch(error => {
+      console.error('Erro ao postar o vídeo:', error);
+    });
+}
+// Função para exibir os vídeos armazenados no LocalStorage
+function exibirVideos() {
+  const videos = JSON.parse(localStorage.getItem('videos'));
 
-// Função para obter os vídeos de um determinado tipo
-function getVideos(tipo) {
-  // Verifica se os vídeos estão armazenados no localStorage
-  if (localStorage.getItem(tipo)) {
-    return JSON.parse(localStorage.getItem(tipo));
+  if (videos) {
+    videos.forEach(video => {
+      console.log('ID:', video.id);
+      console.log('Título:', video.titulo);
+      console.log('Link:', video.link);
+      console.log('ID do vídeo:', video.idvideo);
+      console.log('---');
+    });
   } else {
-    return [];
+    console.log('Nenhum vídeo encontrado no LocalStorage.');
   }
 }
+buscarVideos();
+exibirVideos();
 
-// Função para adicionar um novo vídeo
-function adicionarVideo(tipo, video) {
-  // Obtém os vídeos do tipo especificado
-  let videos = getVideos(tipo);
-
-  // Adiciona o novo vídeo à lista
-  videos.push(video);
-
-  // Armazena a lista de vídeos atualizada no localStorage
-  localStorage.setItem(tipo, JSON.stringify(videos));
-}
-
-// Exemplo de uso:
-
-// Obtém os vídeos do tipo "videoswpp"
-let videosWpp = getVideos('videoswpp');
-console.log(videosWpp);
-
-// Cria um novo vídeo
-let novoVideo = {
-  id: 5,
-  titulo: 'Novo vídeo do WhatsApp',
-  link: 'https://www.youtube.com/embed/abc123',
-  idvideo: 'abc123'
-};
-
-// Adiciona o novo vídeo aos vídeos do tipo "videoswpp"
-adicionarVideo('videoswpp', novoVideo);
-
-// Obtém os vídeos do tipo "videoswpp" novamente, após adicionar o novo vídeo
-videosWpp = getVideos('videoswpp');
-console.log(videosWpp);
 
 
 
@@ -323,4 +311,3 @@ var idStar = e.target.idList;
   }
 });
 </script>
-
