@@ -1280,13 +1280,13 @@ color: #FFFFFF; /* Cor do texto do botão */
   height: 13%;
   text-transform: uppercase;
   float: right;
-  margin-top: 5PX;
+  margin-top: 25px;
 }
 
 .botao1-retorno > a {
   text-decoration: none;
   color: black;
-  font-size: 23px;
+  font-size: 22px;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
