@@ -881,18 +881,38 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     margin-top: 5vh;
     margin-left: 0vw;
   }
+
+  #addVideoButton {
+    background-color: #73b590;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 15px 125px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width:750px) and (max-width: 991px) {
   .imgVideo {
     width: 50%;
-    margin-left: 15vh;
+    margin-left: 18vh;
     margin-bottom: 2vh;
   }
 
   .abaCarregarVideo {
     margin-top: 4vh;
     margin-left: 0vw;
+  }
+
+  #addVideoButton {
+    padding: 15px 320px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .textoPosteVideos {
+    margin-left: 35px;
   }
 }
 
