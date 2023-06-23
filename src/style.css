@@ -1481,8 +1481,17 @@ color: #FFFFFF; /* Cor do texto do botão */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
-#pesquisatela{
+ 
 
-
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ #videos-container {
+  margin-bottom: 50px;
 }
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.video-wrapper {
+  padding: 20px;
+}
+
