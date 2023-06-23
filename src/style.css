@@ -1255,13 +1255,12 @@ color: #FFFFFF; /* Cor do texto do botão */
 
 .corpo-central {
   width: 70%;
-  margin-top: 20vh;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: 9vh;
-  text-transform: uppercase;
-  font-size: 30px;
+  
+  
 }
 
 .smenulateral {
@@ -1275,20 +1274,21 @@ color: #FFFFFF; /* Cor do texto do botão */
   width: 20%;
 }
 
-.botao-retorno {
+.botao1-retorno {
   font-size: 23px;
-  width: 20%;
-  height: 20%;
+  width: 27%;
+  height: 13%;
   text-transform: uppercase;
   float: right;
-  margin-top: 8vh;
+  margin-top: 25px;
 }
 
-.botao-retorno > a {
+.botao1-retorno > a {
   text-decoration: none;
   color: black;
-  font-size: 23px;
+  font-size: 22px;
   text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
 @media (min-width:1px) and (max-width: 992px) {
@@ -1456,4 +1456,18 @@ color: #FFFFFF; /* Cor do texto do botão */
       margin-top: 10px;
       font-size: 23px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    ul li p7{
+      font-size: 24px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+    }
+
+    .listasobrenos{
+     margin: 15px;
+    }
+
+    .dados{
+     margin: 23px;
     }
