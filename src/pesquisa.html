@@ -64,7 +64,40 @@
 
       <div class="lateral">
         
+      <!--PARTE CENTRAL PESQUISA-->
+      <div class="lateral">
 
+        <div id="telapesquisa"></div>
+        <div class="container">
+            <div>
+                <h2> Informe o que está procurando </h2>
+            </div>
+
+            <div class="input-group">
+                <input id="palavra" type="search"
+                    class="form-control rounded"
+                    placeholder="Pesquisar" aria-label="Pesquisar"
+                    aria-describedby="search-addon" />
+                <button type="button"
+                    class="btn btn-outline-dark"
+                    onclick="pesquisar_video()"> Pesquisar </button>
+            </div>
+        </div>
+
+        <div id="videos-container">
+            <br>
+            <h3> Resultados encontrados:</h3>
+
+            <div class="col-md-4">
+                <ul id="video-list"></ul>
+            </div>
+            <div class="col-md-8">
+                <div class="video-wrapper" id="tela_pesquisa"></div>
+            </div>
+        </div>
+    </div>
+
+        
    
   </main>
 
@@ -94,6 +127,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="pesquisa.js"></script>
     <script src="button.js"></script>
+    <script src="fpaginavideos_script.js"></script>
   </footer>
 
 </body>
