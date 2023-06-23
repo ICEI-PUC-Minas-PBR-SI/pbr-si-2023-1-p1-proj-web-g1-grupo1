@@ -854,6 +854,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   color: black;
   border: none;
   width: 100%;
+  font-size: 20px;
 }
 
 #botaoRPaginaPrincipal {
@@ -865,6 +866,10 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   bottom: 20px;
   right: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#videoForm {
+  font-size: 20px;
 }
 
 @media (min-width: 1px) and (max-width: 991px) { 
