@@ -41,10 +41,5 @@ function addVideo(title, url) {
       });
   }
   
-  // Exemplo de uso: adicionar um novo vídeo
-  const newVideoTitle = 'Meu vídeo';
-  const newVideoUrl = 'https://www.example.com/video';
   addVideo(newVideoTitle, newVideoUrl);
-  
-  // Obter a lista de vídeos do servidor
   getVideos();
