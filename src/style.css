@@ -957,7 +957,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
 .central{
-  display: grid;
   justify-content: left;
 }
 
@@ -974,12 +973,11 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 .coresperguntas{
   background: #b9dcca;
   padding: 5px;
-  display: inline-block;
   width: 200px;
 }
 
 .resposta{
-  display: grid;
+  display: flex;
   background: whitesmoke;
   border: 1px solid #101010;
   margin-left: 40px;
@@ -989,7 +987,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   font-size: 23px;
   margin-top: 5px;
   margin-bottom: 20px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .botaoretornar{
@@ -1012,9 +1010,6 @@ aside{
 }
 
 /*PÁGINA DE APRENDA AQUI - GIOVANE AMORIM*/
-
-
-
 
 .central1{
   display: grid;
