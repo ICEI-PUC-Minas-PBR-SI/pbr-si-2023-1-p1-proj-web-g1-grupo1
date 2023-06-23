@@ -1319,30 +1319,29 @@ color: #FFFFFF; /* Cor do texto do botão */
 
 .pcorpo-central {
   width: 70%;
-  align-items: center;
-  justify-content: center;
-  margin-left: 9vh;
-  text-transform: uppercase;
-  font-size: 25px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 20px;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .pbotao-retorno {
-  font-size: 23px;
-  width: 20%;
-  height: 15%;
-  text-transform: uppercase;
+  font-size: 22px;
+  width: 22%;
+  height: 9%;
   float: right;
-  margin-top: 3vh;
+  margin-top: 25px;
   margin-bottom: 5vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .pbotao-retorno > a {
   text-decoration: none;
   color: black;
   font-size: 23px;
-  text-transform: uppercase;
 }
 
 @media (min-width:1px) and (max-width: 992px) {
@@ -1471,3 +1470,11 @@ color: #FFFFFF; /* Cor do texto do botão */
     .dados{
      margin: 23px;
     }
+
+ .politicas{
+  margin: 15px;
+ }
+
+ .regras{
+  margin: 23px;
+ }
