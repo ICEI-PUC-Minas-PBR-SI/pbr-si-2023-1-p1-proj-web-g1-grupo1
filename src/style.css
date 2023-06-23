@@ -1474,9 +1474,15 @@ color: #FFFFFF; /* Cor do texto do botão */
   margin: 23px;
  }
 
- /*css menu*/
+ /*css menu - Bruna*/
 
  .menulateral1{
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+
+#pesquisatela{
+
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
