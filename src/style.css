@@ -11,8 +11,7 @@
 
 .mcabecalho {
   font-size: 23px;
-  text-transform: uppercase;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .mcabecalho a {
   margin: 15px;
@@ -27,8 +26,14 @@
   font-size: 23px;
 }
 
+.pesquisa1 { 
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .bpesquisa {
   font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Menu lateral */
@@ -72,7 +77,7 @@ footer{
 .footer-col{
     width: 25%;
     padding: 0 10px;
-    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-col a{
@@ -80,7 +85,7 @@ footer{
     color: black;
     font-weight: 400;
     position: relative;
-    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
@@ -93,7 +98,7 @@ footer{
     color: black;
     background-color: white;
     margin-top: 5px;
-    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-col .form-sub input::placeholder{
@@ -565,161 +570,71 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
 
-.video1 {
+#videosMaiores {
   margin: 20px;
   display: flex;
 }
 
-.titulo1 {
+@media (min-width:0px) and (max-width:991px) {
+  #videosMaiores {
+    display: grid;
+    margin: 5px;
+    width: 15%;
+  } 
+}
+
+.respIframe {
+  width: 400px;
+  height: 220px;
+}
+
+@media (min-width:800px) and (max-width:991px) {
+  #videosMaiores {
+    display: inline-table;
+  } 
+}
+
+@media (min-width:0px) and (max-width:400px) {
+  .respIframe {
+    width: 365px;
+    height: 200px;
+  }
+}
+
+@media (min-width:1500px) and (max-width:2000px) {
+  .respIframe {
+    width: 350px;
+    height: 180px;
+  }
+}
+
+.tituloVideosPequenos {
   margin-left: 20px;
-  margin-top: 60px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.video2 {
-  margin: 20px;
-  display: flex;
-}
-
-.titulo2 {
-  margin-left: 20px;
-  margin-top: 60px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.video3 {
-  margin: 20px;
-  display: flex;
-}
-
-.titulo3 {
-  margin-left: 20px;
-  margin-top: 60px;
-  font-size: 21px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.video4 {
-  margin: 20px;
-  display: flex;
-}
-
-.titulo4 {
-  margin-left: 20px;
-  margin-top: 60px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.videomaior {
-  float: right;
-  margin-right: 20px;
-}
-
-.estrelas {
-  width: 10vw;
-}
-
-.avaliacao {
-  width: 50%;
-  height: 12vw;
+  margin-top: 70px;
   font-size: 23px;
-  text-transform: uppercase;
-  text-align: center;
 }
 
-.abotao {
-  width: 10%;
-  height: 12vw;
+@media (min-width:0px) and (max-width:991px) {
+  .tituloVideosPequenos {
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+#botaoPaginaPrincipal {
+  width: 18%;
+  height: 5vw;
   font-size: 23px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.rbotao {
-  width: 30%;
-  height: 12vw;
-  font-size: 20px;
   margin-left: 6vh;
-  text-transform: uppercase;
-  font-weight: bold;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (max-width:600px) {
-  .video1 {
-    display: block;
-    margin: 10px;
-  }
-
-  .titulo1 {
-    margin-top: 10px;
-  }
-
-  .video2 {
-    display: block;
-    margin: 10px;
-  }
-
-  .titulo2 {
-    margin-top: 10px;
-  }
-
-  .video3 {
-    display: block;
-    margin: 10px;
-  }
-
-  .titulo3 {
-    margin-top: 10px;
-  }
-
-  .video4 {
-    display: block;
-    margin: 10px;
-  }
-
-  .titulo4 {
-    margin-top: 10px;
-  }
-
-  .videomaior1 {
-    margin: 13px;
-  }
-
-  .videomaior2 {
-    display: none;
-  }
-
-  .videomaior {
-    display: none;
-  }
-
-  .estrelas {
-    width: 50%;
-    margin-left: 90px;
-  }
-
-  .avaliacao {
-    width: 100%;
-    height: 50vw;
-    font-size: 23px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  .abotao {
-    width: 100%;
-    height: 20vw;
-  }
-
-  .rbotao {
-    width: 100%;
+  #botaoPaginaPrincipal {
     height: 25vw;
     margin-left: 0;
     margin-top: 20px;
@@ -727,48 +642,150 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   }
 }
 
-@media (min-width:601px) and (max-width:990px) {
-  .videomaior {
-    display: none;
-  }
-
-  .videomaior2 {
-    margin-left: px;
-  }
-
-  .estrelas {
-    width: 50%;
-    margin-left: 200px;
-  }
-
-  .avaliacao {
-    width: 100%;
-    height: 20vw;
-  }
-
-  .abotao {
-    width: 100%;
-    height: 20vw;
-  }
-
-  .rbotao {
-    width: 100%;
-    height: 20vw;
+@media (min-width:601px) and (max-width:1199px) {
+  #botaoPaginaPrincipal {
+    height: 10vw;
+    width: 95%;
     margin-left: 0;
-    margin-top: 30px;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
   }
 }
 
-@media (min-width:991px) {
-  .videomaior2 {
-    display: none;
+@media (min-width:1px) and (max-width:600px) {
+  #botaoPaginaPrincipal {
+    height: 20vw;
+    width: 93%;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
   }
+}
 
-  .pesquisa1 { 
-    width: 40vh;
-    font-size: 23px;
+.button {
+  background-color: #73b590;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width:1300px) and (max-width:1600px) {
+  .button {
+    padding: 20px 75px;
+    bottom: 100px;
   }
+}
+
+@media (min-width:1200px) and (max-width:1299px) {
+  .button {
+    padding: 20px 35px;
+    bottom: 90px;
+  }
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+  .button {
+    width: 95%;
+    padding: 20px 65px;
+    bottom: 5px;
+    position: relative;
+    left: 10px;
+  }
+}
+
+@media (min-width:600px) and (max-width:899px) {
+  .button {
+    width: 95%;
+    padding: 15px 57px;
+    bottom: 3px;
+    position: relative;
+    left: 10px;
+  }
+}
+
+@media (min-width:1px) and (max-width:599px) {
+  .button {
+    width: 92%;
+    padding: 15px 30px;
+    bottom: 3px;
+    position: relative;
+    left: 10px;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.comment-box {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 25px;
+  width: 490px;
+  position: fixed;
+  top: 130px;
+  right: -300px;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  display: none;
+  z-index: 1;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-submit {
+  background-color: #73b590;
+  border: none;
+  color: black;
+  width: 100%;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
 }
 
 /* PÁGINA DE POSTAGEM DE VÍDEOS - GABRIEL ROCHA */
@@ -940,7 +957,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
 .central{
-  display: grid;
   justify-content: left;
 }
 
@@ -957,12 +973,11 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 .coresperguntas{
   background: #b9dcca;
   padding: 5px;
-  display: inline-block;
   width: 200px;
 }
 
 .resposta{
-  display: grid;
+  display: flex;
   background: whitesmoke;
   border: 1px solid #101010;
   margin-left: 40px;
@@ -972,7 +987,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   font-size: 23px;
   margin-top: 5px;
   margin-bottom: 20px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .botaoretornar{
@@ -995,9 +1010,6 @@ aside{
 }
 
 /*PÁGINA DE APRENDA AQUI - GIOVANE AMORIM*/
-
-
-
 
 .central1{
   display: grid;
@@ -1238,13 +1250,12 @@ color: #FFFFFF; /* Cor do texto do botão */
 
 .corpo-central {
   width: 70%;
-  margin-top: 20vh;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: 9vh;
-  text-transform: uppercase;
-  font-size: 30px;
+  text-align: left;
+  
 }
 
 .smenulateral {
@@ -1258,20 +1269,19 @@ color: #FFFFFF; /* Cor do texto do botão */
   width: 20%;
 }
 
-.botao-retorno {
+.botao1-retorno {
   font-size: 23px;
-  width: 20%;
-  height: 20%;
-  text-transform: uppercase;
+  width: 27%;
+  height: 13%;
   float: right;
-  margin-top: 8vh;
+  margin-top: 25px;
 }
 
-.botao-retorno > a {
+.botao1-retorno > a {
   text-decoration: none;
   color: black;
-  font-size: 23px;
-  text-transform: uppercase;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
 @media (min-width:1px) and (max-width: 992px) {
@@ -1302,30 +1312,29 @@ color: #FFFFFF; /* Cor do texto do botão */
 
 .pcorpo-central {
   width: 70%;
-  align-items: center;
-  justify-content: center;
-  margin-left: 9vh;
-  text-transform: uppercase;
-  font-size: 25px;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 20px;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .pbotao-retorno {
-  font-size: 23px;
-  width: 20%;
-  height: 15%;
-  text-transform: uppercase;
+  font-size: 22px;
+  width: 22%;
+  height: 9%;
   float: right;
-  margin-top: 3vh;
+  margin-top: 25px;
   margin-bottom: 5vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .pbotao-retorno > a {
   text-decoration: none;
   color: black;
   font-size: 23px;
-  text-transform: uppercase;
 }
 
 @media (min-width:1px) and (max-width: 992px) {
@@ -1440,3 +1449,25 @@ color: #FFFFFF; /* Cor do texto do botão */
       font-size: 23px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
+    ul li p7{
+      font-size: 24px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+    }
+
+    .listasobrenos{
+     margin: 15px;
+    }
+
+    .dados{
+     margin: 23px;
+    }
+
+ .politicas{
+  margin: 15px;
+ }
+
+ .regras{
+  margin: 23px;
+ }
