@@ -14,9 +14,9 @@ function pesquisar_video() {
           if (titulo.includes(palavra.toLowerCase())) {
             str += `
               <div class="video-container mt-4 p-4">
-                <h2>${video.titulo}</h2>
                 <iframe width="340" height="190" src="${video.link}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+                <h2>${video.titulo}</h2>
+                </div>
             `;
           }
         }

@@ -1647,3 +1647,13 @@ width: 50%;
   font-size: 23px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.video-wrapper h2{
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 15px;
+}
+
+.video-container{
+width: 70%;
+}
