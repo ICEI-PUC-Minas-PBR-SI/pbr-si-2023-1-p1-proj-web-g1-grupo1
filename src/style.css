@@ -1634,9 +1634,16 @@ color: #FFFFFF; /* Cor do texto do botão */
   
 .titulopesquisa h2{
   margin-top: 25px;
-  font-size: 26px;
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .input-group{
 width: 50%;
+}
+
+.texto1{
+  margin-left: 13px;
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
