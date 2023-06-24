@@ -11,6 +11,7 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="fminhaconta.js"></script>
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -99,7 +100,7 @@
         <h1 class="textopost3">Minha conta </h1>
         
               <!--vídeos assistidos ficarão aqui-->
-            <p class="textopost2"> Vídeos assistidos  </p>
+            <p id="textopost2"> Vídeos assistidos  </p>
             <div class="container">
                 <div class="row">
                   <div class="col-md-4">
@@ -177,7 +178,7 @@
                         
                         </div>
                     </div>
-        </div>
+            </div>
        
         </div>
       </div>
@@ -221,43 +222,6 @@
 
 <script>
 
-// Armazena os vídeos no localstorage
-function storeVideos(videoUrl) {
-	let videos = JSON.parse(localStorage.getItem('videos'));
-	videos.push(videoUrl);
-	
-	localStorage.setItem('videos', JSON.stringfy(videos));
-}
-
-// Exibe os videos armazenados no histórico
-function displayVideos() {
-	let videoList = document.getElementById('videos-list');
-	videoList.innerHTML = '';
-
-	videosforEach(function(videoURL) {
-		let li = document.createElement('li');
-		let video = document.createElement('video');
-			video.src = videoUrl;
-			video.controls = true;
-			li.appendChild(video);
-			videoList.appendChild(li);
-	});
-}
-
-// adiciona os videos no histórico quando carregado
-let addVideo = document.getElementId('addVideo');
-
-	addVideo.addEventListener('loadedmetadata', function() {
-		storeVideo(video.src);
-	});
-
-//Exibe os videos
-window.addEventListener('load', function() {
-	displayVideos();
-});
-
-
-
 // Função para buscar os vídeos da API e armazenar no LocalStorage
 function videosPostados() {
   fetch('https://api-tiaw.vercel.app/videoswpp')
@@ -282,8 +246,6 @@ function exibirVideos() {
       console.log('ID do vídeo:', video.idvideo);
       console.log('---');
     });
-  } else {
-    console.log('Nenhum vídeo encontrado no LocalStorage.');
   }
 }
 buscarVideos();
