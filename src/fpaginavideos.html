@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Cabeçalho -->
+<body onload="exibirVideosWpp()">
+  <title>Alcance</title>
+  <header class="cabecalho navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <div>
+        <img src="imgs/alcance (2).png" alt="" width="" class="logoalcance">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <form class="d-flex mx-auto my-2 my-lg-0">
+          <input class="pesquisa1 form-control" type="search" placeholder="Pesquise aqui" aria-label="Search">
+          <button class="bpesquisa btn btn-outline-dark mx-2" type="submit">Pesquisar</button>
+        </form>
+        <nav class="mcabecalho navbar-nav">
+          <a class="nav-link text-dark" href="flogin.html">Entrar</a>
+          <a class="nav-link text-dark" href="fcadastro.html">Criar Conta</a>
+          <a class="nav-link text-dark" href="fpaginaminhaconta.html">Minha Conta</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Parte central do site -->
+  <main>
+    <section>
+      <div id="exibirVideos"></div>
+    </section>
+    <section>
+      <button class="button" onclick="toggleCommentBox()">Comentar</button>
+      <div id="commentBox" class="comment-box">
+        <span class="close-button" onclick="toggleCommentBox()">&#10005;</span>
+        <input type="text" id="commentInput" class="comment-input" placeholder="Digite seu comentário">
+        <button class="comment-submit" onclick="submitComment()">Enviar</button>
+        <div id="commentSection"></div>
+      </div>
+       <div><a href="home.html">
+        <button id="botaoPaginaPrincipal">Página principal</button></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <div class="container-footer">
+      <div class="row-footer">
+        <div class="footer-col mt-5">
+          <a href="fsobre_nos.html">Sobre Nós</a>
+        </div>
+        <div class="footer-col mt-5">
+          <a href="faprendaaqui.html">Aprenda aqui</a>
+        </div>
+        <div class="footer-col mt-5">
+          <a href="fpoliticaseregrasdosite.html">Política e Regras de Uso</a>
+        </div>
+        <div class="footer-col">
+          <div class="form-sub">
+            <form>
+              <input type="email" placeholder="Informe sua dúvida aqui" required>
+              <button>Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="fpaginavideos_script.js"></script>
+</body>
+
+</html>
+
+<script>
+
+  let botao = document.getElementById('botaoPaginaPrincipal');
+  botao.onclick = function logar(){
+
+      location.href = 'home.html' 
+}
+
+</script>
+
+<script src="faddvideohistorico.js"></script>

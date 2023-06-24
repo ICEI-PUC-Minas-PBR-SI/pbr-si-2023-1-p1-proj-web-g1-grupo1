@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página inicial</title>
+</head>
+<body>
+    <div class="logo-entrar">
+        <img src="imgs/alcance (2).png" alt="" width="" class="logoalcance">
+             <h1>A aplicação para você que busca aprender e se inteirar do mundo digital!</h1>
+        </div>
+    </div>
+    <div class="main-entrar">
+        <div class="esquerda-entrar">
+            <div class="botao-entrar">
+            <button class="btn-entrar" id="btnlogar" >Você já possui conta?<br> Entre Agora!</button>
+        </div>
+        </div>
+        <div class="direita-entrar">
+            <div class="botao-entrardois">
+                <button class="btn-entrar" id="btnlogardois" >Você não possui conta?<br> Crie Agora!</button>
+            </div>
+        </div>
+    </div>
+ </body>
+ </html>
+
+ <script>
+
+    let botao = document.getElementById('btnlogar');
+    botao.onclick = function logar(){
+
+        location.href = 'flogin.html' 
+}
+
+    let botaodois = document.getElementById('btnlogardois');
+    botaodois.onclick = function logardois(){
+
+        location.href = 'fcadastro.html' 
+}
+ </script>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="main-login">
+        <form id="loginForm">
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <p class="texto">Para que possa acessar a aplicação ALCANCE é necessário informar o usuário e a sua senha:</p>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="username" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="usuario">Senha</label>
+                    <input type="password" id="password"  placeholder="Senha">
+                </div>
+                <button class="btn-login" type="submit" value="Entrar">ENTRAR</button>
+                <a href="RecuperaSenha.html" class="recsenha"><p3>Esqueceu a sua senha?</p3></a>
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+          event.preventDefault();
+          
+          var username = document.getElementById("username").value;
+          var password = document.getElementById("password").value;
+          
+          // Verifica se o usuário existe no local storage
+          if (localStorage.getItem(username)) {
+            var user = JSON.parse(localStorage.getItem(username));
+            
+            // Verifica se a senha corresponde ao usuário
+            if (password === user.password) {
+              alert("Login bem-sucedido. Bem-vindo, " + username + "!");
+              window.location.href = "home.html"; // Redireciona para a página home
+            } else {
+              alert("Senha incorreta. Por favor, tente novamente.");
+            }
+          } else {
+            alert("Usuário não encontrado. Por favor, verifique o nome de usuário.");
+          }
+        });
+      </script>
+
+  </body>
+</html>
