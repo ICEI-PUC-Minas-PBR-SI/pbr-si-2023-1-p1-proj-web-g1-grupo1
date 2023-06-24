@@ -1634,5 +1634,9 @@ color: #FFFFFF; /* Cor do texto do botão */
   
 .titulopesquisa h2{
   margin-top: 25px;
-  font-size: 27px;
+  font-size: 26px;
+}
+
+.input-group{
+width: 50%;
 }
