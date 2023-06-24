@@ -1,0 +1,336 @@
+/* Comandos gerais */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho */
+  .cabecalho {
+    background-color: #73b590;
+  }
+  
+  .mcabecalho {
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+  
+  .mcabecalho a {
+    margin: 15px;
+  }
+  
+  .logoalcance {
+    margin-left: 45px;
+  }
+  
+  .pesquisa { 
+    width: 50vh;
+    font-size: 23px;
+  }
+  
+  .bpesquisa {
+    font-size: 23px;
+  }
+  
+  /* Menu lateral */
+  .menulateral {
+    background-color: #89c9a4;
+    display: flex;
+    width: 20%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  
+  .menulateral a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding: 100px;
+    text-transform: uppercase;
+  }
+  
+  /* Main */
+  main {
+    width: 100%;
+    color: #000000;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .corpo-central{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 9vh;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  
+  .menulateral > h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .botao-retorno {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 15%;
+    margin-bottom: 5vh;
+  }
+  
+  .botao-retorno > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+  
+  /* Rodapé */
+  footer{
+    background-color: #73b590;
+      padding: 25px;
+      position: absolute;
+      width: 100%;
+  }
+  
+  .container-footer{
+      max-width: 2000px;
+      padding: 0 3%;
+  }
+  
+  .row-footer{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .footer-col{
+      width: 25%;
+      padding: 0 10px;
+      text-transform: uppercase;
+  }
+  
+  .footer-col a{
+      font-size: 23px;
+      color: black;
+      font-weight: 400;
+      position: relative;
+      text-transform: uppercase;
+      text-decoration: none;
+  }
+  
+  .footer-col .form-sub input{
+      width: 100%;
+      padding: 15px;
+      font-size: 23px;
+      outline: none;
+      border: 1px solid black;
+      color: black;
+      background-color: white;
+      margin-top: 5px;
+      text-transform: uppercase;
+  }
+  
+  .footer-col .form-sub input::placeholder{
+      color: black;
+      display: inline-block;
+      font-size: 19px;
+  }
+  
+  .footer-col .form-sub button{
+      width: 100%;
+      margin-top: 10px;
+      padding: 15px; 
+      font-size: 23px;
+      text-transform: uppercase;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      color: white;
+      border-radius: 3px;
+      font-weight: bold;
+      background-color: rgb(30, 73, 30);        
+  }
+  
+  /* Responsividade */
+  @media (max-width: 1200px) {
+    .menulateral {
+      display: none; 
+    }
+  
+    .logoalcance {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+      .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+  
+      .menulateral {
+        display: none; 
+      }
+  }
+  
+  @media (max-width:600px) {
+      .footer-col{
+          width: 100%;
+      }
+  
+      .menulateral {
+        display: none; 
+      }
+  
+      .logoalcance {
+        margin-left: 0;
+      }
+  }
+  
+  /*PÁGINAS BRENDA ROCHA*/
+  
+  body{
+    margin: 0; /*Retirar a magem do body*/
+    background-color: #bed6cb
+  }
+  
+  body * {
+  box-sizing: border-box;
+  }
+  
+  /*PÁGINA DE LOGIN*/
+  
+  .main-login{
+    width: 100vw; /*tamanho total da página*/
+    height: 100vh; /*altura total da página*/
+    background-color: #bed6cb; /*cor do fundo da página*/
+    display: flex; /*itens colocados lado a lado*/
+    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+  }
+  
+  .right-login{
+    width: 60vw; /*tamanho que será ocupado da página total*/
+    height: 100vh; /*altura total da página*/
+    display: flex; /*itens colocados lado a lado*/
+    justify-content: center; /*centraliza os elementos no eixo x (horizontal)*/
+    align-items: center; /*centraliza os elementos no eixo y (vertical)*/
+  }
+  
+  .card-login{
+    width: 70%; /*ocupação do 50vw da div right-login*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px; /*Serve para colocar margem na parte de dentro da div*/
+    background-color:#73b590;
+    border-radius: 20px; /*mofificar a borda dos quadrados*/
+    box-shadow: 0px 10px 40px #00000056; /*1 elemento (direita ou esquerda), 2 elemento(cima ou para baixo, se colocar negativo vai para cima)*/
+  }
+  
+  .card-login > h1{
+  color: #000000;
+  font-weight: 800; /*letra mais grossa*/
+  margin-bottom: 30px;
+  }
+  
+  .card-login > p{
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    margin-bottom: 29px;
+  }
+  
+  .textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /*deixa a esquerda os elementos no eixo x (horizontal)*/
+    justify-content: center; /*centraliza os elementos no eixo y (vertical)*/
+    margin: 10px 0px; /*primeiro eixo x depois o y*/
+    font-size: 22px;
+    font-weight: bolder ;
+  }
+  
+  .textfield > input{
+    width: 100%;
+    border: none; /*retirar as bordas do imput*/
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e7e4ff;
+    color: rgb(0, 0, 0);
+    font-size: 18px; /*unidade de medida*/
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .textfield > label{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+  }
+  
+  .textfield > input::placeholder{
+  color: #01010194;
+  }
+  
+  .btn-login{
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #0f1311;
+  background-color: #b9dcca;
+  cursor: pointer; /*mão sobre o botão de entrar*/
+  box-shadow: 0px 10px 40px -12px #6c756e56;
+  }
+  
+  @media screen and (min-width: 950px) and (max-width:1450px){
+    .card-login{
+        width: 95%;
+    }
+    }
+    
+    @media screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    
+    .right-login{
+        width: 100%;
+        height: auto; 
+    }
+    
+    .card-login{
+    width: 90%;
+    }
+  }
+  
+    @media screen and (min-width: 601px) and (max-width:949px){
+    .main-login{
+          flex-direction: column;
+    }
+      
+    .right-login{
+          width: 80%;
+          height: auto; 
+    }
+      
+    .card-login{
+      width: 90%;
+    }
+  }
