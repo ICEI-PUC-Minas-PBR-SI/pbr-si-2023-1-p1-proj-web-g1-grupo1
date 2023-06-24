@@ -12,8 +12,8 @@ function pesquisar_video() {
           let titulo = video.titulo.toLowerCase();
   
           if (titulo.includes(palavra.toLowerCase())) {
-            str += `
-              <div class="video-container mt-4 p-4">
+            str += `   
+              <div class="video-container ">
                 <iframe width="340" height="190" src="${video.link}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h2>${video.titulo}</h2>
                 </div>

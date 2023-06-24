@@ -1649,11 +1649,13 @@ width: 50%;
 }
 
 .video-wrapper h2{
-  font-size: 23px;
+  font-size: 21px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 15px;
+  text-align: left;
 }
 
 .video-container{
-width: 70%;
+width: 40%;
+height: 25vh;
 }
