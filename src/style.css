@@ -1237,7 +1237,8 @@ height: 90%;
 
 
 .dropdown .dropdown-item {
-
+  padding: 31px;
+  margin-right: 90px;
 background-color: #73b590;/* Cor do texto dos itens do dropdown */
 }
 .dropdown .dropdown-menu {
