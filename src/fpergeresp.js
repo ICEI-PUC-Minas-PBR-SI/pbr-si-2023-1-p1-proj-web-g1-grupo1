@@ -1,61 +1,42 @@
-
-let containerperguntas = document.querySelector(".lista-de-perguntas");
+let containerperguntas = document.querySelector(".containerperguntas");
       let formulario = document.querySelector("#formulario");
       let formularioInput = document.querySelector("#formularioInput"); 
       let formularioButton = document.querySelector("#formularioButton");
-      let templateperg = document.querySelector("#templateperg");
-
-      console.log(containerperguntas);
-      console.log(formulario);
-      console.log(formularioInput);
-      console.log(formularioButton);
-      console.log(templateperg);
+      let templateperg = document.querySelector(".templateperg");
 
       formularioButton.addEventListener("click", (event) => {
         event.preventDefault();
         let templateClone = templateperg.content.cloneNode(true);
-        let templateCloneP = templateClone.querySelector("p");
-        templateCloneP.textContent = formularioInput.value;
+        let templateCloneh2 = templateClone.querySelector("h2");
+        templateCloneh2.textContent = formularioInput.value;
         containerperguntas.appendChild(templateClone);
 
         let pergunta = {
           perguntas: `${formularioInput.value}`,
-          data: `${new Date().toLocaleDateString("pt-BR", { year: 'numeric', month: '2-digit', day: '2-digit' }) }`,
+          data: "21/06/2023",
           disponibilidade: 1,
         }
         adicionarPerguntas(pergunta);
         formularioInput.value = "";
       })
 
-      // LISTAR PERGUNTAS
       async function listarPerguntas(){
-        let templateperg = document.querySelector("#templateperg");
+        let templateperg = document.querySelector(".templateperg");
         const response = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/perguntas", {
           method: "GET"
         });
         if(response.status == 200){
           const data = await response.json();
           data.forEach(item => {
-            // Template Clone
             let templateClone = templateperg.content.cloneNode(true);
-            // Template Pergunta
-            let templateCloneP = templateClone.querySelector("p");
-            // Template Excluir Pergunta
-            let templateCloneExcluirPergunta = templateClone.querySelector(".excluirPergunta");
-            
-           
-            // Insere Pergunta
-            templateCloneP.textContent = item.perguntas;
-            // Insere ID pergunta
-            templateCloneExcluirPergunta.setAttribute("Id", `${item.id}`);
-
-            containerperguntas.appendChild(templateClone);
+            let templateCloneh2 = templateClone.querySelector("h2");
+            templateCloneh2.textContent = item.perguntas;
+            containerperguntas.appendChild(templateCloneh2);
           });
         }
       }
       listarPerguntas();
 
-      // ADICIONAR PERGUNTAS
       async function adicionarPerguntas(pergunta){
         const responsePost = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/perguntas",{
           method: "POST",
@@ -64,8 +45,6 @@ let containerperguntas = document.querySelector(".lista-de-perguntas");
         });
       }
 
-
-      // LISTAR RESPOSTAS
       async function listarRespostas() {
         const response = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/respostas", {
           method: "GET"
@@ -96,8 +75,6 @@ let containerperguntas = document.querySelector(".lista-de-perguntas");
         respostaInput.value = "";
       });
 
-
-      // ADICIONAR RESPOSTAS
       async function adicionarResposta(resposta) {
         const response = await fetch("https://6492be81428c3d2035d09aa0.mockapi.io/respostas", {
           method: "POST",
