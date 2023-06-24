@@ -6,4 +6,6 @@ Giovane Amorim, ficou responsável por adicionar as funcionalidades de perguntas
 
 Gabriel Rocha, ficou responsável por modificar a estrutura da página de vídeos, e adicionar as funcionalidades javascript tanto na página de vídeos como na de postagem de vídeos, além de ter feito parte da criação da API usada por todos os integrantes do grupo.
 
-Bruna Leticia, ficou responsável por hospedar a api de videos utilizando o vercel, hospedar a aplicação na nuvem utilizando também o vercel. Ficou responsável pela criação da funcionalidade de pesquisa da api, e pela pagina home.html , onde os vídeos mais vistos serão exibidos nessa tela.
+Bruna Leticia, ficou responsável por hospedar a api de videos utilizando o vercel, hospedar a aplicação na nuvem utilizando também o vercel. Ficou responsável pela criação da funcionalidade de pesquisa da api, e pela pagina home.html , onde os vídeos mais vistos serão exibidos nessa tela. Alteração no carrosel.
+
+Karine Kessen, ficou responsavel por deixar a página "minha conta" funcional, permitindo os videos serem rodados no historico e ajustando a api para usar na funcionalidade do histórico de vídeos.
