@@ -818,7 +818,6 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 .textoPosteVideos {
   background-color: #73b590;
   text-align: center;
-  border-radius: 10px;
   font-size: 30px;
   width: 90%;
   margin-left: 80px;
@@ -844,10 +843,11 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   background-color: #73b590;
   border: none;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 23px;
   padding: 15px 150px;
-  margin-left: 70px;
+  margin-right: 170px;
   display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #botaoEnviar {
