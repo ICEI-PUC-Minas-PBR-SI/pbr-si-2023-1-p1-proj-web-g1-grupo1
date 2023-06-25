@@ -15,11 +15,10 @@ O Alcance será uma aplicação que auxiliará as pessoas idosas que possuem dif
 
 * Brenda Stefany de Oliveira Rocha
 * Bruna Letícia Silva
-* Ester Giovanna Teixeira
+* Gabriel Rocha Lopes
 * Giovane Tadeu Amorim Oliveira
 * Karine Kessen Gilberti Felix
-* Luanna Oliveira Santos
-* Luna Duarte Reis
+
 
 ## Orientador
 
