@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- Cabeçalho -->
-<body>
+<body onload="exibirVideosWpp()">
   <title>Alcance</title>
   <header class="cabecalho navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
@@ -40,60 +40,18 @@
   <!-- Parte central do site -->
   <main>
     <section>
-      <div class="videomaior2">
-        <iframe width="770" height="550" src="https://www.youtube.com/embed/Z291Epi4dbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div>
-          <img src="imgs/estrelas.png" alt="" width="" class="estrelas">
-        </div>
-        <form>
-          <input class= "avaliacao" type="" placeholder="Avalie o conteúdo assistido" required>
-          <button class="abotao">Enviar</button>
-          <a href="home.html">
-            <button class="rbotao">Página principal</button>
-          </a>
-        </form>
-      </div>
-      <div class="videomaior1 d-block d-sm-none d-md-none d-lg-none">
-        <iframe width="360" height="200" src="https://www.youtube.com/embed/Z291Epi4dbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div>
-          <img src="imgs/estrelas.png" alt="" width="" class="estrelas">
-        </div>
-        <form>
-          <input class= "avaliacao" type="" placeholder="Avalie o conteúdo assistido" required>
-          <button class="abotao">Enviar</button>
-          <a href="home.html">
-            <button class="rbotao">Página principal</button>
-          </a>
-        </form>
-      </div>
-      <div class="videomaior">
-        <iframe width="850" height="500" src="https://www.youtube.com/embed/Z291Epi4dbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div>
-          <img src="imgs/estrelas.png" alt="" width="" class="estrelas">
-        </div>
-        <form>
-          <input class= "avaliacao" type="" placeholder="Avalie o conteúdo assistido" required>
-          <button class="abotao">Enviar</button>
-          <button class="rbotao" id="irhome">Página principal</button>
-        </form>
-      </div>
+      <div id="exibirVideos"></div>
     </section>
-    <section class="videos">
-      <div class="video1">
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/t5bQp6IFbH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="titulo1">COMO USAR AS CÂMERAS <br> DO CELULAR</p>
+    <section>
+      <button class="button" onclick="toggleCommentBox()">Comentar</button>
+      <div id="commentBox" class="comment-box">
+        <span class="close-button" onclick="toggleCommentBox()">&#10005;</span>
+        <input type="text" id="commentInput" class="comment-input" placeholder="Digite seu comentário">
+        <button class="comment-submit" onclick="submitComment()">Enviar</button>
+        <div id="commentSection"></div>
       </div>
-      <div class="video2">
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/dR5PNZhaLzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="titulo2">AULA DE WHATSAPP <br> BÁSICO</p>
-      </div>
-      <div class="video3">
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/wxKLLmCX_Bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="titulo3">COMO USAR O INSTAGRAM <br> CORRETAMENTE</p>
-      </div>
-      <div class="video4">
-        <iframe width="340" height="190" src="https://www.youtube.com/embed/4SxHf5Ctmag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="titulo4">COMO BAIXAR APLICATIVOS <br> NO CELULAR</p>
+       <div><a href="home.html">
+        <button id="botaoPaginaPrincipal">Página principal</button></a>
       </div>
     </section>
   </main>
@@ -103,13 +61,13 @@
     <div class="container-footer">
       <div class="row-footer">
         <div class="footer-col mt-5">
-          <a href="#">Sobre Nós</a>
+          <a href="fsobre_nos.html">Sobre Nós</a>
         </div>
         <div class="footer-col mt-5">
           <a href="faprendaaqui.html">Aprenda aqui</a>
         </div>
         <div class="footer-col mt-5">
-          <a href="#">Política e Regras de Uso</a>
+          <a href="fpoliticaseregrasdosite.html">Política e Regras de Uso</a>
         </div>
         <div class="footer-col">
           <div class="form-sub">
@@ -122,16 +80,19 @@
       </div>
     </div>
   </footer>
+  <script src="fpaginavideos_script.js"></script>
 </body>
 
 </html>
 
 <script>
 
-  let botao = document.getElementById('irhome');
+  let botao = document.getElementById('botaoPaginaPrincipal');
   botao.onclick = function logar(){
 
       location.href = 'home.html' 
 }
 
 </script>
+
+<script src="faddvideohistorico.js"></script>
