@@ -17,8 +17,10 @@
 <script src="faddvideohistorico.js"></script>
 <script src="db.json"></script>
 <script src="fpaginavideos_script.js"></script>
+<script src="videospostados.js"></script>
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="style.css">
+
 
 <!-- Cabeçalho -->
 
@@ -63,7 +65,7 @@
                 <div class="image_outer_container">
                     <div class="green_icon"></div>
                     <div class="image_inner_container">
-                        <img src="imgs/pexels-andrea-piacquadio-3824771.jpg">
+                        <img src="imgs/pexels-andrea-piacquadio-3831187.jpg">
                     </div>
                 </div>
             </div>
@@ -105,7 +107,7 @@
         <h1 class="textopost3">Minha conta </h1>
         
               <!--vídeos assistidos ficarão aqui-->
-            <p id="textopost2"> Vídeos assistidos  </p>
+            <p class="textopost2"> Vídeos assistidos  </p>
             <div class="container">
                 <div class="row">
                   <div class="col-md-4">
@@ -226,46 +228,7 @@
 </html>
 
 <script>
-
-// Função para buscar os vídeos da API e armazenar no LocalStorage
-function videosPostados() {
-  fetch('https://api-tiaw.vercel.app/videoswpp')
-    .then(response => response.json())
-    .then(data => {
-      localStorage.setItem('videos', JSON.stringify(data.videoswpp));
-      console.log('Vídeo postado com sucesso!');
-    })
-    .catch(error => {
-      console.error('Erro ao postar o vídeo:', error);
-    });
-}
-// Função para exibir os vídeos armazenados no LocalStorage
-function exibirVideos() {
-  const videos = JSON.parse(localStorage.getItem('videos'));
-
-  if (videos) {
-    videos.forEach(video => {
-      console.log('ID:', video.id);
-      console.log('Título:', video.titulo);
-      console.log('Link:', video.link);
-      console.log('ID do vídeo:', video.idvideo);
-      console.log('---');
-    });
-  }
-}
-buscarVideos();
-exibirVideos();
-
-
-
-
-
-  let botao = document.getElementById('irhome');
-  botao.onclick = function logar(){
-
-      location.href = 'home.html' 
-}
-
+  
   //Estrelas de pontuação
 var stars = document.querySelectorAll('#star');
 document.addEventListener('click', function(e){
@@ -277,4 +240,5 @@ var idStar = e.target.idList;
     idStar.add('Ativo');
   }
 });
+
 </script>
