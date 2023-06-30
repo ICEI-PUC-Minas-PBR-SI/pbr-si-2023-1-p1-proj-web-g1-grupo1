@@ -1,5 +1,5 @@
 function exibirVideosWpp() {
-    fetch("https://api-tiaw.vercel.app/videoswpp")
+    fetch("https://api-tiaw.vercel.app/paginadevideos")
         .then(res => res.json())
         .then(data => {
             let str = ''
