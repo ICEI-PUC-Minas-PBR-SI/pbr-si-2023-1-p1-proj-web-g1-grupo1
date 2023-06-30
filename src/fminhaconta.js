@@ -1,5 +1,5 @@
 function getVideos() {
-    fetch('https://api-tiaw.vercel.app/hitoricovideo')
+    fetch('https://api-tiaw.vercel.app/geral')
       .then(response => response.json())
       .then(data => {
         // Processar a resposta do servidor e exibir os vídeos no histórico
