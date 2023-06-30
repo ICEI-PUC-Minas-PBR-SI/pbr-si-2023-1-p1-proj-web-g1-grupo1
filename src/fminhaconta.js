@@ -8,7 +8,7 @@ function getVideos() {
           // Adicionar o vídeo ao histórico
           const videoElement = document.createElement('div');
           videoElement.textContent = video.title;
-          document.getElementById('textopost2').appendChild(videoElement);
+          document.getElementById('container-1"').appendChild(videoElement);
         });
       }) 
       .catch(error => {
