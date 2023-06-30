@@ -2,7 +2,7 @@ function getVideos() {
     fetch('https://api-tiaw.vercel.app/geral')
       .then(response => response.json())
       .then(data => {
-        const videosContainer = document.getElementById('textopost2');
+        const videosContainer = document.getElementById('container-1"');
         
         // Limpar o container de vídeos
         videosContainer.innerHTML = '';
