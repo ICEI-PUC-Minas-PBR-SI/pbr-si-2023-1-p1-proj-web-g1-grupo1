@@ -822,6 +822,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .textoPosteVideos {
   background-color: #73b590;
+  border-radius: 10px;
   text-align: center;
   font-size: 30px;
   width: 90%;
