@@ -1,11 +1,23 @@
   // Função para enviar um novo vídeo para o servidor
+  $('#exibirVideos').on('click','.respIframe', function(){
+      let id = $(this).attr('id');
+      id = id.replace('video_', '');
+      console.log(id);
+      fetch(`https://api-tiaw.vercel.app/paginadevideos?id=${id}`)
+      .then(res => res.json())
+      .then(video => {
+        addVideo(id, video.titulo, video.link);
+      });
+      
+  });
+
   function addVideo(id, title, url) {
-    const usuario = JSON.parse(localStorage.getItem('username'));
+    const usuario = JSON.parse(sessionStorage.getItem('usuario'));
     const videoData = {
       id: id,
       titulo: title,
       link: url,
-      user_id: usuario.id,
+      user_id: usuario.username,
     };
     
     console.log(videoData);

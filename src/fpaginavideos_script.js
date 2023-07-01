@@ -5,9 +5,10 @@ function exibirVideosWpp() {
             let str = ''
             for (let i = 0; i < data.length; i++) {
                 let videoswpp = data[i]
+                console.log(videoswpp.id);
                 str += `<div id="videosMaiores">
-                <iframe onclick= "addVideo(${videoswpp.id}, ${videoswpp.titulo}, (${videoswpp.link}))" src="${videoswpp.link}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p class="tituloVideosPequenos">${videoswpp.titulo}</p>
+                <iframe src="${videoswpp.link}" id="video_${videoswpp.id}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p  class="tituloVideosPequenos">${videoswpp.titulo}</p>
             </div>`
             }
             document.getElementById('exibirVideos').innerHTML = str
