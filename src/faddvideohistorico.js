@@ -1,8 +1,11 @@
   // Função para enviar um novo vídeo para o servidor
-  $('#exibirVideos').on('click','.respIframe', function(){
+
+  // Nao esta encontrando o iframe do video para disparar o evento, provavelmente porque ele esta sendo gerado pelos dados da api.
+  $('#exibirVideos').on('click', 'iframe', function(e){
+      console.log("entrou");
       let id = $(this).attr('id');
       id = id.replace('video_', '');
-      console.log(id);
+
       fetch(`https://api-tiaw.vercel.app/paginadevideos?id=${id}`)
       .then(res => res.json())
       .then(video => {
@@ -12,7 +15,8 @@
   });
 
   function addVideo(id, title, url) {
-    const usuario = JSON.parse(sessionStorage.getItem('usuario'));
+    //pega usuario logado 
+    const usuario = JSON.parse(sessionStorage.getItem('usuario_logado'));
     const videoData = {
       id: id,
       titulo: title,

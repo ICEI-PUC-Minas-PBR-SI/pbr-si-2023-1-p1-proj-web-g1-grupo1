@@ -6,10 +6,10 @@ function exibirVideosWpp() {
             for (let i = 0; i < data.length; i++) {
                 let videoswpp = data[i]
                 console.log(videoswpp.id);
-                str += `<div id="videosMaiores">
+                str += `<di class="videosMaiores">
                 <iframe src="${videoswpp.link}" id="video_${videoswpp.id}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p  class="tituloVideosPequenos">${videoswpp.titulo}</p>
-            </div>`
+                <p class="tituloVideosPequenos">${videoswpp.titulo}</p>
+            </di>`
             }
             document.getElementById('exibirVideos').innerHTML = str
         })
@@ -55,8 +55,8 @@ function toggleCommentBox() {
             let str = '';
             for (let i = 0; i < data.length; i++) {
                 let videoswpp = data[i];
-                str += `<div id="videosMaiores">
-                    <iframe src="${videoswpp.link}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                str += `<div class="videosMaiores">
+                    <iframe src="${videoswpp.link}" id="video_${videoswpp.id}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p class="tituloVideosPequenos" onclick="abrirVideo('${videoswpp.link}')">${videoswpp.titulo}</p>
                 </div>`;            }
                 document.getElementById('exibirVideos').innerHTML = str;
