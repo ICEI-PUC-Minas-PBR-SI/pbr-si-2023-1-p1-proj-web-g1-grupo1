@@ -1,9 +1,11 @@
 function getVideos() {
-    fetch('https://api-tiaw.vercel.app/paginadevideos')
+  const usuario = JSON.parse(sessionStorage.getItem('usuario_logado'));
+    fetch(`https://api-tiaw.vercel.app/hitoricovideo`)
       .then(response => response.json())
       .then(data => {
         // Processar a resposta do servidor e exibir os vídeos no histórico
-        const videos = data.videos;
+        // filtra  os videos vistos apenas pelo usuario atual
+        const videos = data.filter(video => video.user_id == usuario.username);
         videos.forEach(video => {
           // Adicionar o vídeo ao histórico
           const videoElement = document.createElement('div');
