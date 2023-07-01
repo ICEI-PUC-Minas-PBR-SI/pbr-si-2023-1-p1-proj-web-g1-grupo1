@@ -1,5 +1,5 @@
 function getVideos() {
-    fetch('https://api-tiaw.vercel.app/geral')
+    fetch('https://api-tiaw.vercel.app/paginadevideos')
       .then(response => response.json())
       .then(data => {
         // Processar a resposta do servidor e exibir os vídeos no histórico
@@ -15,7 +15,5 @@ function getVideos() {
         console.error('Ocorreu um erro ao obter os vídeos:', error);
       });
   }
-
-
   
   getVideos();
