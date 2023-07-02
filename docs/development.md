@@ -20,6 +20,8 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-012|O sistema deve permitir que o usuário possa realizar perguntas sobre os vídeos assistidos. | fpergeresp.html | Giovane | Implementado
 |RF-013|O sistema deve permitir que o usuário possa responder dúvidas sobre os vídeos assistidos. | fpergeresp.html | Giovane| Implementado
 |RF-014|O sistema deve permitir que haja uma página ensinando o usuário a usar a aplicação. | faprendaaqui.html | Giovane| Implementado
+|RF-015|O sistema só permite a entrada na aplicação com usuário e login. | flogin.html | Brenda| Implementado
+|RF-014|O sistema verifica se já possui usuário cadastrado com o mesmo username e não permite a criação com informações repetidas. | flogin.html | Brenda| Implementado
 
 
 
