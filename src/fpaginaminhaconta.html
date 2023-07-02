@@ -74,6 +74,8 @@
                 </div>
             </div>
         </div>
+        <input type="file" accept="image/*" id="image_upload" style="display: none;">
+        <label for="image_upload" id="change_image_button" style="margin-left: auto; margin-right: auto;  width: 200px; margin: 20px; display: inline-block; padding: 10px 10px;  background-color: rgb(92, 245, 92); color: rgb(0, 0, 0); border-radius: 5px; cursor: pointer;">Trocar Foto</label>
         <div id="nome">
   <div class="col">
     <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">    
@@ -229,7 +231,6 @@
 </html>
 
 <script>
-  
   //Estrelas de pontuação
 var stars = document.querySelectorAll('#star');
 document.addEventListener('click', function(e){
@@ -241,5 +242,23 @@ var idStar = e.target.idList;
     idStar.add('Ativo');
   }
 });
+</script>
 
+<script>
+ // Função para lidar com a seleção de imagem
+ function handleImageUpload(event) {
+        var file = event.target.files[0];
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            var imgElement = document.getElementById("profile_image");
+            imgElement.src = e.target.result;
+        };
+
+        reader.readAsDataURL(file);
+    }
+
+    // Adiciona um evento de alteração de arquivo ao input
+    var imageUploadInput = document.getElementById("image_upload");
+    imageUploadInput.addEventListener("change", handleImageUpload);
 </script>
