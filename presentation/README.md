@@ -13,7 +13,7 @@ O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apr
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Alcance , capacitando pessoas idosas no mundo digital.
 
 ## Identidade Visual (Marca, Design)
 
