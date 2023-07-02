@@ -20,7 +20,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-010| O sistema deve permitir a recuperação de senha.  | RecuperaSenha.html | Brenda | Implementado
 |RF-011|O sistema deve proporcionar uma tela de perfil para que cada usuário possa ter acesso aos seus dados e vídeos. | fpaginaminhaconta.html | Bruna | Implementado
 |RF-012|O sistema deve permitir que o usuário possa realizar perguntas sobre os vídeos assistidos. | fpergeresp.html | Giovane | Implementado
-|RF-01e|O sistema deve permitir que o usuário possa responder dúvidas sobre os vídeos assistidos. | fpergeresp.html | Giovane| Implementado
+|RF-013|O sistema deve permitir que o usuário possa responder dúvidas sobre os vídeos assistidos. | fpergeresp.html | Giovane| Implementado
+|RF-014|O sistema deve permitir que haja uma página ensinando o usuário a usar a aplicação. | faprendaaqui.html | Giovane| Implementado
+
 
 
 
