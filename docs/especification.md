@@ -49,7 +49,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-014|O sistema deve permitir que haja uma página ensinando o usuário a usar a aplicação. | ALTA | GIOVANE
 |RF-015|O sistema só permite a entrada na aplicação com usuário e login. | ALTA | BRENDA
 |RF-016|O sistema verifica se já possui usuário cadastrado com o mesmo username e não permite a criação com informações repetidas. | ALTA | BRENDA
-
+|RF-017|O sistema permite o usúario trocar a foto de perfil. | BAIXA | KARINE
+|RF-018|O sistema grava o histórico dos vídeos assistidos e postados. | MÉDIA | KARINE
 
 ### Requisitos não Funcionais
 
