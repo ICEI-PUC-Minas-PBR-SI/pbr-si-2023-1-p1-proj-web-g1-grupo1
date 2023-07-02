@@ -1371,14 +1371,10 @@ margin-left: 14px;
   border: 5px solid white;
 }
 
-#nome{
-  
+#nome{ 
   border-radius: 50%;
   text-align: center;
   justify-content: center;
- 
- 
-
 }
 
 #pontos{
