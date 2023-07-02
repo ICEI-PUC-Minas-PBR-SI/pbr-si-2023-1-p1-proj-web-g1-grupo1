@@ -18,16 +18,7 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-008| O sistema permite a alteração no cadastro do usuário.  | fcadastro.html | Brenda | Não Implementado
 |RF-009| O sistema deve permitir o cadastro de usuários com login e senha para acesso. | fcadastro.html | Brenda | Implementado
 |RF-010| O sistema deve permitir a recuperação de senha.  | RecuperaSenha.html | Brenda | Implementado
-|RF-011| A aplicação deve permitir o gerenciamento de novas vagas pelos clientes. | cadastro-vaga.html | Gustavo |
-|RF-012| A aplicação deve permitir a busca por prestadores deserviço.| pesquisar.html | Breno |
-|RF-013| A aplicação deve permitir a troca de mensagens entre os usuários. | chat.html | Gustavo |
-|RF-014| A aplicação deve recomendar vagas de clientes para os prestadores de serviço. | pesquisar.html | Breno |
-|RF-015| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.| pesquisar.html | Breno |
-|RF-016| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. | pesquisar.html | Marilia/Breno |
-|RF-017| A aplicação deve permitir seja feita a edição dos perfis dos profissionais. | editar-perfil.html | Bruno |
-|RF-018| A aplicação fornecer informações sobre como se prevenir de acidentes domésticos. | dicas-acidentes.html | Jose |
-|RF-019| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | editar-perfil.html | Bruno |
-|RF-020| A aplicação deve permitir a visualização do perfil dos clientes. | perfil.html | Marilia |
-|RF-021| A aplicação deve permitir a visualização do perfil dos profissionais. | perfil-profissional.html | Marilia |
+|RF-011|O sistema deve proporcionar uma tela de perfil para que cada usuário possa ter acesso aos seus dados e vídeos. | fpaginaminhaconta.html | Bruna |
+
 
 
