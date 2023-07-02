@@ -26,7 +26,7 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 
 ## Conjunto de Slides (Estrutura)
 
-[Slide Alcance](presentation\pdf\SlideAlcance.pdf)
+
 
 ## Vídeo de demonstração
 
