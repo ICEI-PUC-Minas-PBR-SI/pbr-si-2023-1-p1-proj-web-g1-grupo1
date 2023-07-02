@@ -4,8 +4,6 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-# Programação de Funcionalidades
-
 |ID    | Descrição do Requisito  | Artefato | Responsável | Status
 |------|-----------------------------------------|----|-------|---------|
 |RF-001| O sistema irá separar o conteúdo por categorias e sobre determinados assuntos. | home.html | Gabriel | Não implementado
