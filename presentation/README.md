@@ -26,7 +26,14 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 
 ## Conjunto de Slides (Estrutura)
 
-
+![Slide1](pdf/img/img8.jpg)
+![Slide2](pdf/img/img18.jpg)
+![Slide3](pdf/img/img18.jpg)
+![Slide4](pdf/img/img29.jpg)
+![Slide5](pdf/img/img34.jpg)
+![Slide6](pdf/img/img45.jpg)
+![Slide7](pdf/img/img53.jpg)
+![Slide8](pdf/img/img61.jpg)
 
 ## Vídeo de demonstração
 
