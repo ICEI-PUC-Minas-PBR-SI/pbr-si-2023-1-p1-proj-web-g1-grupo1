@@ -39,7 +39,9 @@
           // Verifica se o usuário existe no local storage
           if (localStorage.getItem(username)) {
             var user = JSON.parse(localStorage.getItem(username));
-            
+            //salva usuario atual no local storage
+            sessionStorage.setItem("usuario_logado", JSON.stringify(user));      
+
             // Verifica se a senha corresponde ao usuário
             if (password === user.password) {
               alert("Login bem-sucedido. Bem-vindo, " + username + "!");

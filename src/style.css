@@ -570,13 +570,13 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 /* PÁGINA DE VÍDEOS - GABRIEL ROCHA */
 
-#videosMaiores {
+.videosMaiores {
   margin: 20px;
   display: flex;
 }
 
 @media (min-width:0px) and (max-width:991px) {
-  #videosMaiores {
+  .videosMaiores {
     display: grid;
     margin: 5px;
     width: 15%;
@@ -589,7 +589,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 }
 
 @media (min-width:800px) and (max-width:991px) {
-  #videosMaiores {
+  .videosMaiores {
     display: inline-table;
   } 
 }
@@ -612,6 +612,11 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
   margin-left: 20px;
   margin-top: 70px;
   font-size: 23px;
+}
+
+.tituloVideosPequenos:hover {
+  color: #73b590;
+  cursor: pointer;
 }
 
 @media (min-width:0px) and (max-width:991px) {
@@ -817,6 +822,7 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
 
 .textoPosteVideos {
   background-color: #73b590;
+  border-radius: 10px;
   text-align: center;
   font-size: 30px;
   width: 90%;
@@ -1140,6 +1146,39 @@ box-shadow: 0px 10px 40px -12px #6c756e56;
     margin-top: 500px;
     padding: 60px;
   }
+
+  #respostaForm{
+    display: inline-block;
+    justify-content: right;
+    padding-left: 200px;
+    padding-top: 600px;
+    padding-bottom: 10px;
+  }
+  
+  #respostaInput{
+    width: 100%;
+    padding: 15px;
+    font-size: 23px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #respostaButton{
+    background-color: #73b590;
+    border: none;
+    color: black;
+    width: 100%;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 20px;
+    cursor: pointer;
+  }
   
   aside{
     display: flex;
@@ -1287,28 +1326,20 @@ color: #FFFFFF; /* Cor do texto do botão */
 /* css Bruna - Página Minha conta */
 
 .textopost2{
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #73b590;
+  text-align: center;
   width: 50%;
   font-size: 30px;
-  text-transform: uppercase;
-  text-align: center;
   border-radius: 10px;
   text-decoration: none;
   color: black;
-  padding: 0%;
   margin: 10px;
-
+margin-left: 14px;
 }
 
-.textopost3 {
 
-  background-color: #e3eae6;
-  width: 100%;
-  text-align: center;
-  border-radius: 10px;
- 
-}
+
 
 /*Lateral */
 
@@ -1321,7 +1352,7 @@ color: #FFFFFF; /* Cor do texto do botão */
 
 .image_outer_container{
   margin-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   border-radius: 50%;
   position: relative;
 }
@@ -1340,14 +1371,10 @@ color: #FFFFFF; /* Cor do texto do botão */
   border: 5px solid white;
 }
 
-#nome{
-  
+#nome{ 
   border-radius: 50%;
   text-align: center;
   justify-content: center;
- 
- 
-
 }
 
 #pontos{
@@ -1380,11 +1407,20 @@ color: #FFFFFF; /* Cor do texto do botão */
   margin-bottom: 45px;
 }
 
-.btnprincipal{
-  text-align: right;
-  padding: 25px;
+.btnprincipal {
+  font-size: 23px;
+  width: 23%;
+  height: 11vh;
+  float: right;
   margin-top: 25px;
- font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.btnprincipal> a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
 
 /* PÁGINA SOBRE NÓS - KARINE */

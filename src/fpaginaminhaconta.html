@@ -11,14 +11,19 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="Usuarios" href="Usuarios.html" >
-<link rel="fpaginavideos" href="fpaginavideos.html">
-<script src="fminhaconta.js"></script>
-<script src="faddvideohistorico.js"></script>
+<link src="fcadastro.html">
+<link src="fpostvideos.html">
+<link src="Usuarios.html">
 <script src="db.json"></script>
+<script src="faddvideohistorico.js"></script>
+<script src="fminhaconta.js"></script>
 <script src="fpaginavideos_script.js"></script>
+<script src="videospostados.js"></script>
+<link src="flogin.html">
+<script src="pesquisa.js"></script>
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="style.css">
+
 
 <!-- Cabeçalho -->
 
@@ -35,10 +40,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <form class="d-flex mx-auto my-2 my-lg-0">
-          <input class="pesquisa2 form-control" type="search" placeholder="Pesquise aqui" aria-label="Search">
-          <button class="bpesquisa btn btn-outline-dark mx-2" type="submit">Pesquisar</button>
+  
         </form>
+
         <nav class="mcabecalho navbar-nav">
+          <a class="nav-link text-dark" href="pesquisa.html">Pesquisar</a>
           <a class="nav-link text-dark" href="flogin.html">Entrar</a>
           <a class="nav-link text-dark" href="fcadastro.html">Criar Conta</a>
           <a class="nav-link text-dark" href="fpaginaminhaconta.html">Minha Conta</a>
@@ -63,11 +69,13 @@
                 <div class="image_outer_container">
                     <div class="green_icon"></div>
                     <div class="image_inner_container">
-                        <img src="imgs/pexels-andrea-piacquadio-3824771.jpg">
+                        <img src="imgs/pexels-andrea-piacquadio-3831187.jpg">
                     </div>
                 </div>
             </div>
         </div>
+        <input type="file" accept="image/*" id="image_upload" style="display: none;">
+        <label for="image_upload" id="change_image_button" style="width: 200px; text-align: center;font-size: 20px;margin-left:80px; margin-bottom: 40px; display: inline-block; padding: 10px 10px;  background-color: rgb(92, 245, 92); color: rgb(0, 0, 0); border-radius: 5px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;">Trocar Foto</label>
         <div id="nome">
   <div class="col">
     <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">    
@@ -102,10 +110,9 @@
       <div class="lateral">
         
         <!--Título da página-->
-        <h1 class="textopost3">Minha conta </h1>
         
               <!--vídeos assistidos ficarão aqui-->
-            <p id="textopost2"> Vídeos assistidos  </p>
+            <p class="textopost2"> Vídeos assistidos  </p>
             <div class="container">
                 <div class="row">
                   <div class="col-md-4">
@@ -187,10 +194,8 @@
        
         </div>
       </div>
-      <div class="btnprincipal">
-        <a href="home.html">
-        <button>Retornar a <br> página principal</button>
-      </a>
+      <div>
+        <a href="home.html"><button class="btnprincipal">Página Inicial</button></a>
       </div>
     </section>
    
@@ -226,46 +231,6 @@
 </html>
 
 <script>
-
-// Função para buscar os vídeos da API e armazenar no LocalStorage
-function videosPostados() {
-  fetch('https://api-tiaw.vercel.app/videoswpp')
-    .then(response => response.json())
-    .then(data => {
-      localStorage.setItem('videos', JSON.stringify(data.videoswpp));
-      console.log('Vídeo postado com sucesso!');
-    })
-    .catch(error => {
-      console.error('Erro ao postar o vídeo:', error);
-    });
-}
-// Função para exibir os vídeos armazenados no LocalStorage
-function exibirVideos() {
-  const videos = JSON.parse(localStorage.getItem('videos'));
-
-  if (videos) {
-    videos.forEach(video => {
-      console.log('ID:', video.id);
-      console.log('Título:', video.titulo);
-      console.log('Link:', video.link);
-      console.log('ID do vídeo:', video.idvideo);
-      console.log('---');
-    });
-  }
-}
-buscarVideos();
-exibirVideos();
-
-
-
-
-
-  let botao = document.getElementById('irhome');
-  botao.onclick = function logar(){
-
-      location.href = 'home.html' 
-}
-
   //Estrelas de pontuação
 var stars = document.querySelectorAll('#star');
 document.addEventListener('click', function(e){
@@ -277,4 +242,23 @@ var idStar = e.target.idList;
     idStar.add('Ativo');
   }
 });
+</script>
+
+<script>
+ // Função para lidar com a seleção de imagem
+ function handleImageUpload(event) {
+        var file = event.target.files[0];
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            var imgElement = document.getElementById("profile_image");
+            imgElement.src = e.target.result;
+        };
+
+        reader.readAsDataURL(file);
+    }
+
+    // Adiciona um evento de alteração de arquivo ao input
+    var imageUploadInput = document.getElementById("image_upload");
+    imageUploadInput.addEventListener("change", handleImageUpload);
 </script>

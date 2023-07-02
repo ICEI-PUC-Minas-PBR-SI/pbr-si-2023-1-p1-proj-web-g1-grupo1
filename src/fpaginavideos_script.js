@@ -1,14 +1,15 @@
 function exibirVideosWpp() {
-    fetch("https://api-tiaw.vercel.app/videoswpp")
+    fetch("https://api-tiaw.vercel.app/paginadevideos")
         .then(res => res.json())
         .then(data => {
             let str = ''
             for (let i = 0; i < data.length; i++) {
                 let videoswpp = data[i]
-                str += `<div id="videosMaiores">
-                <iframe onclick= "addVideo(${videoswpp.id}, ${videoswpp.titulo}, (${videoswpp.link}))" src="${videoswpp.link}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                console.log(videoswpp.id);
+                str += `<di class="videosMaiores">
+                <iframe src="${videoswpp.link}" id="video_${videoswpp.id}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <p class="tituloVideosPequenos">${videoswpp.titulo}</p>
-            </div>`
+            </di>`
             }
             document.getElementById('exibirVideos').innerHTML = str
         })
@@ -48,14 +49,14 @@ function toggleCommentBox() {
 //Realizado por Brenda//
 
   function exibirVideosWpp() {
-    fetch("https://api-tiaw.vercel.app/videoswpp")
+    fetch("https://api-tiaw.vercel.app/paginadevideos")
         .then(res => res.json())
         .then(data => {
             let str = '';
             for (let i = 0; i < data.length; i++) {
                 let videoswpp = data[i];
-                str += `<div id="videosMaiores">
-                    <iframe src="${videoswpp.link}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                str += `<div class="videosMaiores">
+                    <iframe src="${videoswpp.link}" id="video_${videoswpp.id}" class="respIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p class="tituloVideosPequenos" onclick="abrirVideo('${videoswpp.link}')">${videoswpp.titulo}</p>
                 </div>`;            }
                 document.getElementById('exibirVideos').innerHTML = str;
