@@ -22,6 +22,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-014|O sistema deve permitir que haja uma página ensinando o usuário a usar a aplicação. | faprendaaqui.html | Giovane| Implementado
 |RF-015|O sistema só permite a entrada na aplicação com usuário e login. | flogin.html | Brenda| Implementado
 |RF-016|O sistema verifica se já possui usuário cadastrado com o mesmo username e não permite a criação com informações repetidas. | flogin.html | Brenda| Implementado
+|RF-017|O sistema permite o usúario trocar a foto de perfil. | fminhaconta.html | Karine| Implementado
+|RF-018|O sistema grava o histórico dos vídeos assistidos e postados. | fminhaconta.html | Karine| Implementado
+
 
 
 
