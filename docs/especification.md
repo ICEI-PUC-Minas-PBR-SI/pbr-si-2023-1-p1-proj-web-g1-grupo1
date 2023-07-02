@@ -47,6 +47,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-012|O sistema deve permitir que o usuário possa realizar perguntas sobre os vídeos assistidos. | MÉDIO | GIOVANE
 |RF-013|O sistema deve permitir que o usuário possa responder dúvidas sobre os vídeos assistidos. | MÉDIO | GIOVANE
 |RF-014|O sistema deve permitir que haja uma página ensinando o usuário a usar a aplicação. | ALTA | GIOVANE
+|RF-015|O sistema só permite a entrada na aplicação com usuário e login. | ALTA | BRENDA
+|RF-016|O sistema verifica se já possui usuário cadastrado com o mesmo username e não permite a criação com informações repetidas. | ALTA | BRENDA
 
 
 ### Requisitos não Funcionais
