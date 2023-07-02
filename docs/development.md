@@ -18,7 +18,8 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-008| O sistema permite a alteração no cadastro do usuário.  | fcadastro.html | Brenda | Não Implementado
 |RF-009| O sistema deve permitir o cadastro de usuários com login e senha para acesso. | fcadastro.html | Brenda | Implementado
 |RF-010| O sistema deve permitir a recuperação de senha.  | RecuperaSenha.html | Brenda | Implementado
-|RF-011|O sistema deve proporcionar uma tela de perfil para que cada usuário possa ter acesso aos seus dados e vídeos. | fpaginaminhaconta.html | Bruna |
+|RF-011|O sistema deve proporcionar uma tela de perfil para que cada usuário possa ter acesso aos seus dados e vídeos. | fpaginaminhaconta.html | Bruna | Implementado
+
 
 
 
